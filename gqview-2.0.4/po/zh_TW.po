@@ -1,0 +1,4262 @@
+# GQview Triditional Chinese (Big5) translation.
+# Copyright (C) 2000-2001 Free Software Foundation, Inc.
+# Kam Tik <kamtik@hongkong.com>, 2000.
+# Abel Cheung <deaddog@deaddog.ws>, 2001.
+# S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: gqview 1.3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-02 12:05-0500\n"
+"PO-Revision-Date: 2006-05-25 21:08+0800\n"
+"Last-Translator: Tetralet <tetralet@luna.com.tw>\n"
+"Language-Team: traditional Chinese <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/bar_info.c:30
+msgid "Favorite"
+msgstr "最受歡迎"
+
+# src/preferences.c:368
+#: src/bar_info.c:31
+msgid "Todo"
+msgstr "待完成"
+
+#: src/bar_info.c:32
+msgid "People"
+msgstr "人物"
+
+#: src/bar_info.c:33
+msgid "Places"
+msgstr "景點"
+
+#: src/bar_info.c:34
+msgid "Art"
+msgstr "藝術"
+
+#: src/bar_info.c:35
+msgid "Nature"
+msgstr "自然"
+
+#: src/bar_info.c:36
+msgid "Possessions"
+msgstr "所有權"
+
+#: src/bar_info.c:505
+msgid "Keyword Presets"
+msgstr "預先關鍵字"
+
+#: src/bar_info.c:508
+msgid "Favorite keywords list"
+msgstr "常用關鍵字列表"
+
+#: src/bar_info.c:992 src/info.c:166 src/search.c:2692
+msgid "Keywords"
+msgstr "關鍵字"
+
+# src/utilops.c:980
+#: src/bar_info.c:1006 src/info.c:716 src/print.c:2614
+msgid "Filename:"
+msgstr "檔案名稱："
+
+# src/ui_pathsel.c:799
+#: src/bar_info.c:1007 src/info.c:360
+msgid "File date:"
+msgstr "檔案日期："
+
+#: src/bar_info.c:1027
+msgid "Keywords:"
+msgstr "關鍵字："
+
+# 
+# src/dupe.c:1948
+#: src/bar_info.c:1095
+msgid "Comment:"
+msgstr "註解："
+
+#: src/bar_info.c:1119
+msgid "Edit favorite keywords list."
+msgstr "編輯常用關鍵字列表。"
+
+#: src/bar_info.c:1123
+msgid "Add keywords to selected files"
+msgstr "將關鍵字新增至已選取的檔案"
+
+#: src/bar_info.c:1126
+msgid "Add keywords to selected files, replacing the existing ones."
+msgstr "將關鍵字新增至已選取的檔案，並取代舊有的資料。"
+
+# src/collect-dlg.c:165 src/collect-table.c:641
+#: src/bar_info.c:1130
+msgid "Save comment now"
+msgstr "立即儲存註解"
+
+#: src/bar_exif.c:423
+msgid "Tag"
+msgstr "標籤"
+
+# src/dupe.c:1652 src/dupe.c:1941
+#: src/bar_exif.c:424 src/dupe.c:2589 src/dupe.c:3116 src/print.c:3205
+#: src/search.c:2753 src/view_file_list.c:1655
+msgid "Name"
+msgstr "名稱"
+
+#: src/bar_exif.c:425
+msgid "Value"
+msgstr "數值"
+
+# src/preferences.c:401
+#: src/bar_exif.c:426
+msgid "Format"
+msgstr "格式"
+
+#: src/bar_exif.c:427
+msgid "Elements"
+msgstr "構成"
+
+#: src/bar_exif.c:428 src/preferences.c:1026
+msgid "Description"
+msgstr "描述"
+
+# src/main.c:622
+#: src/bar_exif.c:549 src/info.c:105
+msgid "Exif"
+msgstr "Exif"
+
+#: src/bar_exif.c:622
+msgid "Advanced view"
+msgstr "進階檢視"
+
+# 
+# src/utilops.c:664 src/utilops.c:676
+#: src/bar_sort.c:218
+msgid "Unlink failed"
+msgstr "無法取消連結"
+
+#: src/bar_sort.c:298
+msgid "Link failed"
+msgstr "無法建立連結"
+
+# 
+# src/utilops.c:1144
+#: src/bar_sort.c:435
+#, c-format
+msgid ""
+"The collection:\n"
+"%s\n"
+"already exists."
+msgstr ""
+"這個選集：\n"
+"%s\n"
+"已經存在了。"
+
+# src/collect-dlg.c:206
+#: src/bar_sort.c:436
+msgid "Collection exists"
+msgstr "選集已存在"
+
+# 
+# src/collect-dlg.c:82 src/collect.c:1011
+#: src/bar_sort.c:450 src/collect.c:1057 src/collect-dlg.c:84
+#, c-format
+msgid ""
+"Failed to save the collection:\n"
+"%s"
+msgstr ""
+"無法儲存選集：\n"
+"%s"
+
+# 
+# src/collect-dlg.c:83 src/collect.c:1012
+#: src/bar_sort.c:451 src/collect.c:1058 src/collect-dlg.c:85
+msgid "Save Failed"
+msgstr "儲存失敗"
+
+#: src/bar_sort.c:485 src/bar_sort.c:631
+msgid "Add Bookmark"
+msgstr "新增書籤"
+
+# 
+# src/preferences.c:897
+#: src/bar_sort.c:489
+msgid "Add Collection"
+msgstr "新增選集"
+
+# src/dupe.c:1652 src/dupe.c:1941
+#: src/bar_sort.c:506 src/ui_bookmark.c:603
+msgid "Name:"
+msgstr "名稱："
+
+# src/menu.c:526
+#: src/bar_sort.c:569
+msgid "Sort Manager"
+msgstr "排序管理員"
+
+# src/preferences.c:368
+#: src/bar_sort.c:578 src/ui_pathsel.c:1094
+msgid "Folders"
+msgstr "資料夾"
+
+# 
+# src/preferences.c:897
+#: src/bar_sort.c:579 src/main.c:1037
+msgid "Collections"
+msgstr "選集"
+
+# src/utilops.c:592
+#: src/bar_sort.c:586
+msgid "Copy"
+msgstr "複製"
+
+# src/utilops.c:601
+#: src/bar_sort.c:593
+msgid "Move"
+msgstr "移動"
+
+#: src/bar_sort.c:600
+msgid "Link"
+msgstr "連結"
+
+# src/collect-table.c:86
+#: src/bar_sort.c:610
+msgid "Add image"
+msgstr "新增影像"
+
+# 
+# src/collect-table.c:628 src/dupe.c:1393 src/dupe.c:1565
+#: src/bar_sort.c:617
+msgid "Add selection"
+msgstr "新增選擇"
+
+#: src/bar_sort.c:634
+msgid "Undo last image"
+msgstr "回復最後影像"
+
+# src/preferences.c:400
+#: src/cache_maint.c:126 src/cache_maint.c:680 src/cache_maint.c:893
+#: src/editors.c:410
+msgid "done"
+msgstr "完成"
+
+# 
+# src/dupe.c:841
+#: src/cache_maint.c:303
+msgid "Removing old metadata..."
+msgstr "正在移除舊有的變動資料..."
+
+# src/cache_maint.c:245
+#: src/cache_maint.c:307
+msgid "Clearing cached thumbnails..."
+msgstr "正在清除緩衝區裡的縮圖..."
+
+# src/cache_maint.c:249
+#: src/cache_maint.c:311 src/cache_maint.c:1047
+msgid "Removing old thumbnails..."
+msgstr "正在清除舊有的縮圖..."
+
+#: src/cache_maint.c:314 src/cache_maint.c:1050
+msgid "Maintenance"
+msgstr "維護"
+
+# 
+# src/collect-dlg.c:59
+#: src/cache_maint.c:791 src/utilops.c:945
+msgid "Invalid folder"
+msgstr "不正確的資料夾"
+
+#: src/cache_maint.c:792
+msgid "The specified folder can not be found."
+msgstr "無法找到指定的資料夾"
+
+# src/preferences.c:603
+#: src/cache_maint.c:820 src/cache_maint.c:834 src/cache_maint.c:1215
+msgid "Create thumbnails"
+msgstr "建立縮圖"
+
+#: src/cache_maint.c:828 src/cache_maint.c:1057
+msgid "S_tart"
+msgstr "開始 (_t)"
+
+# src/preferences.c:368
+#: src/cache_maint.c:841 src/preferences.c:1163
+msgid "Folder:"
+msgstr "資料夾："
+
+# 
+# src/collect-table.c:628 src/dupe.c:1393 src/dupe.c:1565
+#: src/cache_maint.c:844
+msgid "Select folder"
+msgstr "選擇資料夾"
+
+# 
+# src/collect-dlg.c:59
+#: src/cache_maint.c:848
+msgid "Include subfolders"
+msgstr "包含子資料夾"
+
+#: src/cache_maint.c:849
+msgid "Store thumbnails local to source images"
+msgstr "將縮圖儲存至原始圖片"
+
+#: src/cache_maint.c:858 src/cache_maint.c:1066
+msgid "click start to begin"
+msgstr "若要進行請按下【開始】"
+
+# src/dupe.c:871 src/dupe.c:892
+#: src/cache_maint.c:996 src/editors.c:558
+msgid "running..."
+msgstr "執行中..."
+
+# src/cache_maint.c:245
+#: src/cache_maint.c:1042
+msgid "Clearing thumbnails..."
+msgstr "正在清除縮圖..."
+
+# 
+# src/preferences.c:163 src/preferences.c:604
+#: src/cache_maint.c:1108 src/cache_maint.c:1111 src/cache_maint.c:1190
+#: src/cache_maint.c:1210
+msgid "Clear cache"
+msgstr "清除暫存資料"
+
+# 
+# src/preferences.c:163
+#: src/cache_maint.c:1112
+msgid ""
+"This will remove all thumbnails that have\n"
+"been saved to disk, continue?"
+msgstr "這將會把所有已儲存到磁碟裡的縮圖給清除掉，是否繼續？"
+
+#: src/cache_maint.c:1162
+msgid "Cache Maintenance - GQview"
+msgstr "重整暫存區 - GQview"
+
+#: src/cache_maint.c:1172
+msgid "Cache and Data Maintenance"
+msgstr "重整暫存區及資料"
+
+# 
+# src/fullscreen.c:117
+#: src/cache_maint.c:1176
+msgid "GQview thumbnail cache"
+msgstr "GQview 縮圖暫存區"
+
+# 
+# src/preferences.c:897
+#: src/cache_maint.c:1178 src/cache_maint.c:1198 src/cache_maint.c:1226
+#: src/preferences.c:1140 src/utilops.c:1564
+msgid "Location:"
+msgstr "位置："
+
+# 
+# src/dupe.c:1412 src/dupe.c:1570
+#: src/cache_maint.c:1185 src/cache_maint.c:1205 src/cache_maint.c:1233
+msgid "Clean up"
+msgstr "清除"
+
+#: src/cache_maint.c:1188 src/cache_maint.c:1208
+msgid "Remove orphaned or outdated thumbnails."
+msgstr "移除已廢棄或過時的縮圖。"
+
+# src/preferences.c:603
+#: src/cache_maint.c:1193 src/cache_maint.c:1213
+msgid "Delete all cached thumbnails."
+msgstr "刪除所有緩衝區裡的縮圖。"
+
+# src/preferences.c:603
+#: src/cache_maint.c:1196
+msgid "Shared thumbnail cache"
+msgstr "共享的縮圖緩衝區"
+
+# 
+# src/ui_pathsel.c:437 src/ui_pathsel.c:460 src/utilops.c:944
+# src/utilops.c:1095
+#: src/cache_maint.c:1219
+msgid "Render"
+msgstr "匯整"
+
+#: src/cache_maint.c:1222
+msgid "Render thumbnails for a specific folder."
+msgstr "替某個特定資料夾匯整縮圖"
+
+#: src/cache_maint.c:1224
+msgid "Metadata"
+msgstr "變動資料"
+
+#: src/cache_maint.c:1236
+msgid "Remove orphaned keywords and comments."
+msgstr "移除廢棄的關鍵字及說明。"
+
+# 
+# src/collect.c:329 src/image.c:1058
+#: src/collect.c:350 src/image.c:1160 src/image-overlay.c:74
+#: src/image-overlay.c:116
+#, c-format
+msgid "Untitled"
+msgstr "無標題"
+
+# src/collect.c:333
+#: src/collect.c:354
+#, c-format
+msgid "Untitled (%d)"
+msgstr "無標題（%d）"
+
+# 
+# src/collect.c:930
+#: src/collect.c:976
+#, c-format
+msgid "%s - GQview Collection"
+msgstr "%s - GQview 選集"
+
+# 
+# src/collect.c:1048
+#: src/collect.c:1094 src/collect.c:1098
+msgid "Close collection"
+msgstr "關閉選集"
+
+# src/collect.c:1048
+#: src/collect.c:1099
+msgid ""
+"Collection has been modified.\n"
+"Save first?"
+msgstr ""
+"選集已被修改。\n"
+"是否先儲存？"
+
+#: src/collect.c:1102
+msgid "_Discard"
+msgstr "略過(_D)"
+
+# 
+# src/collect-dlg.c:58
+#: src/collect-dlg.c:58
+#, c-format
+msgid ""
+"Specified path:\n"
+"%s\n"
+"is a folder, collections are files"
+msgstr ""
+"指定路徑：\n"
+"%s\n"
+"是一個資料夾，但選集應是檔案"
+
+# 
+# src/collect-dlg.c:59
+#: src/collect-dlg.c:59
+msgid "Invalid filename"
+msgstr "檔案名稱無效"
+
+# 
+# src/collect-dlg.c:69
+#: src/collect-dlg.c:68
+msgid "Overwrite File"
+msgstr "覆寫檔案"
+
+# 
+# src/utilops.c:339 src/utilops.c:459 src/utilops.c:826 src/utilops.c:1032
+#: src/collect-dlg.c:73
+msgid "Overwrite existing file?"
+msgstr "是否覆寫已存在的檔案？"
+
+# 
+# src/collect-dlg.c:73 src/utilops.c:463 src/utilops.c:830 src/utilops.c:1036
+#: src/collect-dlg.c:75 src/utilops.c:507 src/utilops.c:828 src/utilops.c:1708
+#: src/utilops.c:2260
+msgid "_Overwrite"
+msgstr "覆寫(_O)"
+
+# src/collect-dlg.c:165 src/collect-table.c:641
+#: src/collect-dlg.c:169
+msgid "Save collection"
+msgstr "儲存選集"
+
+# 
+# src/collect-dlg.c:172
+#: src/collect-dlg.c:176
+msgid "Open collection"
+msgstr "開啟選集"
+
+# 
+# src/collect-dlg.c:180
+#: src/collect-dlg.c:184
+msgid "Append collection"
+msgstr "附加至選集"
+
+# 
+# src/collect-dlg.c:182
+#: src/collect-dlg.c:185
+msgid "_Append"
+msgstr "附加(_A)"
+
+# 
+# src/collect-dlg.c:194
+#: src/collect-dlg.c:203
+msgid "Collection Files"
+msgstr "選集檔"
+
+# src/collect-dlg.c:206
+#: src/collect-dlg.c:221
+msgid "Collection empty"
+msgstr "空選集"
+
+# 
+# src/collect-dlg.c:206
+#: src/collect-dlg.c:222
+msgid "The current collection is empty, save aborted."
+msgstr "目前的選集是空的，不進行儲存。"
+
+# src/collect-table.c:78 src/menu.c:684
+#: src/collect-table.c:164 src/layout_util.c:733
+msgid "Empty"
+msgstr "空白"
+
+# src/collect-table.c:82
+#: src/collect-table.c:168
+#, c-format
+msgid "%d images (%d)"
+msgstr "%d 個影像（%d）"
+
+# src/collect-table.c:86
+#: src/collect-table.c:172
+#, c-format
+msgid "%d images"
+msgstr "%d 個影像"
+
+# src/collect-table.c:100 src/dupe.c:668 src/filelist.c:1811
+#: src/collect-table.c:186 src/dupe.c:1296 src/search.c:303
+#: src/view_file_icon.c:1782 src/view_file_icon.c:1897
+#: src/view_file_list.c:916 src/view_file_list.c:1021
+msgid "Loading thumbs..."
+msgstr "正在載入縮圖..."
+
+# src/menu.c:753
+#: src/collect-table.c:773 src/dupe.c:2187 src/dupe.c:2497
+#: src/layout_util.c:776 src/search.c:969
+msgid "_View"
+msgstr "檢視(_V)"
+
+# src/collect-table.c:620 src/dupe.c:1388 src/dupe.c:1560 src/img-view.c:801
+# src/menu.c:906 src/menu.c:964
+#: src/collect-table.c:775 src/dupe.c:2189 src/dupe.c:2499 src/img-view.c:1249
+#: src/layout_image.c:734 src/search.c:971 src/view_file_icon.c:287
+#: src/view_file_list.c:398
+msgid "View in _new window"
+msgstr "在新視窗中檢視(_n)"
+
+# src/collect-table.c:622 src/dupe.c:1410 src/dupe.c:1568
+#: src/collect-table.c:778 src/dupe.c:2219 src/dupe.c:2507 src/search.c:997
+msgid "Rem_ove"
+msgstr "移除(_o)"
+
+# src/collect-table.c:624
+#: src/collect-table.c:781
+msgid "Append from file list"
+msgstr "由檔案列表附加"
+
+# 
+# src/collect-table.c:625
+#: src/collect-table.c:783
+msgid "Append from collection..."
+msgstr "由選集附加..."
+
+# src/collect-table.c:627 src/dupe.c:1391 src/dupe.c:1563
+#: src/collect-table.c:786 src/dupe.c:2192 src/dupe.c:2502 src/search.c:974
+msgid "Select all"
+msgstr "全部選取"
+
+# 
+# src/collect-table.c:628 src/dupe.c:1393 src/dupe.c:1565
+#: src/collect-table.c:788 src/dupe.c:2194 src/dupe.c:2504 src/search.c:976
+msgid "Select none"
+msgstr "全部不選"
+
+# src/menu.c:748
+#: src/collect-table.c:796 src/dupe.c:2203 src/img-view.c:1247
+#: src/layout_image.c:731 src/layout_util.c:809 src/search.c:981
+#: src/view_file_icon.c:284 src/view_file_list.c:396
+msgid "_Properties"
+msgstr "內容(_P)..."
+
+# src/collect-table.c:633 src/dupe.c:1401 src/img-view.c:804 src/menu.c:910
+# src/menu.c:969
+#: src/collect-table.c:799 src/dupe.c:2210 src/img-view.c:1252
+#: src/layout_image.c:739 src/layout_util.c:787 src/search.c:988
+#: src/view_file_icon.c:291 src/view_file_list.c:402
+msgid "_Copy..."
+msgstr "複製(_C)..."
+
+# src/collect-table.c:634 src/dupe.c:1403 src/img-view.c:805 src/menu.c:912
+# src/menu.c:971
+#: src/collect-table.c:801 src/dupe.c:2212 src/img-view.c:1253
+#: src/layout_image.c:741 src/layout_util.c:788 src/search.c:990
+#: src/view_file_icon.c:293 src/view_file_list.c:404
+msgid "_Move..."
+msgstr "移動(_M)..."
+
+# src/collect-table.c:635 src/dupe.c:1405 src/img-view.c:806 src/menu.c:914
+# src/menu.c:973
+#: src/collect-table.c:803 src/dupe.c:2214 src/img-view.c:1254
+#: src/layout_image.c:743 src/layout_util.c:789 src/search.c:992
+#: src/view_dir_list.c:407 src/view_dir_tree.c:497 src/view_file_icon.c:295
+#: src/view_file_list.c:406
+msgid "_Rename..."
+msgstr "更改名稱(_R)..."
+
+# src/collect-table.c:636 src/dupe.c:1407 src/img-view.c:807 src/menu.c:916
+# src/menu.c:975
+#: src/collect-table.c:805 src/dupe.c:2216 src/img-view.c:1255
+#: src/layout_image.c:745 src/layout_util.c:790 src/search.c:994
+#: src/view_file_icon.c:297 src/view_file_list.c:408
+msgid "_Delete..."
+msgstr "刪除(_D)..."
+
+# src/ui_pathsel.c:764
+#: src/collect-table.c:810 src/view_file_icon.c:313
+msgid "Show filename _text"
+msgstr "顯示檔案名稱(_t)"
+
+# src/collect-dlg.c:165 src/collect-table.c:641
+#: src/collect-table.c:813
+msgid "_Save collection"
+msgstr "儲存選集(_S)"
+
+# src/collect-table.c:642
+#: src/collect-table.c:815
+msgid "Save collection _as..."
+msgstr "另存選集為(_a)..."
+
+# src/collect-table.c:644 src/menu.c:885
+#: src/collect-table.c:818 src/layout_util.c:784
+msgid "_Find duplicates..."
+msgstr "尋找重複檔案(_F)..."
+
+# 
+# src/menu.c:721
+#: src/collect-table.c:820 src/dupe.c:2207 src/search.c:985
+msgid "Print..."
+msgstr "列印..."
+
+# 
+# src/collect-table.c:1818 src/dupe.c:2170
+#: src/collect-table.c:1978 src/dupe.c:3304 src/img-view.c:1409
+msgid "Dropped list includes folders."
+msgstr "拖放列表中包含了資料夾。"
+
+# src/collect-table.c:1820 src/dupe.c:2172
+#: src/collect-table.c:1980 src/dupe.c:3306 src/img-view.c:1411
+msgid "_Add contents"
+msgstr "加入所包含的內容(_A)"
+
+# src/collect-table.c:1821 src/dupe.c:2173
+#: src/collect-table.c:1982 src/dupe.c:3307 src/img-view.c:1412
+msgid "Add contents _recursive"
+msgstr "同時加入子目錄的內容(_r)"
+
+# src/collect-table.c:1822 src/dupe.c:2174
+#: src/collect-table.c:1984 src/dupe.c:3308 src/img-view.c:1413
+msgid "_Skip folders"
+msgstr "略過資料夾(_S)"
+
+# src/collect-table.c:1824 src/dupe.c:2176 src/preferences.c:536
+# src/ui_utildlg.c:105
+#: src/collect-table.c:1987 src/dupe.c:3310 src/img-view.c:1415
+#: src/view_dir_list.c:214 src/view_dir_tree.c:306
+msgid "Cancel"
+msgstr "取消"
+
+# 
+# src/dupe.c:61
+#: src/dupe.c:96
+msgid "Drop files to compare them."
+msgstr "拖放檔案以進行比較。"
+
+# 
+# src/dupe.c:67 src/dupe.c:1449
+#: src/dupe.c:100
+#, c-format
+msgid "%d files"
+msgstr "%d 個檔案"
+
+# 
+# src/dupe.c:71
+#: src/dupe.c:104
+#, c-format
+msgid "%d matches found in %d files"
+msgstr "找到 %d 個符合（在 %d 個檔案中）"
+
+#: src/dupe.c:109
+msgid "[set 1]"
+msgstr "[第 1 組]"
+
+# 
+# src/dupe.c:775
+#: src/dupe.c:1422
+msgid "Reading checksums..."
+msgstr "正在讀取 Checksum..."
+
+# src/dupe.c:807
+#: src/dupe.c:1455
+msgid "Reading dimensions..."
+msgstr "正在讀取影像大小..."
+
+# 
+# src/dupe.c:841
+#: src/dupe.c:1489
+msgid "Reading similarity data..."
+msgstr "正在讀取相似度資料..."
+
+# 
+# src/dupe.c:871 src/dupe.c:892
+#: src/dupe.c:1524 src/dupe.c:1555
+msgid "Comparing..."
+msgstr "比較中..."
+
+# src/dupe.c:871 src/dupe.c:892
+#: src/dupe.c:1535
+msgid "Sorting..."
+msgstr "排序中..."
+
+#: src/dupe.c:2196
+msgid "Select group _1 duplicates"
+msgstr "選擇第 _1 組為重複"
+
+#: src/dupe.c:2198
+msgid "Select group _2 duplicates"
+msgstr "選擇第 _2 組為重複"
+
+# 
+# src/dupe.c:1398
+#: src/dupe.c:2205 src/search.c:983
+msgid "Add to new collection"
+msgstr "加入至新的選集"
+
+# src/dupe.c:1412 src/dupe.c:1570
+#: src/dupe.c:2221 src/dupe.c:2509 src/search.c:999
+msgid "C_lear"
+msgstr "清除(_l)"
+
+# src/dupe.c:1415 src/dupe.c:1573 src/img-view.c:841
+#: src/dupe.c:2224 src/dupe.c:2512
+msgid "Close _window"
+msgstr "關閉視窗(_w)"
+
+# src/filelist.c:88
+#: src/dupe.c:2382
+#, c-format
+msgid "%d files (set 2)"
+msgstr "%d 個檔案 (第 2 組)"
+
+# 
+# src/dupe.c:1653 src/dupe.c:1942
+#: src/dupe.c:2590 src/dupe.c:3117 src/preferences.c:945 src/print.c:3209
+#: src/search.c:2754 src/view_file_list.c:1656
+msgid "Size"
+msgstr "檔案大小"
+
+# src/dupe.c:1654 src/dupe.c:1943
+#: src/dupe.c:2591 src/dupe.c:3118 src/exif.c:296 src/exif.c:418
+#: src/print.c:3207 src/search.c:2755 src/view_file_list.c:1657
+msgid "Date"
+msgstr "日期"
+
+# src/dupe.c:1655 src/dupe.c:1944
+#: src/dupe.c:2592 src/dupe.c:3119 src/print.c:3211 src/search.c:2756
+msgid "Dimensions"
+msgstr "影像大小"
+
+# 
+# src/dupe.c:1656
+#: src/dupe.c:2593
+msgid "Checksum"
+msgstr "Checksum"
+
+# 
+# src/dupe.c:1657 src/dupe.c:1945
+#: src/dupe.c:2594 src/dupe.c:3120 src/search.c:2757 src/ui_pathsel.c:1106
+msgid "Path"
+msgstr "路徑"
+
+# 
+# src/dupe.c:1658
+#: src/dupe.c:2595
+msgid "Similarity (high)"
+msgstr "相似度（高）"
+
+# 
+# src/dupe.c:1659
+#: src/dupe.c:2596
+msgid "Similarity"
+msgstr "相似度"
+
+# 
+# src/dupe.c:1660
+#: src/dupe.c:2597
+msgid "Similarity (low)"
+msgstr "相似度（低）"
+
+# src/dupe.c:1660
+#: src/dupe.c:2598
+msgid "Similarity (custom)"
+msgstr "相似度（自訂）"
+
+# 
+# src/dupe.c:1968
+#: src/dupe.c:3080
+msgid "Find duplicates - GQview"
+msgstr "尋找重複檔案 - GQview"
+
+# 
+# src/dupe.c:1948
+#: src/dupe.c:3152
+msgid "Compare to:"
+msgstr "比對至："
+
+# 
+# src/dupe.c:2045
+#: src/dupe.c:3165
+msgid "Compare by:"
+msgstr "比對以："
+
+# 
+# src/dupe.c:2054 src/preferences.c:586
+#: src/dupe.c:3173 src/preferences.c:838 src/search.c:2770
+msgid "Thumbnails"
+msgstr "縮圖"
+
+# src/dupe.c:2060
+#: src/dupe.c:3180
+msgid "Compare two file sets"
+msgstr "比較兩組檔案"
+
+# 
+# src/main.c:552
+#: src/editors.c:50
+msgid "The Gimp"
+msgstr "The Gimp"
+
+# 
+# src/main.c:558
+#: src/editors.c:51
+msgid "XV"
+msgstr "XV"
+
+# 
+# src/main.c:561
+#: src/editors.c:52
+msgid "Xpaint"
+msgstr "Xpaint"
+
+# src/menu.c:572
+#: src/editors.c:58
+msgid "Rotate jpeg clockwise"
+msgstr "順時針旋轉 jpeg 檔"
+
+# src/menu.c:575
+#: src/editors.c:59
+msgid "Rotate jpeg counterclockwise"
+msgstr "逆時針旋轉 jpeg 檔"
+
+# src/dupe.c:871 src/dupe.c:892
+#: src/editors.c:104
+msgid "stopping..."
+msgstr "停止中..."
+
+#: src/editors.c:131
+msgid "Edit command results"
+msgstr "編輯命令結果"
+
+#: src/editors.c:134
+#, c-format
+msgid "Output of %s"
+msgstr "%s 的輸出"
+
+# src/ui_help.c:191
+#: src/editors.c:303
+#, c-format
+msgid ""
+"Failed to run command:\n"
+"%s\n"
+msgstr ""
+"無法執行指令：\n"
+"%s\n"
+
+# src/menu.c:522
+#: src/editors.c:414
+msgid "stopped by user"
+msgstr "由使用者停止"
+
+# src/menu.c:432 src/menu.c:461
+#: src/exif.c:111 src/exif.c:124 src/exif.c:138 src/exif.c:163 src/exif.c:601
+#: src/exif.c:1453 src/exif.c:1456 src/exif.c:1521
+msgid "unknown"
+msgstr "不明"
+
+# src/ui_pathsel.c:402 src/ui_pathsel.c:461 src/utilops.c:711
+# src/utilops.c:764
+#: src/exif.c:112
+msgid "top left"
+msgstr "上左"
+
+#: src/exif.c:113
+msgid "top right"
+msgstr "上右"
+
+#: src/exif.c:114
+msgid "bottom right"
+msgstr "下右"
+
+#: src/exif.c:115
+msgid "bottom left"
+msgstr "下左"
+
+# src/ui_pathsel.c:402 src/ui_pathsel.c:461 src/utilops.c:711
+# src/utilops.c:764
+#: src/exif.c:116
+msgid "left top"
+msgstr "左上"
+
+#: src/exif.c:117
+msgid "right top"
+msgstr "右上"
+
+#: src/exif.c:118
+msgid "right bottom"
+msgstr "右下"
+
+#: src/exif.c:119
+msgid "left bottom"
+msgstr "左下"
+
+#: src/exif.c:126
+msgid "inch"
+msgstr "英吋"
+
+#: src/exif.c:127
+msgid "centimeter"
+msgstr "公分"
+
+#: src/exif.c:139
+msgid "average"
+msgstr "平均"
+
+#: src/exif.c:140
+msgid "center weighted"
+msgstr "中央加重"
+
+#: src/exif.c:141
+msgid "spot"
+msgstr "點"
+
+#: src/exif.c:142
+msgid "multi-spot"
+msgstr "多點"
+
+#: src/exif.c:143
+msgid "multi-segment"
+msgstr "多段"
+
+#: src/exif.c:144
+msgid "partial"
+msgstr "部份"
+
+#: src/exif.c:145 src/exif.c:183
+msgid "other"
+msgstr "其它"
+
+#: src/exif.c:150
+msgid "not defined"
+msgstr "未定義"
+
+#: src/exif.c:151
+msgid "manual"
+msgstr "手動"
+
+# src/preferences.c:401
+#: src/exif.c:152
+msgid "normal"
+msgstr "標準"
+
+#: src/exif.c:153
+msgid "aperture"
+msgstr "光圈"
+
+#: src/exif.c:154
+msgid "shutter"
+msgstr "快門"
+
+# src/utilops.c:1216
+#: src/exif.c:155
+msgid "creative"
+msgstr "建立"
+
+#: src/exif.c:156
+msgid "action"
+msgstr "動作"
+
+#: src/exif.c:157
+msgid "portrait"
+msgstr "縱向"
+
+#: src/exif.c:158
+msgid "landscape"
+msgstr "橫向"
+
+#: src/exif.c:164
+msgid "daylight"
+msgstr "日光"
+
+#: src/exif.c:165
+msgid "fluorescent"
+msgstr "螢光"
+
+#: src/exif.c:166
+msgid "tungsten (incandescent)"
+msgstr "鎢 (白熾)"
+
+#: src/exif.c:167
+msgid "flash"
+msgstr "閃光"
+
+#: src/exif.c:188 src/exif.c:1476 src/info.c:226
+msgid "no"
+msgstr "否"
+
+# src/utilops.c:343
+#. flash fired (bit 0)
+#: src/exif.c:189 src/exif.c:1476 src/info.c:226
+msgid "yes"
+msgstr "是"
+
+#: src/exif.c:190
+msgid "yes, not detected by strobe"
+msgstr "是，未被閃光燈偵測到"
+
+#: src/exif.c:191
+msgid "yes, detected by strobe"
+msgstr "是，已被閃光燈偵測到"
+
+# src/utilops.c:539
+#: src/exif.c:288
+msgid "Image description"
+msgstr "影像描述"
+
+# src/dupe.c:1655 src/dupe.c:1944
+#: src/exif.c:291
+msgid "Orientation"
+msgstr "方位"
+
+# src/utilops.c:592
+#: src/exif.c:302
+msgid "Copyright"
+msgstr "版權"
+
+#: src/exif.c:307
+msgid "Exposure program"
+msgstr "曝光程式"
+
+#: src/exif.c:309 src/exif.c:345 src/exif.c:422
+msgid "ISO sensitivity"
+msgstr "ISO 值"
+
+#: src/exif.c:312
+msgid "Date original"
+msgstr "原始日期"
+
+#: src/exif.c:313
+msgid "Date digitized"
+msgstr "數位化日期"
+
+#: src/exif.c:316 src/exif.c:419
+msgid "Shutter speed"
+msgstr "快門速度"
+
+#: src/exif.c:317 src/exif.c:420
+msgid "Aperture"
+msgstr "光圈"
+
+#: src/exif.c:319 src/exif.c:421
+msgid "Exposure bias"
+msgstr "曝光偏移量"
+
+#: src/exif.c:321 src/exif.c:424
+msgid "Subject distance"
+msgstr "物距"
+
+# src/preferences.c:693
+#: src/exif.c:322
+msgid "Metering mode"
+msgstr "測量方式"
+
+#: src/exif.c:323
+msgid "Light source"
+msgstr "光源"
+
+#: src/exif.c:324 src/exif.c:425
+msgid "Flash"
+msgstr "閃光"
+
+#: src/exif.c:325 src/exif.c:423
+msgid "Focal length"
+msgstr "焦距"
+
+#. ExifImageWidth, ExifImageHeight can also be unsigned short
+#: src/exif.c:335
+msgid "Width"
+msgstr "寬度"
+
+#: src/exif.c:336
+msgid "Height"
+msgstr "高度"
+
+#: src/exif.c:417
+msgid "Camera"
+msgstr "相機"
+
+#: src/exif.c:426
+msgid "Resolution"
+msgstr "解析度"
+
+#: src/exif.c:1452
+msgid "infinity"
+msgstr "無限"
+
+# src/preferences.c:368
+#: src/exif.c:1480
+msgid "mode:"
+msgstr "模式"
+
+# src/preferences.c:400
+#: src/exif.c:1484 src/utilops.c:1293
+msgid "on"
+msgstr "開啟"
+
+#: src/exif.c:1487 src/utilops.c:1293
+msgid "off"
+msgstr "關閉"
+
+#: src/exif.c:1490
+msgid "auto"
+msgstr "自動"
+
+#: src/exif.c:1496
+msgid "not detected by strobe"
+msgstr "未被閃光燈偵測到"
+
+#: src/exif.c:1497
+msgid "detected by strobe"
+msgstr "已被閃光燈偵測到"
+
+#. we ignore flash function (bit 5)
+#. red-eye (bit 6)
+#: src/exif.c:1502
+msgid "red-eye reduction"
+msgstr "降低紅眼"
+
+#: src/exif.c:1521
+msgid "dot"
+msgstr "點"
+
+# src/dupe.c:67 src/dupe.c:1449
+#: src/filelist.c:513
+#, c-format
+msgid "%d bytes"
+msgstr "%d 位元組"
+
+#: src/filelist.c:517
+#, c-format
+msgid "%.1f K"
+msgstr "%.1f K"
+
+#: src/filelist.c:521
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: src/filelist.c:526
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+# 
+# src/fullscreen.c:117
+#: src/fullscreen.c:267
+msgid "GQview full screen"
+msgstr "GQview 全螢幕"
+
+# src/preferences.c:368
+#: src/fullscreen.c:397
+msgid "Full size"
+msgstr "完整大小"
+
+#: src/fullscreen.c:402
+msgid "Monitor"
+msgstr "監視器"
+
+#: src/fullscreen.c:407
+msgid "Screen"
+msgstr "螢幕"
+
+# 
+# src/img-view.c:792 src/menu.c:947 src/menu.c:1083 src/preferences.c:716
+#: src/fullscreen.c:644
+msgid "Stay above other windows"
+msgstr "停留在其它視窗之上"
+
+#: src/fullscreen.c:651
+msgid "Determined by Window Manager"
+msgstr "由視窗管理員決定"
+
+#: src/fullscreen.c:652
+msgid "Active screen"
+msgstr "動態螢幕"
+
+#: src/fullscreen.c:654
+msgid "Active monitor"
+msgstr "動態監視器"
+
+# src/img-view.c:789 src/menu.c:944 src/menu.c:1079
+#: src/img-view.c:1235 src/layout_image.c:718 src/layout_util.c:816
+msgid "Zoom _in"
+msgstr "拉近(_i)"
+
+# src/img-view.c:790 src/menu.c:945 src/menu.c:1081
+#: src/img-view.c:1236 src/layout_image.c:719 src/layout_util.c:817
+msgid "Zoom _out"
+msgstr "拉遠(_o)"
+
+# src/img-view.c:791 src/menu.c:946
+#: src/img-view.c:1237 src/layout_image.c:720 src/layout_util.c:818
+msgid "Zoom _1:1"
+msgstr "原始尺寸(_1:1)"
+
+# src/img-view.c:792 src/menu.c:947 src/menu.c:1083 src/preferences.c:716
+#: src/img-view.c:1238 src/layout_image.c:721
+msgid "Fit image to _window"
+msgstr "影像縮放至視窗大小(_w)"
+
+# src/img-view.c:797 src/menu.c:960
+#: src/img-view.c:1243 src/layout_image.c:727 src/layout_util.c:814
+msgid "Set as _wallpaper"
+msgstr "設定為桌布(_w)"
+
+# src/img-view.c:813 src/menu.c:982
+#: src/img-view.c:1261 src/layout_image.c:752
+msgid "_Stop slideshow"
+msgstr "關閉投影片(_S)"
+
+# src/img-view.c:816 src/menu.c:985
+#: src/img-view.c:1264 src/layout_image.c:755
+msgid "Continue slides_how"
+msgstr "繼續投影片(_h)"
+
+# src/img-view.c:820 src/img-view.c:827 src/menu.c:989 src/menu.c:995
+#: src/img-view.c:1269 src/img-view.c:1277 src/layout_image.c:760
+#: src/layout_image.c:767
+msgid "Pause slides_how"
+msgstr "暫停投影片(_h)"
+
+# src/img-view.c:825 src/menu.c:994
+#: src/img-view.c:1275 src/layout_image.c:766
+msgid "_Start slideshow"
+msgstr "啟動投影片(_S)"
+
+# src/img-view.c:833 src/menu.c:1005
+#: src/img-view.c:1283 src/layout_image.c:777
+msgid "Exit _full screen"
+msgstr "離開全螢幕模式(_f)"
+
+# src/img-view.c:837 src/menu.c:1001
+#: src/img-view.c:1287 src/layout_image.c:773
+msgid "_Full screen"
+msgstr "全螢幕(_F)"
+
+# src/dupe.c:1415 src/dupe.c:1573 src/img-view.c:841
+#: src/img-view.c:1291 src/layout_util.c:791
+msgid "C_lose window"
+msgstr "關閉視窗(_l)"
+
+# src/preferences.c:368
+#: src/info.c:361
+msgid "File size:"
+msgstr "檔案大小："
+
+# src/dupe.c:1655 src/dupe.c:1944
+#: src/info.c:363
+msgid "Dimensions:"
+msgstr "影像大小："
+
+#: src/info.c:364
+msgid "Transparent:"
+msgstr "透明背景："
+
+# src/preferences.c:676
+#: src/info.c:365 src/print.c:3386
+msgid "Image size:"
+msgstr "影像大小："
+
+# src/dupe.c:1948
+#: src/info.c:367
+msgid "Compress ratio:"
+msgstr "壓縮比例："
+
+# src/ui_pathsel.c:799
+#: src/info.c:368
+msgid "File type:"
+msgstr "檔案類型："
+
+#: src/info.c:370
+msgid "Owner:"
+msgstr "擁有者："
+
+#: src/info.c:371
+msgid "Group:"
+msgstr "群組："
+
+# 
+# src/preferences.c:551
+#: src/info.c:374 src/preferences.c:819
+msgid "General"
+msgstr "一般"
+
+#: src/info.c:455
+#, c-format
+msgid "Image %d of %d"
+msgstr "影像 %d/%d"
+
+#: src/info.c:678
+msgid "Image properties - GQview"
+msgstr "影像內容 - GQview"
+
+# src/window.c:87
+#: src/layout.c:272 src/view_file_icon.c:305 src/view_file_list.c:416
+msgid "Ascending"
+msgstr "遞增"
+
+# 
+# src/filelist.c:76
+#: src/layout.c:338
+msgid " Slideshow"
+msgstr " 投影片"
+
+# 
+# src/filelist.c:80
+#: src/layout.c:342
+msgid " Paused"
+msgstr " 暫停"
+
+# src/filelist.c:86
+#: src/layout.c:359
+#, c-format
+msgid "%s, %d files (%s, %d)%s"
+msgstr "%s, %d 個檔案 (%s, %d)%s"
+
+# src/filelist.c:88
+#: src/layout.c:366
+#, c-format
+msgid "%s, %d files%s"
+msgstr "%s, %d 個檔案 %s"
+
+# src/filelist.c:88
+#: src/layout.c:371
+#, c-format
+msgid "%d files%s"
+msgstr "%d 個檔案%s"
+
+#: src/layout.c:400
+#, c-format
+msgid "(no read permission) %s bytes"
+msgstr "(無讀取權限) %s 位元組"
+
+# 
+# src/window.c:379
+#: src/layout.c:404
+#, c-format
+msgid "( ? x ? ) %s bytes"
+msgstr "( ? x ? ) %s 位元組"
+
+# src/window.c:383
+#: src/layout.c:409
+#, c-format
+msgid "( %d x %d ) %s bytes"
+msgstr "( %d x %d ) %s 位元組"
+
+# src/window.c:234
+#: src/layout.c:1105
+msgid "GQview Tools"
+msgstr "GQview 工具"
+
+# src/preferences.c:368
+#: src/layout_config.c:57
+msgid "Tools"
+msgstr "工具"
+
+# src/preferences.c:368
+#: src/layout_config.c:57 src/ui_pathsel.c:1174
+msgid "Files"
+msgstr "檔案"
+
+# 
+# src/preferences.c:676
+#: src/layout_config.c:57 src/preferences.c:879 src/print.c:114
+msgid "Image"
+msgstr "影像"
+
+#: src/layout_config.c:363
+msgid "(drag to change order)"
+msgstr "(以拖曳方式改變順序)"
+
+# src/menu.c:1010
+#: src/layout_image.c:782
+msgid "Hide file _list"
+msgstr "隱藏檔案列表(_l)"
+
+# 
+# src/menu.c:430 src/menu.c:457
+#: src/layout_util.c:650 src/menu.c:74
+#, c-format
+msgid "in %s..."
+msgstr "使用 %s..."
+
+# src/menu.c:432 src/menu.c:461
+#: src/layout_util.c:654 src/menu.c:76
+msgid "in (unknown)..."
+msgstr "使用（不明）..."
+
+# src/collect-table.c:78 src/menu.c:684
+#: src/layout_util.c:662
+msgid "empty"
+msgstr "空白"
+
+# src/menu.c:709
+#: src/layout_util.c:773
+msgid "_File"
+msgstr "檔案(_F)"
+
+# src/menu.c:726
+#: src/layout_util.c:774 src/menu.c:91
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+# src/menu.c:626
+#: src/layout_util.c:775 src/menu.c:255
+msgid "_Adjust"
+msgstr "調整(_A)"
+
+# 
+# src/menu.c:771
+#: src/layout_util.c:777
+msgid "_Help"
+msgstr "求助(_H)"
+
+# src/menu.c:711
+#: src/layout_util.c:779
+msgid "New _window"
+msgstr "新視窗(_w)"
+
+# src/collect-dlg.c:165 src/collect-table.c:641
+#: src/layout_util.c:780
+msgid "_New collection"
+msgstr "新選集(_N)"
+
+# 
+# src/collect-dlg.c:172
+#: src/layout_util.c:781
+msgid "_Open collection..."
+msgstr "開啟選集(_O)..."
+
+# 
+# src/menu.c:713
+#: src/layout_util.c:782
+msgid "Open _recent"
+msgstr "開啟最近的檔案(_r)"
+
+# src/dupe.c:871 src/dupe.c:892
+#: src/layout_util.c:783
+msgid "_Search..."
+msgstr "搜尋(_S)..."
+
+# 
+# src/menu.c:721
+#: src/layout_util.c:785
+msgid "_Print..."
+msgstr "列印(_P)..."
+
+#: src/layout_util.c:786
+msgid "N_ew folder..."
+msgstr "新資料夾(_e)..."
+
+# 
+# src/preferences.c:684
+#: src/layout_util.c:792
+msgid "_Quit"
+msgstr "離開(_Q)"
+
+# src/menu.c:572
+#: src/layout_util.c:804 src/menu.c:201
+msgid "_Rotate clockwise"
+msgstr "順時針旋轉(_R)"
+
+# src/menu.c:575
+#: src/layout_util.c:805 src/menu.c:204
+msgid "Rotate _counterclockwise"
+msgstr "逆時針旋轉(_c)"
+
+# src/menu.c:578
+#: src/layout_util.c:806
+msgid "Rotate 1_80"
+msgstr "旋轉 1_80 度"
+
+# src/menu.c:581
+#: src/layout_util.c:807 src/menu.c:210
+msgid "_Mirror"
+msgstr "左右反轉(_M)"
+
+# src/menu.c:584
+#: src/layout_util.c:808 src/menu.c:213
+msgid "_Flip"
+msgstr "上下反轉(_F)"
+
+# src/collect-table.c:627 src/dupe.c:1391 src/dupe.c:1563
+#: src/layout_util.c:810
+msgid "Select _all"
+msgstr "全部選取(_a)"
+
+# 
+# src/collect-table.c:628 src/dupe.c:1393 src/dupe.c:1565
+#: src/layout_util.c:811
+msgid "Select _none"
+msgstr "全部不選(_n)"
+
+# src/menu.c:748
+#: src/layout_util.c:812
+msgid "P_references..."
+msgstr "喜好設定(_r)..."
+
+#: src/layout_util.c:813
+msgid "_Thumbnail maintenance..."
+msgstr "管理縮圖(_T)..."
+
+# 
+# src/menu.c:758
+#: src/layout_util.c:819
+msgid "_Zoom to fit"
+msgstr "縮放至合適大小(_Z)"
+
+# src/img-view.c:837 src/menu.c:1001
+#: src/layout_util.c:820
+msgid "F_ull screen"
+msgstr "全螢幕(_u)"
+
+# src/menu.c:1010
+#: src/layout_util.c:821
+msgid "_Hide file list"
+msgstr "隱藏檔案列表(_H)"
+
+# src/img-view.c:813 src/menu.c:982
+#: src/layout_util.c:822
+msgid "Toggle _slideshow"
+msgstr "切換投影片(_s)"
+
+# src/menu.c:891 src/menu.c:920
+#: src/layout_util.c:823
+msgid "_Refresh"
+msgstr "重新整理(_R)"
+
+# 
+# src/menu.c:776
+#: src/layout_util.c:825
+msgid "_Contents"
+msgstr "內容(_C)"
+
+# src/menu.c:773
+#: src/layout_util.c:826
+msgid "_Keyboard shortcuts"
+msgstr "快捷鍵(_K)"
+
+# src/menu.c:774
+#: src/layout_util.c:827
+msgid "_Release notes"
+msgstr "發行摘要(_R)"
+
+# 
+# src/menu.c:776
+#: src/layout_util.c:828
+msgid "_About"
+msgstr "關於(_A)"
+
+# 
+# src/dupe.c:2054 src/preferences.c:586
+#: src/layout_util.c:832
+msgid "_Thumbnails"
+msgstr "縮圖(_T)"
+
+# src/menu.c:768
+#: src/layout_util.c:833
+msgid "Tr_ee"
+msgstr "樹狀目錄(_e)"
+
+# src/menu.c:766
+#: src/layout_util.c:834
+msgid "_Float file list"
+msgstr "浮動檔案列表(_F)"
+
+# src/menu.c:754
+#: src/layout_util.c:835
+msgid "Hide tool_bar"
+msgstr "隱藏工具列(_b)"
+
+# src/dupe.c:1655 src/dupe.c:1944
+#: src/layout_util.c:836
+msgid "_Keywords"
+msgstr "關鍵字(_K)"
+
+# src/menu.c:765
+#: src/layout_util.c:837
+msgid "E_xif data"
+msgstr "E_xif 資訊"
+
+# src/menu.c:526
+#: src/layout_util.c:838
+msgid "Sort _manager"
+msgstr "排列管理員(_m)"
+
+# src/menu.c:765
+#: src/layout_util.c:842
+msgid "_List"
+msgstr "清單模式(_L)"
+
+#: src/layout_util.c:843
+msgid "I_cons"
+msgstr "圖示(_c)"
+
+# src/preferences.c:603
+#: src/layout_util.c:1108
+msgid "Show thumbnails"
+msgstr "顯示縮圖"
+
+# 
+# src/menu.c:1075
+#: src/layout_util.c:1110
+msgid "Change to home folder"
+msgstr "切換至個人資料夾"
+
+# 
+# src/menu.c:1077
+#: src/layout_util.c:1112
+msgid "Refresh file list"
+msgstr "重整檔案列表"
+
+# src/img-view.c:789 src/menu.c:944 src/menu.c:1079
+#: src/layout_util.c:1114
+msgid "Zoom in"
+msgstr "拉近"
+
+# 
+# src/img-view.c:790 src/menu.c:945 src/menu.c:1081
+#: src/layout_util.c:1116
+msgid "Zoom out"
+msgstr "拉遠"
+
+# 
+# src/img-view.c:792 src/menu.c:947 src/menu.c:1083 src/preferences.c:716
+#: src/layout_util.c:1118 src/preferences.c:908
+msgid "Fit image to window"
+msgstr "縮放影像以符合視窗大小"
+
+# 
+# src/menu.c:1085
+#: src/layout_util.c:1120
+msgid "Set zoom 1:1"
+msgstr "設為原始大小"
+
+# 
+# src/menu.c:1087
+#: src/layout_util.c:1122
+msgid "Configure options"
+msgstr "設定選項"
+
+# 
+# src/menu.c:1089
+#: src/layout_util.c:1124
+msgid "Float Controls"
+msgstr "浮動控制視窗"
+
+# src/main.c:129
+#: src/main.c:237
+msgid "Help - GQview"
+msgstr "求助 - GQview"
+
+# 
+# src/main.c:743
+#: src/main.c:460 src/main.c:1276
+msgid "Command line"
+msgstr "命令列"
+
+# 
+# src/preferences.c:660
+#. short, long                  callback,               extra, prefer,description
+#: src/main.c:498
+msgid "next image"
+msgstr "下個影像"
+
+#: src/main.c:499
+msgid "previous image"
+msgstr "上個影像"
+
+#: src/main.c:500
+msgid "first image"
+msgstr "最初影像"
+
+#: src/main.c:501
+msgid "last image"
+msgstr "最後影像"
+
+# src/img-view.c:833 src/menu.c:1005
+#: src/main.c:502
+msgid "toggle full screen"
+msgstr "切換全螢幕模式"
+
+# src/img-view.c:833 src/menu.c:1005
+#: src/main.c:503
+msgid "start full screen"
+msgstr "開始全螢幕模式"
+
+# src/img-view.c:833 src/menu.c:1005
+#: src/main.c:504
+msgid "stop full screen"
+msgstr "關閉全螢幕模式"
+
+# src/img-view.c:813 src/menu.c:982
+#: src/main.c:505
+msgid "toggle slide show"
+msgstr "切換投影片"
+
+# src/img-view.c:825 src/menu.c:994
+#: src/main.c:506
+msgid "start slide show"
+msgstr "啟動投影片"
+
+# src/img-view.c:813 src/menu.c:982
+#: src/main.c:507
+msgid "stop slide show"
+msgstr "停止投影片"
+
+# src/img-view.c:825 src/menu.c:994
+#: src/main.c:508
+msgid "start recursive slide show"
+msgstr "啟動投影片（包含子目錄）"
+
+#: src/main.c:509
+msgid "set slide show delay in seconds"
+msgstr "設定投影片播放間隔(秒)"
+
+#: src/main.c:510
+msgid "show tools"
+msgstr "顯示工具"
+
+# src/window.c:234
+#: src/main.c:511
+msgid "hide tools"
+msgstr "隱藏工具"
+
+#: src/main.c:512
+msgid "quit"
+msgstr "離開"
+
+# src/utilops.c:1090
+#: src/main.c:513
+msgid "open file"
+msgstr "開啟檔案"
+
+# src/collect-table.c:620 src/dupe.c:1388 src/dupe.c:1560 src/img-view.c:801
+# src/menu.c:906 src/menu.c:964
+#: src/main.c:514
+msgid "open file in new window"
+msgstr "在新視窗中開啟檔案"
+
+#: src/main.c:580
+msgid "Remote command list:\n"
+msgstr "遠端命令列表：\n"
+
+#: src/main.c:638
+msgid "Remote GQview not running, starting..."
+msgstr "遠端的 GQview 並未執行，啟動中..."
+
+#: src/main.c:773
+msgid "Remote not available\n"
+msgstr "遠端無法使用\n"
+
+# 
+# src/main.c:457
+#: src/main.c:915
+msgid ""
+"Usage: gqview [options] [path]\n"
+"\n"
+msgstr ""
+"用法：gqview [選項] [路俓]\n"
+"\n"
+
+# 
+# src/main.c:458
+#: src/main.c:916
+msgid "valid options are:\n"
+msgstr "可用的選項有：\n"
+
+# 
+# src/main.c:459
+#: src/main.c:917
+msgid "  +t, --with-tools           force show of tools\n"
+msgstr "  +t, --with-tools           強行顯示工具\n"
+
+# src/main.c:460
+#: src/main.c:918
+msgid "  -t, --without-tools        force hide of tools\n"
+msgstr "  -t, --without-tools        強行隱藏工具\n"
+
+# 
+# src/main.c:461
+#: src/main.c:919
+msgid "  -f, --fullscreen           start in full screen mode\n"
+msgstr "  -f, --fullscreen           以全螢幕模式啟動\n"
+
+# 
+# src/main.c:462
+#: src/main.c:920
+msgid "  -s, --slideshow            start in slideshow mode\n"
+msgstr "  -s, --slideshow            以投影片模式啟動\n"
+
+# 
+# src/main.c:463
+#: src/main.c:921
+msgid "  -l, --list                 open collection window for command line\n"
+msgstr "  -l, --list                 在命令列開啟選集視窗\n"
+
+# 
+# src/main.c:463
+#: src/main.c:922
+msgid "  -r, --remote               send following commands to open window\n"
+msgstr "  -r, --remote               傳送以下指令來開啟視窗\n"
+
+#: src/main.c:923
+msgid "  -rh,--remote-help          print remote command list\n"
+msgstr "  -rh,--remote-help          印出遠端指令列表\n"
+
+# 
+# src/main.c:464
+#: src/main.c:924
+msgid "  --debug                    turn on debug output\n"
+msgstr "  --debug                    啟動偵錯輸出\n"
+
+# 
+# src/main.c:465
+#: src/main.c:925
+msgid "  -v, --version              print version info\n"
+msgstr "  -v, --version              印出版本資訊\n"
+
+# 
+# src/main.c:466
+#: src/main.c:926
+msgid ""
+"  -h, --help                 show this message\n"
+"\n"
+msgstr ""
+"  -h, --help                 顯示此訊息\n"
+"\n"
+
+# 
+# src/main.c:471
+#: src/main.c:940
+#, c-format
+msgid ""
+"invalid or ignored: %s\n"
+"Use --help for options\n"
+msgstr ""
+"選項 %s 無效或已被忽略\n"
+"請用 --help 查看選項\n"
+
+# 
+# src/main.c:533
+#: src/main.c:1005
+#, c-format
+msgid "Creating GQview dir:%s\n"
+msgstr "正在建立 GQview 目錄：%s\n"
+
+# 
+# src/main.c:536
+#: src/main.c:1011
+#, c-format
+msgid "Could not create dir:%s\n"
+msgstr "不能建立目錄：%s\n"
+
+# src/ui_pathsel.c:754
+#: src/main.c:1032 src/ui_bookmark.c:858 src/ui_pathsel.c:1042
+msgid "Home"
+msgstr "個人目錄"
+
+# src/utilops.c:989
+#: src/main.c:1034 src/ui_bookmark.c:865
+msgid "Desktop"
+msgstr "桌面"
+
+# 
+# src/main.c:619
+#: src/main.c:1123
+msgid "GQview - exit"
+msgstr "GQview - 離開"
+
+# src/img-view.c:559 src/window.c:533
+#: src/main.c:1127
+msgid "Quit GQview"
+msgstr "離開 GQview"
+
+# src/main.c:619
+#: src/main.c:1127
+msgid "Collections have been modified. Quit anyway?"
+msgstr "選集已被修改。仍要離開？"
+
+# src/menu.c:510
+#: src/menu.c:115
+msgid "Sort by size"
+msgstr "依大小排列"
+
+# src/menu.c:513
+#: src/menu.c:118
+msgid "Sort by date"
+msgstr "依日期排列"
+
+# src/menu.c:516
+#: src/menu.c:121
+msgid "Unsorted"
+msgstr "不進行排列"
+
+# src/menu.c:519
+#: src/menu.c:124
+msgid "Sort by path"
+msgstr "依路徑排列"
+
+# src/menu.c:522
+#: src/menu.c:127
+msgid "Sort by number"
+msgstr "依數字排列"
+
+# src/menu.c:526
+#: src/menu.c:131
+msgid "Sort by name"
+msgstr "依名稱排列"
+
+# 
+# src/menu.c:559
+#: src/menu.c:182
+msgid "Sort"
+msgstr "排列"
+
+# src/menu.c:578
+#: src/menu.c:207
+msgid "Rotate _180"
+msgstr "旋轉 _180 度"
+
+# 
+# src/preferences.c:367
+#: src/preferences.c:382
+msgid "Nearest (worst, but fastest)"
+msgstr "最近點（最差，但最快）"
+
+# 
+# src/preferences.c:368
+#: src/preferences.c:384
+msgid "Tiles"
+msgstr "平鋪"
+
+# 
+# src/preferences.c:369
+#: src/preferences.c:386
+msgid "Bilinear"
+msgstr "雙線性"
+
+# 
+# src/preferences.c:370
+#: src/preferences.c:388
+msgid "Hyper (best, but slowest)"
+msgstr "雙曲線（最佳，但最慢）"
+
+# 
+# src/preferences.c:400
+#: src/preferences.c:416
+msgid "None"
+msgstr "沒有"
+
+# 
+# src/preferences.c:401
+#: src/preferences.c:417
+msgid "Normal"
+msgstr "正常"
+
+# src/preferences.c:402
+#: src/preferences.c:418
+msgid "Best"
+msgstr "最佳"
+
+#: src/preferences.c:496 src/print.c:369
+msgid "Custom"
+msgstr "自動"
+
+# src/utilops.c:707
+#: src/preferences.c:660 src/preferences.c:663
+msgid "Reset filters"
+msgstr "重設過濾器"
+
+#: src/preferences.c:664
+msgid ""
+"This will reset the file filters to the defaults.\n"
+"Continue?"
+msgstr ""
+"這樣將會將檔案過濾器重設為預設值。\n"
+"是否繼續？"
+
+# src/utilops.c:707
+#: src/preferences.c:697 src/preferences.c:700
+msgid "Reset editors"
+msgstr "重設編輯器"
+
+#: src/preferences.c:701
+msgid ""
+"This will reset the edit commands to the defaults.\n"
+"Continue?"
+msgstr ""
+"這樣將會將所有編輯命令重設為預設值。\n"
+"是否繼續?"
+
+# src/preferences.c:163 src/preferences.c:604
+#: src/preferences.c:725 src/preferences.c:728
+msgid "Clear trash"
+msgstr "清除垃圾桶"
+
+#: src/preferences.c:729
+msgid "This will remove the trash contents."
+msgstr "這樣將會移除垃圾桶中的內容。"
+
+# 
+# src/utilops.c:942 src/utilops.c:1091
+#: src/preferences.c:768
+msgid "GQview Preferences"
+msgstr "GQview 喜好設定"
+
+#: src/preferences.c:822
+msgid "Startup"
+msgstr "啟動"
+
+# 
+# src/menu.c:1075
+#: src/preferences.c:824
+msgid "Change to folder:"
+msgstr "切換至資料夾："
+
+# 
+# src/preferences.c:581
+#: src/preferences.c:835
+msgid "Use current"
+msgstr "使用當前的"
+
+# 
+# src/preferences.c:595
+#: src/preferences.c:841 src/print.c:3216 src/print.c:3423
+msgid "Size:"
+msgstr "大小："
+
+# 
+# src/preferences.c:597
+#: src/preferences.c:842 src/preferences.c:888
+msgid "Quality:"
+msgstr "品質："
+
+# src/preferences.c:603
+#: src/preferences.c:844
+msgid "Cache thumbnails"
+msgstr "將縮圖存放在緩衝區"
+
+#: src/preferences.c:850
+msgid "Use shared thumbnail cache"
+msgstr "使用共享的縮圖緩衝區"
+
+# 
+# src/preferences.c:610
+#: src/preferences.c:856
+msgid "Cache thumbnails into .thumbnails"
+msgstr "將縮圖儲存在 .thumbnails"
+
+# 
+# src/preferences.c:613
+#: src/preferences.c:859
+msgid "Use xvpics thumbnails when found (read only)"
+msgstr "如果有找到，則使用 xvpics 縮圖（唯讀）"
+
+# 
+# src/preferences.c:615
+#: src/preferences.c:862
+msgid "Slide show"
+msgstr "投影片"
+
+# 
+# src/preferences.c:628
+#: src/preferences.c:865
+msgid "Delay between image change:"
+msgstr "變換影像時的間隔："
+
+#: src/preferences.c:865
+msgid "seconds"
+msgstr "秒"
+
+# 
+# src/preferences.c:645
+#: src/preferences.c:871
+msgid "Random"
+msgstr "隨機"
+
+# 
+# src/preferences.c:647
+#: src/preferences.c:872
+msgid "Repeat"
+msgstr "循環"
+
+# src/img-view.c:789 src/menu.c:944 src/menu.c:1079
+#: src/preferences.c:882
+msgid "Zoom"
+msgstr "縮放"
+
+# 
+# src/preferences.c:693
+#: src/preferences.c:885
+msgid "Dithering method:"
+msgstr "擬色方法："
+
+#: src/preferences.c:890
+msgid "Two pass zooming"
+msgstr "兩階段式縮放"
+
+# src/preferences.c:729
+#: src/preferences.c:893
+msgid "Allow enlargement of image for zoom to fit."
+msgstr "可放大影像以便能縮放至合適大小"
+
+# 
+# src/preferences.c:751
+#: src/preferences.c:897
+msgid "Zoom increment:"
+msgstr "縮放增益："
+
+# 
+# src/preferences.c:700
+#: src/preferences.c:902
+msgid "When new image is selected:"
+msgstr "當選擇新影像時："
+
+# 
+# src/preferences.c:710
+#: src/preferences.c:905
+msgid "Zoom to original size"
+msgstr "影像還原為原始大小"
+
+# 
+# src/preferences.c:722
+#: src/preferences.c:911
+msgid "Leave Zoom at previous setting"
+msgstr "保留之前的縮放設定"
+
+# 
+# src/collect-dlg.c:182
+#: src/preferences.c:915
+msgid "Appearance"
+msgstr "顯示"
+
+#: src/preferences.c:917
+msgid "Black background"
+msgstr "黑色背景"
+
+# 
+# src/utilops.c:328 src/utilops.c:394 src/utilops.c:668
+#: src/preferences.c:920
+msgid "Convenience"
+msgstr "便利性"
+
+# src/menu.c:1077
+#: src/preferences.c:922
+msgid "Refresh on file change"
+msgstr "檔案改變時，重新整理檔案列表"
+
+# 
+# src/preferences.c:660
+#: src/preferences.c:924
+msgid "Preload next image"
+msgstr "預先載入下個影像"
+
+#: src/preferences.c:926
+msgid "Auto rotate image using Exif information"
+msgstr "根據 Exif 資訊進行自動旋轉"
+
+# src/preferences.c:773
+#: src/preferences.c:935
+msgid "Windows"
+msgstr "視窗"
+
+#: src/preferences.c:938
+msgid "State"
+msgstr "狀態"
+
+# 
+# src/preferences.c:782
+#: src/preferences.c:940
+msgid "Remember window positions"
+msgstr "記下視窗位置"
+
+# 
+# src/preferences.c:784
+#: src/preferences.c:942
+msgid "Remember tool state (float/hidden)"
+msgstr "記下工具狀態（浮動/隱藏）"
+
+# 
+# src/preferences.c:787
+#: src/preferences.c:947
+msgid "Fit window to image when tools are hidden/floating"
+msgstr "當工具隱藏/浮動時縮放視窗以符合影像大小"
+
+# 
+# src/preferences.c:794
+#: src/preferences.c:951
+msgid "Limit size when auto-sizing window (%):"
+msgstr "在自動改變視窗大小時的限制大小為（%）："
+
+#: src/preferences.c:958 src/print.c:3371 src/print.c:3378
+msgid "Layout"
+msgstr "版面"
+
+# 
+# src/preferences.c:812
+#: src/preferences.c:971
+msgid "Filtering"
+msgstr "檔案過濾"
+
+# 
+# src/preferences.c:821
+#: src/preferences.c:976
+msgid "Show entries that begin with a dot"
+msgstr "顯示以 '.' 開始的檔案"
+
+#: src/preferences.c:978
+msgid "Case sensitive sort"
+msgstr "排序時考慮大小寫"
+
+# 
+# src/preferences.c:823
+#: src/preferences.c:981
+msgid "Disable File Filtering"
+msgstr "關閉檔案過濾器"
+
+# src/ui_pathsel.c:799
+#: src/preferences.c:984
+msgid "File types"
+msgstr "檔案格式"
+
+# src/ui_pathsel.c:799
+#: src/preferences.c:1006
+msgid "Filter"
+msgstr "過濾器"
+
+#: src/preferences.c:1043 src/preferences.c:1107
+msgid "Defaults"
+msgstr "預設值"
+
+# 
+# src/preferences.c:915
+#: src/preferences.c:1064
+msgid "Editors"
+msgstr "編輯器"
+
+# 
+# src/preferences.c:927
+#: src/preferences.c:1070
+msgid "#"
+msgstr "#"
+
+# 
+# src/preferences.c:930
+#: src/preferences.c:1073
+msgid "Menu name"
+msgstr "選單名稱"
+
+# 
+# src/preferences.c:933
+#: src/preferences.c:1076
+msgid "Command Line"
+msgstr "指令列"
+
+#: src/preferences.c:1123
+msgid "Advanced"
+msgstr "進階選項"
+
+# src/img-view.c:837 src/menu.c:1001
+#: src/preferences.c:1136
+msgid "Full screen"
+msgstr "全螢幕"
+
+# src/preferences.c:676
+#: src/preferences.c:1144
+msgid "Smooth image flip"
+msgstr "影像平滑切換"
+
+#: src/preferences.c:1146
+msgid "Disable screen saver"
+msgstr "關閉螢幕保護程式"
+
+# 
+# src/ui_pathsel.c:402 src/ui_pathsel.c:461 src/utilops.c:711
+# src/utilops.c:764
+#: src/preferences.c:1149
+msgid "Delete"
+msgstr "刪除"
+
+# 
+# src/preferences.c:667
+#: src/preferences.c:1151
+msgid "Confirm file delete"
+msgstr "詢問是否刪除檔案"
+
+# 
+# src/preferences.c:669
+#: src/preferences.c:1153
+msgid "Enable Delete key"
+msgstr "啟用刪除鍵"
+
+# src/preferences.c:667
+#: src/preferences.c:1156
+msgid "Safe delete"
+msgstr "安全刪除"
+
+#: src/preferences.c:1174
+msgid "Maximum size:"
+msgstr "最大容量(MB)"
+
+#: src/preferences.c:1174
+msgid "MB"
+msgstr "MB"
+
+# 
+# src/collect-table.c:619 src/dupe.c:1386 src/dupe.c:1558
+#: src/preferences.c:1177
+msgid "View"
+msgstr "檢視"
+
+#: src/preferences.c:1187
+msgid "Behavior"
+msgstr "表現方式"
+
+# 
+# src/preferences.c:906
+#: src/preferences.c:1189
+msgid "Rectangular selection in icon view"
+msgstr "在圖示檢視時以方框方式進行選擇"
+
+#: src/preferences.c:1192
+msgid "Descend folders in tree view"
+msgstr "在樹狀檢視時，檢測目錄可否展開"
+
+# 
+# src/preferences.c:658
+#: src/preferences.c:1195
+msgid "In place renaming"
+msgstr "即時更改名稱"
+
+#: src/preferences.c:1198
+msgid "Navigation"
+msgstr "導航"
+
+# 
+# src/preferences.c:764
+#: src/preferences.c:1200
+msgid "Progressive keyboard scrolling"
+msgstr "使用鍵盤以漸進速度捲動影像"
+
+# 
+# src/preferences.c:766
+#: src/preferences.c:1202
+msgid "Mouse wheel scrolls image"
+msgstr "使用滑鼠滾軸來捲動影像"
+
+#: src/preferences.c:1205
+msgid "Miscellaneous"
+msgstr "雜項"
+
+#: src/preferences.c:1207
+msgid "Store keywords and comments local to source images"
+msgstr "直接把關鍵字和備註儲存至原始影像中"
+
+# src/preferences.c:875
+#: src/preferences.c:1210
+msgid "Custom similarity threshold:"
+msgstr "自訂相似度臨界值："
+
+# 
+# src/preferences.c:735
+#: src/preferences.c:1213
+msgid "Offscreen cache size (Mb per image):"
+msgstr "螢幕的背景緩衝區大小（MB/影像）："
+
+# src/img-view.c:559 src/window.c:533
+#: src/preferences.c:1289
+msgid "About - GQview"
+msgstr "關於 - GQview"
+
+# src/preferences.c:1041
+#: src/preferences.c:1302
+#, c-format
+msgid ""
+"GQview %s\n"
+"\n"
+"Copyright (c) %s John Ellis\n"
+"website: %s\n"
+"email: %s\n"
+"\n"
+"Released under the GNU General Public License"
+msgstr ""
+"GQview %s\n"
+"\n"
+"版權所有 (c) %s John Ellis\n"
+"網站: %s\n"
+"電子郵件: %s\n"
+"\n"
+"以 GNU General Public License 發佈"
+
+# src/menu.c:748
+#: src/preferences.c:1320
+msgid "Credits..."
+msgstr "鳴謝..."
+
+# 
+# src/collect-table.c:628 src/dupe.c:1393 src/dupe.c:1565
+#: src/print.c:115
+msgid "Selection"
+msgstr "擇擇"
+
+#: src/print.c:116
+msgid "All"
+msgstr "全部"
+
+#: src/print.c:127
+msgid "One image per page"
+msgstr "一頁一影像"
+
+#: src/print.c:128
+msgid "Proof sheet"
+msgstr "索引頁"
+
+#: src/print.c:141
+msgid "Default printer"
+msgstr "預設印表機"
+
+#: src/print.c:142
+msgid "Custom printer"
+msgstr "自訂印表機"
+
+#: src/print.c:143
+msgid "PostScript file"
+msgstr "PostScript 檔"
+
+# src/preferences.c:676
+#: src/print.c:144
+msgid "Image file"
+msgstr "影像檔"
+
+#: src/print.c:158
+msgid "jpeg, low quality"
+msgstr "jpeg, 低品質"
+
+#: src/print.c:159
+msgid "jpeg, normal quality"
+msgstr "jpeg, 一般品質"
+
+#: src/print.c:160
+msgid "jpeg, high quality"
+msgstr "jpeg, 高品質"
+
+# 
+# src/main.c:561
+#: src/print.c:354 src/print.c:3216
+msgid "points"
+msgstr "點"
+
+#: src/print.c:355
+msgid "millimeters"
+msgstr "毫米"
+
+#: src/print.c:356
+msgid "centimeters"
+msgstr "釐米"
+
+#: src/print.c:357
+msgid "inches"
+msgstr "英吋"
+
+#: src/print.c:358
+msgid "picas"
+msgstr "Picas"
+
+#: src/print.c:363
+msgid "Portrait"
+msgstr "縱向"
+
+#: src/print.c:364
+msgid "Landscape"
+msgstr "橫向"
+
+#: src/print.c:370
+msgid "Letter"
+msgstr "Letter"
+
+#. in 8.5 x 11
+#: src/print.c:371
+msgid "Legal"
+msgstr "Legal"
+
+#. in 8.5 x 14
+#: src/print.c:372
+msgid "Executive"
+msgstr "Executive"
+
+#. in 7.25x 10.5
+#. mm 841 x 1189
+#. mm 594 x 841
+#. mm 420 x 594
+#. mm 297 x 420
+#. mm 210 x 297
+#. mm 148 x 210
+#. mm 105 x 148
+#. mm 353 x 500
+#. mm 250 x 353
+#. mm 176 x 250
+#. mm 125 x 176
+#: src/print.c:384
+msgid "Envelope #10"
+msgstr "Envelope #10"
+
+#. in 4.125 x 9.5
+#: src/print.c:385
+msgid "Envelope #9"
+msgstr "Envelope #9"
+
+#. in 3.875 x 8.875
+#: src/print.c:386
+msgid "Envelope C4"
+msgstr "Envelope C4"
+
+#. mm 229 x 324
+#: src/print.c:387
+msgid "Envelope C5"
+msgstr "Envelope C5"
+
+#. mm 162 x 229
+#: src/print.c:388
+msgid "Envelope C6"
+msgstr "Envelope C6"
+
+#. mm 114 x 162
+#: src/print.c:389
+msgid "Photo 6x4"
+msgstr "Photo 6x4"
+
+#. in 6   x 4
+#: src/print.c:390
+msgid "Photo 8x10"
+msgstr "Photo 8x10"
+
+#. in 8   x 10
+#: src/print.c:391
+msgid "Postcard"
+msgstr "明信片"
+
+#. mm 100 x 148
+#: src/print.c:392
+msgid "Tabloid"
+msgstr "Tabloid"
+
+#: src/print.c:548
+#, c-format
+msgid "page %d of %d"
+msgstr "%d/%d 頁"
+
+#: src/print.c:740 src/utilops.c:2128
+msgid "Preview"
+msgstr "預覽"
+
+#: src/print.c:1048
+#, c-format
+msgid ""
+"Unable to open pipe for writing.\n"
+"\"%s\""
+msgstr ""
+"無法開啟管線以進行寫入。\n"
+"\"%s\""
+
+# src/ui_pathsel.c:307
+#: src/print.c:1063 src/print.c:1503 src/ui_pathsel.c:423
+#: src/view_file_list.c:456
+#, c-format
+msgid "A file with name %s already exists."
+msgstr "名為 %s 的檔案已經存在。"
+
+#: src/print.c:1078 src/print.c:1558
+#, c-format
+msgid "Failure writing to file %s"
+msgstr "無法寫入檔案 %s"
+
+#: src/print.c:1132 src/print.c:1169 src/print.c:1205 src/print.c:1322
+#: src/print.c:1413 src/print.c:1444
+msgid "SIGPIPE error writing to printer."
+msgstr "在輸出至印表機時發生了 SIGPIPE 錯誤。"
+
+#: src/print.c:1979
+#, c-format
+msgid "Page %d"
+msgstr "%d 頁"
+
+# src/ui_pathsel.c:799
+#: src/print.c:2001 src/print.c:2006
+msgid "Printing error"
+msgstr "列印錯誤"
+
+#: src/print.c:2005
+#, c-format
+msgid "An error occured printing to %s."
+msgstr "在列印至 %s 時發生了錯誤。"
+
+#: src/print.c:2009
+msgid "Details"
+msgstr "詳細資訊"
+
+# src/img-view.c:559 src/window.c:533
+#: src/print.c:2602 src/print.c:3347
+msgid "Print - GQview"
+msgstr "列印 - GQview"
+
+#: src/print.c:2606
+#, c-format
+msgid "Printing %d pages to %s."
+msgstr "正在將 %d 頁列印至 %s。"
+
+# src/preferences.c:401
+#: src/print.c:2706
+msgid "Format:"
+msgstr "格式："
+
+#: src/print.c:2781
+msgid "Units:"
+msgstr "單位："
+
+# src/dupe.c:1655 src/dupe.c:1944
+#: src/print.c:2825
+msgid "Orientation:"
+msgstr "方位："
+
+#: src/print.c:2957
+msgid "Destination:"
+msgstr "說明："
+
+# src/utilops.c:980
+#: src/print.c:3005
+msgid "<printer name>"
+msgstr "<印表機名稱>"
+
+# 
+# src/collect.c:329 src/image.c:1058
+#: src/print.c:3094
+msgid "Unlimited"
+msgstr "無限制"
+
+#: src/print.c:3203
+msgid "Show"
+msgstr "顯示"
+
+# src/preferences.c:400
+#: src/print.c:3214
+msgid "Font"
+msgstr "字型"
+
+# 
+# src/menu.c:559
+#: src/print.c:3374
+msgid "Source"
+msgstr "來源"
+
+# src/preferences.c:676
+#: src/print.c:3390
+msgid "Proof size:"
+msgstr "索引大小："
+
+#: src/print.c:3406
+msgid "Text"
+msgstr "文字"
+
+#: src/print.c:3416
+msgid "Paper"
+msgstr "紙張"
+
+#: src/print.c:3439
+msgid "Margins"
+msgstr "邊界"
+
+#: src/print.c:3441
+msgid "Left:"
+msgstr "左："
+
+#: src/print.c:3444
+msgid "Right:"
+msgstr "右："
+
+#: src/print.c:3447
+msgid "Top:"
+msgstr "上："
+
+# 
+# src/utilops.c:989
+#: src/print.c:3450
+msgid "Bottom:"
+msgstr "下："
+
+# src/ui_pathsel.c:799
+#: src/print.c:3459
+msgid "Printer"
+msgstr "印表機"
+
+#: src/print.c:3465
+msgid "Custom printer:"
+msgstr "自訂印表機："
+
+# 
+# src/ui_pathsel.c:799
+#: src/print.c:3474
+msgid "File:"
+msgstr "檔案："
+
+# src/ui_pathsel.c:799
+#: src/print.c:3483
+msgid "File format:"
+msgstr "檔案格式："
+
+#: src/print.c:3488
+msgid "DPI:"
+msgstr "DPI:"
+
+# 
+# src/preferences.c:782
+#: src/print.c:3496
+msgid "Remember print settings"
+msgstr "儲存印表設定"
+
+# 
+# src/rcfile.c:132
+#: src/rcfile.c:185
+#, c-format
+msgid "error saving config file: %s\n"
+msgstr "儲存設定檔錯誤：%s\n"
+
+# src/preferences.c:368
+#: src/search.c:200
+msgid "folder"
+msgstr "資料夾"
+
+# 
+# src/collect-table.c:1820 src/dupe.c:2172
+#: src/search.c:201
+msgid "comments"
+msgstr "備註"
+
+#: src/search.c:202
+msgid "results"
+msgstr "結果"
+
+# 
+# src/utilops.c:328 src/utilops.c:394 src/utilops.c:668
+#: src/search.c:206
+msgid "contains"
+msgstr "包含"
+
+#: src/search.c:207
+msgid "is"
+msgstr "是"
+
+#: src/search.c:211 src/search.c:218
+msgid "equal to"
+msgstr "等同於"
+
+#: src/search.c:212
+msgid "less than"
+msgstr "小於"
+
+#: src/search.c:213
+msgid "greater than"
+msgstr "大於"
+
+#: src/search.c:214 src/search.c:221
+msgid "between"
+msgstr "介於"
+
+#: src/search.c:219
+msgid "before"
+msgstr "之前"
+
+# src/dupe.c:1654 src/dupe.c:1943
+#: src/search.c:220
+msgid "after"
+msgstr "之後"
+
+#: src/search.c:225
+msgid "match all"
+msgstr "全數符合"
+
+#: src/search.c:226
+msgid "match any"
+msgstr "符合任一"
+
+#: src/search.c:227
+msgid "exclude"
+msgstr "排除"
+
+# src/filelist.c:86
+#: src/search.c:277
+#, c-format
+msgid "%s, %d files (%s, %d)"
+msgstr "%s，%d 個檔案 (%s，%d)"
+
+# src/filelist.c:88
+#: src/search.c:284
+#, c-format
+msgid "%s, %d files"
+msgstr "%s，%d 個檔案"
+
+# src/dupe.c:871 src/dupe.c:892
+#: src/search.c:301
+msgid "Searching..."
+msgstr "尋找中..."
+
+#: src/search.c:2093
+msgid "File not found"
+msgstr "找不到檔案"
+
+# 
+# src/utilops.c:544
+#: src/search.c:2094
+msgid "Please enter an existing file for image content."
+msgstr "請替影像的內容輸入一個已存在的檔案。"
+
+#: src/search.c:2140
+msgid "Folder not found"
+msgstr "找不到資料夾"
+
+# 
+# src/utilops.c:544
+#: src/search.c:2141
+msgid "Please enter an existing folder to search."
+msgstr "請選擇一個已存在的資料夾以進行搜尋。"
+
+#: src/search.c:2570
+msgid "Image search - GQview"
+msgstr "搜尋影像 - GQview"
+
+# src/dupe.c:871 src/dupe.c:892
+#: src/search.c:2599
+msgid "Search:"
+msgstr "搜尋："
+
+#: src/search.c:2613
+msgid "Recurse"
+msgstr "遞迴"
+
+# src/utilops.c:980
+#: src/search.c:2617
+msgid "File name"
+msgstr "檔案名稱"
+
+#: src/search.c:2623
+msgid "Match case"
+msgstr "大小相符"
+
+# src/preferences.c:368
+#: src/search.c:2627
+msgid "File size is"
+msgstr "檔案大小為"
+
+# 
+# src/preferences.c:645
+#: src/search.c:2634 src/search.c:2649 src/search.c:2667
+msgid "and"
+msgstr "且"
+
+# src/ui_pathsel.c:799
+#: src/search.c:2639
+msgid "File date is"
+msgstr "檔案日期為"
+
+# src/utilops.c:539
+#: src/search.c:2656
+msgid "Image dimensions are"
+msgstr "影像大小為"
+
+# 
+# src/collect-table.c:1820 src/dupe.c:2172
+#: src/search.c:2676
+msgid "Image content is"
+msgstr "影像內容為"
+
+# 
+# src/dupe.c:1659
+#: src/search.c:2682
+#, no-c-format
+msgid "% similar to"
+msgstr "% 相似於"
+
+# 
+# src/preferences.c:645
+#: src/search.c:2751
+msgid "Rank"
+msgstr "排列"
+
+# src/thumb.c:268
+#: src/thumb.c:378
+msgid "Thumbnail image in cache failed to load, trying to recreate.\n"
+msgstr "無法載入緩衝區裡的縮圖，試著重新產生。\n"
+
+# 
+# src/ui_tabcomp.c:171
+#: src/ui_bookmark.c:148
+#, c-format
+msgid "Unable to write history lists to: %s\n"
+msgstr "無法將歷史列表寫入：%s\n"
+
+#: src/ui_bookmark.c:445 src/ui_bookmark.c:508
+msgid "New Bookmark"
+msgstr "新增書籤"
+
+# src/preferences.c:915
+#: src/ui_bookmark.c:591 src/ui_bookmark.c:597
+msgid "Edit Bookmark"
+msgstr "編輯書籤"
+
+# src/dupe.c:1657 src/dupe.c:1945
+#: src/ui_bookmark.c:612
+msgid "Path:"
+msgstr "路徑："
+
+#: src/ui_bookmark.c:621
+msgid "Icon:"
+msgstr "圖示："
+
+# 
+# src/collect-table.c:628 src/dupe.c:1393 src/dupe.c:1565
+#: src/ui_bookmark.c:627
+msgid "Select icon"
+msgstr "選擇圖示"
+
+# src/menu.c:748
+#: src/ui_bookmark.c:718
+msgid "_Properties..."
+msgstr "內容(_P)..."
+
+# src/utilops.c:601
+#: src/ui_bookmark.c:720
+msgid "Move _up"
+msgstr "往上移動(_U)"
+
+# src/utilops.c:601
+#: src/ui_bookmark.c:722
+msgid "Move _down"
+msgstr "往下移動(_D)"
+
+# src/collect-table.c:622 src/dupe.c:1410 src/dupe.c:1568
+#: src/ui_bookmark.c:724
+msgid "_Remove"
+msgstr "移除(_R)"
+
+# 
+# src/ui_help.c:191
+#: src/ui_help.c:111
+#, c-format
+msgid ""
+"Unable to load:\n"
+"%s"
+msgstr ""
+"無法載入：\n"
+"%s"
+
+# 
+# src/ui_pathsel.c:313
+#: src/ui_pathsel.c:429 src/utilops.c:2486
+#, c-format
+msgid "Failed to rename %s to %s."
+msgstr "不能將檔案名稱由 %s 更改為 %s。"
+
+# 
+# src/ui_pathsel.c:343 src/utilops.c:675 src/utilops.c:727
+#: src/ui_pathsel.c:485 src/utilops.c:1347 src/utilops.c:1520
+#, c-format
+msgid ""
+"Unable to delete file:\n"
+"%s"
+msgstr ""
+"無法刪除檔案：\n"
+"%s"
+
+# 
+# src/ui_pathsel.c:344 src/utilops.c:728
+#: src/ui_pathsel.c:486 src/utilops.c:1521
+msgid "File deletion failed"
+msgstr "刪除檔案失敗"
+
+# 
+# src/ui_pathsel.c:398 src/utilops.c:760
+#: src/ui_pathsel.c:528 src/ui_pathsel.c:536
+msgid "Delete file"
+msgstr "刪除檔案"
+
+# 
+# src/ui_pathsel.c:397 src/utilops.c:759
+#: src/ui_pathsel.c:534
+#, c-format
+msgid ""
+"About to delete the file:\n"
+" %s"
+msgstr ""
+"將要刪除檔案：\n"
+" %s"
+
+# src/ui_pathsel.c:437 src/ui_pathsel.c:460 src/utilops.c:944
+# src/utilops.c:1095
+#: src/ui_pathsel.c:625 src/ui_pathsel.c:633 src/utilops.c:2096
+#: src/utilops.c:2320
+msgid "_Rename"
+msgstr "更改名稱(_R)"
+
+# src/preferences.c:915
+#: src/ui_pathsel.c:627 src/ui_pathsel.c:637
+msgid "Add _Bookmark"
+msgstr "新增書籤(_B)"
+
+# src/ui_pathsel.c:402 src/ui_pathsel.c:461 src/utilops.c:711
+# src/utilops.c:764
+#: src/ui_pathsel.c:635
+msgid "_Delete"
+msgstr "刪除(_D)"
+
+#: src/ui_pathsel.c:739 src/ui_pathsel.c:1044
+msgid "New folder"
+msgstr "新資料夾"
+
+# 
+# src/ui_pathsel.c:517 src/utilops.c:1158
+#: src/ui_pathsel.c:749 src/utilops.c:2392 src/view_dir_list.c:330
+#: src/view_dir_tree.c:426
+#, c-format
+msgid ""
+"Unable to create folder:\n"
+"%s"
+msgstr ""
+"無法建立資料夾：\n"
+"%s"
+
+# 
+# src/ui_pathsel.c:518 src/utilops.c:1159
+#: src/ui_pathsel.c:750 src/utilops.c:2393 src/view_dir_list.c:331
+#: src/view_dir_tree.c:427
+msgid "Error creating folder"
+msgstr "在建立資料夾時發生錯誤"
+
+# 
+# src/ui_pathsel.c:697
+#: src/ui_pathsel.c:971
+msgid "All Files"
+msgstr "所有檔案"
+
+# 
+# src/ui_pathsel.c:764
+#: src/ui_pathsel.c:1047
+msgid "Show hidden"
+msgstr "顯示隱藏檔"
+
+# 
+# src/ui_pathsel.c:799
+#: src/ui_pathsel.c:1131
+msgid "Filter:"
+msgstr "過濾器："
+
+# src/collect-table.c:627 src/dupe.c:1391 src/dupe.c:1563
+#: src/ui_tabcomp.c:836
+msgid "Select path"
+msgstr "選擇路徑"
+
+# 
+# src/ui_pathsel.c:697
+#: src/ui_tabcomp.c:852
+msgid "All files"
+msgstr "所有檔案"
+
+# 
+# src/utilops.c:339 src/utilops.c:459 src/utilops.c:826 src/utilops.c:1032
+#: src/utilops.c:498 src/utilops.c:819 src/utilops.c:1699 src/utilops.c:2251
+msgid "Overwrite file"
+msgstr "覆寫檔案"
+
+# 
+# src/utilops.c:339 src/utilops.c:459 src/utilops.c:826 src/utilops.c:1032
+#: src/utilops.c:503 src/utilops.c:824 src/utilops.c:1704 src/utilops.c:2256
+msgid "Overwrite file?"
+msgstr "是否覆寫檔案？"
+
+#: src/utilops.c:504 src/utilops.c:825
+msgid "Replace existing file with new file."
+msgstr "用新的檔案取代已存在的檔案。"
+
+# 
+# src/utilops.c:339 src/utilops.c:459 src/utilops.c:826 src/utilops.c:1032
+#: src/utilops.c:508
+msgid "Overwrite _all"
+msgstr "覆寫所有檔案(_a)"
+
+# src/utilops.c:345
+#: src/utilops.c:510
+msgid "S_kip all"
+msgstr "全部略過(_k)"
+
+# 
+# src/utilops.c:345
+#: src/utilops.c:511
+msgid "_Skip"
+msgstr "略過(_S)"
+
+# 
+# src/utilops.c:387 src/utilops.c:495
+#: src/utilops.c:512 src/utilops.c:829 src/utilops.c:1709 src/utilops.c:2261
+msgid "Existing file"
+msgstr "已存在的檔案"
+
+#: src/utilops.c:512 src/utilops.c:829 src/utilops.c:1709 src/utilops.c:2261
+msgid "New file"
+msgstr "新資料夾"
+
+# src/preferences.c:930
+#: src/utilops.c:522 src/utilops.c:838 src/utilops.c:1805 src/utilops.c:1869
+#: src/utilops.c:2162
+msgid "Auto rename"
+msgstr "自動更改名稱"
+
+# 
+# src/ui_pathsel.c:437 src/ui_pathsel.c:460 src/utilops.c:944
+# src/utilops.c:1095
+#: src/utilops.c:530 src/utilops.c:846
+msgid "Rename"
+msgstr "更改名稱"
+
+# 
+# src/utilops.c:316
+#: src/utilops.c:571
+msgid "Source to copy matches destination"
+msgstr "要進行複製的來源和目的地位置相同"
+
+# src/utilops.c:317
+#: src/utilops.c:572
+#, c-format
+msgid ""
+"Unable to copy file:\n"
+"%s\n"
+"to itself."
+msgstr ""
+"無法將檔案：\n"
+"%s\n"
+"複製到同一位置。"
+
+# 
+# src/utilops.c:321
+#: src/utilops.c:576
+msgid "Source to move matches destination"
+msgstr "要進行移動的來源和目的地位置相同"
+
+# 
+# src/utilops.c:322
+#: src/utilops.c:577
+#, c-format
+msgid ""
+"Unable to move file:\n"
+"%s\n"
+"to itself."
+msgstr ""
+"無法將檔案：\n"
+"%s\n"
+"移動到同一位置。"
+
+# 
+# src/utilops.c:328 src/utilops.c:394 src/utilops.c:668
+#: src/utilops.c:585 src/utilops.c:672 src/utilops.c:1339
+msgid "Co_ntinue"
+msgstr "繼續(_n)"
+
+# src/utilops.c:382 src/utilops.c:490
+#: src/utilops.c:658 src/utilops.c:886
+msgid "Error copying file"
+msgstr "複製檔案時發生錯誤"
+
+# src/utilops.c:383
+#: src/utilops.c:659
+#, c-format
+msgid ""
+"Unable to copy file:\n"
+"%s\n"
+"to:\n"
+"%s\n"
+"during multiple file copy."
+msgstr ""
+"在複製多個檔案時，無法將檔案：\n"
+"%s\n"
+"複製至：\n"
+"%s"
+
+# 
+# src/utilops.c:387 src/utilops.c:495
+#: src/utilops.c:663 src/utilops.c:891
+msgid "Error moving file"
+msgstr "移動檔案時發生錯誤"
+
+# src/utilops.c:388
+#: src/utilops.c:664
+#, c-format
+msgid ""
+"Unable to move file:\n"
+"%s\n"
+"to:\n"
+"%s\n"
+"during multiple file move."
+msgstr ""
+"在移動多個檔案時，無法將檔案：\n"
+"%s\n"
+"移動至：\n"
+"%s"
+
+# 
+# src/utilops.c:450
+#: src/utilops.c:810
+msgid "Source matches destination"
+msgstr "來源和目的地相同"
+
+# 
+# src/utilops.c:451
+#: src/utilops.c:811
+msgid "Source and destination are the same, operation cancelled."
+msgstr "來源和目的地一樣，取消操作。"
+
+# 
+# src/utilops.c:491
+#: src/utilops.c:887
+#, c-format
+msgid ""
+"Unable to copy file:\n"
+"%s\n"
+"to:\n"
+"%s"
+msgstr ""
+"無法將檔案：\n"
+"%s\n"
+"複製到：\n"
+"%s"
+
+# 
+# src/utilops.c:496
+#: src/utilops.c:892
+#, c-format
+msgid ""
+"Unable to move file:\n"
+"%s\n"
+"to:\n"
+"%s"
+msgstr ""
+"無法將檔案：\n"
+"%s\n"
+"移動到：\n"
+"%s"
+
+# 
+# src/utilops.c:539
+#: src/utilops.c:940
+msgid "Invalid destination"
+msgstr "無效的目的地"
+
+# src/utilops.c:540
+#: src/utilops.c:941
+msgid ""
+"When operating with multiple files, please select\n"
+"a folder, not a file."
+msgstr ""
+"當處理多個檔案時，請選擇\n"
+"一個資料夾，而不該是檔案。"
+
+# 
+# src/utilops.c:544
+#: src/utilops.c:946
+msgid "Please select an existing folder."
+msgstr "請選擇一個已存在的資料夾"
+
+# src/main.c:129
+#: src/utilops.c:1015
+msgid "Copy - GQview"
+msgstr "複製 - GQview"
+
+# src/utilops.c:592
+#: src/utilops.c:1016 src/view_dir_list.c:209 src/view_dir_tree.c:301
+msgid "_Copy"
+msgstr "複製(_C)"
+
+# src/utilops.c:1090
+#: src/utilops.c:1019
+msgid "Copy file"
+msgstr "複製檔案"
+
+# 
+# src/utilops.c:596
+#: src/utilops.c:1023
+msgid "Copy multiple files"
+msgstr "複製多個檔案"
+
+# src/main.c:129
+#: src/utilops.c:1029
+msgid "Move - GQview"
+msgstr "移動 - GQview"
+
+# src/utilops.c:601
+#: src/utilops.c:1030 src/view_dir_list.c:211 src/view_dir_tree.c:303
+msgid "_Move"
+msgstr "移動(_M)"
+
+# src/utilops.c:1090
+#: src/utilops.c:1033
+msgid "Move file"
+msgstr "移動檔案"
+
+# 
+# src/utilops.c:605
+#: src/utilops.c:1037
+msgid "Move multiple files"
+msgstr "移動多個檔案"
+
+# src/utilops.c:980
+#: src/utilops.c:1051 src/utilops.c:1561
+msgid "File name:"
+msgstr "檔案名稱："
+
+# 
+# src/utilops.c:450
+#: src/utilops.c:1055
+msgid "Choose the destination folder."
+msgstr "請選擇目的資料夾。"
+
+# 
+# src/utilops.c:664 src/utilops.c:676
+#: src/utilops.c:1182 src/utilops.c:1331 src/utilops.c:1348
+msgid "Delete failed"
+msgstr "刪除失敗"
+
+# src/utilops.c:322
+#: src/utilops.c:1183
+msgid "Unable to remove old file from trash folder"
+msgstr "無法從垃圾桶資料夾中移除舊檔案"
+
+# 
+# src/utilops.c:1151
+#: src/utilops.c:1239 src/utilops.c:2385
+msgid "Could not create folder"
+msgstr "無法建立資料夾"
+
+#: src/utilops.c:1261
+msgid "Permission denied"
+msgstr "權限不足"
+
+# src/ui_pathsel.c:517 src/utilops.c:1158
+#: src/utilops.c:1271
+#, c-format
+msgid ""
+"Unable to access or create the trash folder.\n"
+"\"%s\""
+msgstr ""
+"無法存取或建立垃圾桶資料夾。\n"
+"\"%s\""
+
+# src/preferences.c:667
+#: src/utilops.c:1275
+msgid "Turn off safe delete"
+msgstr "關閉安全刪除"
+
+# src/preferences.c:667
+#: src/utilops.c:1293
+#, c-format
+msgid "Safe delete: %s"
+msgstr "安全刪除: %s"
+
+# 
+# src/utilops.c:663
+#: src/utilops.c:1335
+#, c-format
+msgid ""
+"Unable to delete file:\n"
+" %s\n"
+" Continue multiple delete operation?"
+msgstr ""
+"無法刪除檔案：\n"
+" %s\n"
+"是否繼續刪除其它檔案？"
+
+#: src/utilops.c:1406
+#, c-format
+msgid "File %d of %d"
+msgstr "檔案 %d/%d"
+
+# 
+# src/utilops.c:707
+#: src/utilops.c:1475
+msgid "Delete files - GQview"
+msgstr "刪除檔案 - GQview"
+
+# 
+# src/utilops.c:942
+#: src/utilops.c:1479
+msgid "Delete multiple files"
+msgstr "刪除多個檔案"
+
+# src/dupe.c:67 src/dupe.c:1449
+#: src/utilops.c:1497
+#, c-format
+msgid "Review %d files"
+msgstr "回顧 %d 個檔案"
+
+# 
+# src/ui_pathsel.c:398 src/utilops.c:760
+#: src/utilops.c:1553
+msgid "Delete file - GQview"
+msgstr "刪除檔案 - GQview"
+
+# 
+# src/ui_pathsel.c:398 src/utilops.c:760
+#: src/utilops.c:1557
+msgid "Delete file?"
+msgstr "是否刪除檔案？"
+
+#: src/utilops.c:1705 src/utilops.c:2257
+msgid "Replace existing file by renaming new file."
+msgstr "更改新檔案的名稱以取代已存在的檔案。"
+
+# src/utilops.c:842
+#: src/utilops.c:1720
+#, c-format
+msgid ""
+"Unable to rename file:\n"
+"%s\n"
+" to:\n"
+"%s"
+msgstr ""
+"無法將檔案名稱：\n"
+"%s\n"
+"改為：\n"
+"%s"
+
+# 
+# src/filelist.c:809 src/filelist.c:815 src/filelist.c:821 src/utilops.c:845
+# src/utilops.c:1048
+#: src/utilops.c:1723 src/utilops.c:2272 src/view_file_list.c:451
+#: src/view_file_list.c:457 src/view_file_list.c:463
+msgid "Error renaming file"
+msgstr "在更改檔案名稱時發生錯誤"
+
+#: src/utilops.c:1806
+msgid ""
+"Can not auto rename with the selected\n"
+"number set, one or more files exist that\n"
+"match the resulting name list.\n"
+msgstr ""
+"無法自動得以指定的數字組來更改檔案名稱，\n"
+"命名結果和一個或多個現存檔案衝突。\n"
+
+# src/ui_pathsel.c:313
+#: src/utilops.c:1868
+#, c-format
+msgid ""
+"Failed to rename\n"
+"%s\n"
+"The number was %d."
+msgstr ""
+"無法更改檔案名稱\n"
+"%s\n"
+"編號為 %d。"
+
+# src/main.c:129
+#: src/utilops.c:2092 src/utilops.c:2314
+msgid "Rename - GQview"
+msgstr "更改名稱 - GQview"
+
+# 
+# src/utilops.c:942
+#: src/utilops.c:2095
+msgid "Rename multiple files"
+msgstr "更改多個檔案的名稱"
+
+#: src/utilops.c:2127
+msgid "Original Name"
+msgstr "原檔名"
+
+#: src/utilops.c:2171 src/utilops.c:2327
+msgid "Original name:"
+msgstr "原檔名："
+
+# 
+# src/utilops.c:980
+#: src/utilops.c:2174 src/utilops.c:2330
+msgid "New name:"
+msgstr "新檔名："
+
+#: src/utilops.c:2192
+msgid "Begin text"
+msgstr "開頭文字"
+
+#: src/utilops.c:2200
+msgid "Start #"
+msgstr "開始 #"
+
+#: src/utilops.c:2206
+msgid "End text"
+msgstr "結束文字"
+
+#: src/utilops.c:2214
+msgid "Padding:"
+msgstr "間隔："
+
+# src/filelist.c:820 src/utilops.c:1047
+#: src/utilops.c:2271 src/view_file_list.c:462
+#, c-format
+msgid ""
+"Unable to rename file:\n"
+"%s\n"
+"to:\n"
+"%s"
+msgstr ""
+"無法將檔案名稱：\n"
+"%s\n"
+"更改為：\n"
+"%s"
+
+# src/utilops.c:1090
+#: src/utilops.c:2317
+msgid "Rename file"
+msgstr "更改檔案名稱"
+
+# 
+# src/utilops.c:1144
+#: src/utilops.c:2378 src/utilops.c:2468
+#, c-format
+msgid ""
+"The folder:\n"
+"%s\n"
+"already exists."
+msgstr ""
+"該資料夾：\n"
+"%s\n"
+"已經存在。"
+
+# src/preferences.c:368
+#: src/utilops.c:2379 src/utilops.c:2469
+msgid "Folder exists"
+msgstr "資料夾已存在"
+
+# 
+# src/utilops.c:1150
+#: src/utilops.c:2384 src/utilops.c:2477
+#, c-format
+msgid ""
+"The path:\n"
+"%s\n"
+"already exists as a file."
+msgstr ""
+"該路徑：\n"
+"%s\n"
+"已存在，且是一個檔案。"
+
+# src/main.c:129
+#: src/utilops.c:2436
+msgid "New folder - GQview"
+msgstr "新資料夾 - GQview"
+
+# 
+# src/utilops.c:1211
+#: src/utilops.c:2439
+#, c-format
+msgid ""
+"Create folder in:\n"
+"%s\n"
+"named:"
+msgstr ""
+"建立資料夾於：\n"
+"%s\n"
+"名稱："
+
+# src/utilops.c:1090
+#: src/utilops.c:2478 src/utilops.c:2487
+#, fuzzy
+msgid "Rename failed"
+msgstr "更改檔案名稱"
+
+#: src/view_dir_list.c:321 src/view_dir_tree.c:417
+msgid "new_folder"
+msgstr "新資料夾(_f)"
+
+#: src/view_dir_list.c:379 src/view_dir_tree.c:474
+msgid "_Up to parent"
+msgstr "至上層資料夾(_U)"
+
+# src/menu.c:879
+#: src/view_dir_list.c:384 src/view_dir_tree.c:479
+msgid "_Slideshow"
+msgstr "投影片(_S)"
+
+# 
+# src/menu.c:881
+#: src/view_dir_list.c:386 src/view_dir_tree.c:481
+msgid "Slideshow recursive"
+msgstr "投影片（包含子目錄）"
+
+# src/collect-table.c:644 src/menu.c:885
+#: src/view_dir_list.c:390 src/view_dir_tree.c:485
+msgid "Find _duplicates..."
+msgstr "尋找重複檔案(_D)..."
+
+# src/menu.c:887
+#: src/view_dir_list.c:392 src/view_dir_tree.c:487
+msgid "Find duplicates recursive..."
+msgstr "同時在子目錄中尋找重複檔案..."
+
+#: src/view_dir_list.c:399 src/view_dir_tree.c:494
+msgid "_New folder..."
+msgstr "新資料夾(_N)..."
+
+# src/menu.c:761
+#: src/view_dir_list.c:411 src/view_dir_tree.c:501
+msgid "View as _tree"
+msgstr "以樹狀檢視(_T)"
+
+# src/menu.c:891 src/menu.c:920
+#: src/view_dir_list.c:413 src/view_dir_tree.c:503 src/view_file_icon.c:315
+#: src/view_file_list.c:426
+msgid "Re_fresh"
+msgstr "重新整理(_F)"
+
+# src/menu.c:559
+#: src/view_file_icon.c:308 src/view_file_list.c:419
+msgid "_Sort"
+msgstr "排列(_S)"
+
+# src/dupe.c:1655 src/dupe.c:1944
+#: src/view_file_icon.c:311 src/view_file_list.c:422
+msgid "View as _icons"
+msgstr "以圖示檢視(_i)"
+
+# src/preferences.c:603
+#: src/view_file_list.c:424
+msgid "Show _thumbnails"
+msgstr "顯示縮圖(_t)"
+
+# src/filelist.c:808
+#: src/view_file_list.c:450
+#, c-format
+msgid ""
+"Invalid file name:\n"
+"%s"
+msgstr ""
+"無效的檔案名稱：\n"
+"%s"
+
+# 
+# src/cache_maint.c:252
+#~ msgid "Purge thumbnails"
+#~ msgstr "清除縮圖"
+
+# src/menu.c:710
+#~ msgid "/File/tear1"
+#~ msgstr "/檔案/tear1"
+
+# 
+# src/menu.c:711
+#~ msgid "/File/_New collection"
+#~ msgstr "/檔案/新增選集(_N)"
+
+# 
+# src/menu.c:712
+#~ msgid "/File/_Open collection..."
+#~ msgstr "/檔案/開啟選集(_O)..."
+
+# 
+# src/menu.c:714
+#~ msgid "/File/sep1"
+#~ msgstr "/檔案/sep1"
+
+# 
+# src/menu.c:721
+#~ msgid "/File/_Search..."
+#~ msgstr "/檔案/搜尋(_S)..."
+
+# 
+# src/menu.c:715
+#~ msgid "/File/_Find duplicates..."
+#~ msgstr "/檔案/尋找重複檔案(_F)..."
+
+# 
+# src/menu.c:716
+#~ msgid "/File/sep2"
+#~ msgstr "/檔案/sep2"
+
+# 
+# src/menu.c:721
+#~ msgid "/File/_Print..."
+#~ msgstr "/檔案/列印(_P)..."
+
+# src/menu.c:722
+#~ msgid "/File/N_ew folder..."
+#~ msgstr "/檔案/新資料夾(_E)..."
+
+# 
+# src/menu.c:718
+#~ msgid "/File/sep3"
+#~ msgstr "/檔案/sep3"
+
+# 
+# src/menu.c:719
+#~ msgid "/File/_Copy..."
+#~ msgstr "/檔案/複製(_C)..."
+
+# 
+# src/menu.c:720
+#~ msgid "/File/_Move..."
+#~ msgstr "/檔案/移動(_M)..."
+
+# 
+# src/menu.c:721
+#~ msgid "/File/_Rename..."
+#~ msgstr "/檔案/更改名稱(_R)..."
+
+# 
+# src/menu.c:722
+#~ msgid "/File/_Delete..."
+#~ msgstr "/檔案/刪除(_D)..."
+
+# 
+# src/menu.c:723
+#~ msgid "/File/sep4"
+#~ msgstr "/檔案/sep4"
+
+# src/dupe.c:1415 src/dupe.c:1573 src/img-view.c:841
+#~ msgid "/File/C_lose window"
+#~ msgstr "/檔案/關閉視窗(_L)"
+
+# 
+# src/menu.c:724
+#~ msgid "/File/_Quit"
+#~ msgstr "/檔案/離開(_Q)"
+
+# 
+# src/menu.c:726
+#~ msgid "/_Edit"
+#~ msgstr "/編輯(_E)"
+
+# src/menu.c:727
+#~ msgid "/Edit/tear1"
+#~ msgstr "/編輯/tear1"
+
+# 
+# src/menu.c:728
+#~ msgid "/Edit/editor1"
+#~ msgstr "/編輯/editor1"
+
+# 
+# src/menu.c:729
+#~ msgid "/Edit/editor2"
+#~ msgstr "/編輯/editor2"
+
+# 
+# src/menu.c:730
+#~ msgid "/Edit/editor3"
+#~ msgstr "/編輯/editor3"
+
+# 
+# src/menu.c:731
+#~ msgid "/Edit/editor4"
+#~ msgstr "/編輯/editor4"
+
+# 
+# src/menu.c:732
+#~ msgid "/Edit/editor5"
+#~ msgstr "/編輯/editor5"
+
+# 
+# src/menu.c:733
+#~ msgid "/Edit/editor6"
+#~ msgstr "/編輯/editor6"
+
+# 
+# src/menu.c:734
+#~ msgid "/Edit/editor7"
+#~ msgstr "/編輯/editor7"
+
+# 
+# src/menu.c:735
+#~ msgid "/Edit/editor8"
+#~ msgstr "/編輯/editor8"
+
+# src/menu.c:728
+#~ msgid "/Edit/editor9"
+#~ msgstr "/編輯/editor9"
+
+# src/menu.c:728
+#~ msgid "/Edit/editor0"
+#~ msgstr "/編輯/editor0"
+
+# 
+# src/menu.c:736
+#~ msgid "/Edit/sep1"
+#~ msgstr "/編輯/sep1"
+
+# 
+# src/menu.c:737
+#~ msgid "/Edit/_Adjust"
+#~ msgstr "/編輯/調整(_A)"
+
+# src/menu.c:748
+#~ msgid "/Edit/_Properties"
+#~ msgstr "/編輯/內容(_P)"
+
+# 
+# src/menu.c:738
+#~ msgid "/Edit/Adjust/tear1"
+#~ msgstr "/編輯/調整/tear1"
+
+# 
+# src/menu.c:739
+#~ msgid "/Edit/Adjust/_Rotate clockwise"
+#~ msgstr "/編輯/調整/順時針轉 90 度(_R)"
+
+# 
+# src/menu.c:740
+#~ msgid "/Edit/Adjust/Rotate _counterclockwise"
+#~ msgstr "/編輯/調整/逆時針轉 90 度(_C)"
+
+# 
+# src/menu.c:741
+#~ msgid "/Edit/Adjust/Rotate 1_80"
+#~ msgstr "/編輯/調整/旋轉 180 度(_8)"
+
+# 
+# src/menu.c:742
+#~ msgid "/Edit/Adjust/_Mirror"
+#~ msgstr "/編輯/調整/左右反轉(_M)"
+
+# 
+# src/menu.c:743
+#~ msgid "/Edit/Adjust/_Flip"
+#~ msgstr "/編輯/調整/上下反轉(_F)"
+
+# src/menu.c:744
+#~ msgid "/Edit/sep2"
+#~ msgstr "/編輯/sep2"
+
+# 
+# src/menu.c:745
+#~ msgid "/Edit/Select _all"
+#~ msgstr "/編輯/選擇全部(_A)"
+
+# 
+# src/menu.c:746
+#~ msgid "/Edit/Select _none"
+#~ msgstr "/編輯/全部不選(_N)"
+
+# 
+# src/menu.c:747
+#~ msgid "/Edit/sep3"
+#~ msgstr "/編輯/sep3"
+
+# 
+# src/menu.c:748
+#~ msgid "/Edit/_Options..."
+#~ msgstr "/編輯/選項(_O)..."
+
+# 
+# src/menu.c:750
+#~ msgid "/Edit/sep4"
+#~ msgstr "/編輯/sep4"
+
+# 
+# src/menu.c:751
+#~ msgid "/Edit/Set as _wallpaper"
+#~ msgstr "/編輯/設定為桌布(_w)"
+
+# 
+# src/menu.c:753
+#~ msgid "/_View"
+#~ msgstr "/檢視(_V)"
+
+# 
+# src/menu.c:754
+#~ msgid "/View/tear1"
+#~ msgstr "/檢視/tear1"
+
+# src/menu.c:755
+#~ msgid "/View/Zoom _in"
+#~ msgstr "/檢視/拉近(_i)"
+
+# 
+# src/menu.c:756
+#~ msgid "/View/Zoom _out"
+#~ msgstr "/檢視/拉遠(_o)"
+
+# 
+# src/menu.c:757
+#~ msgid "/View/Zoom _1:1"
+#~ msgstr "/檢視/原始大小(_1:1)"
+
+# 
+# src/menu.c:759
+#~ msgid "/View/sep1"
+#~ msgstr "/檢視/sep1"
+
+# 
+# src/menu.c:762
+#~ msgid "/View/_Thumbnails"
+#~ msgstr "/檢視/縮圖(_T)"
+
+# src/dupe.c:1655 src/dupe.c:1944
+#~ msgid "/View/I_cons"
+#~ msgstr "/檢視/圖示模式(_C)"
+
+# 
+# src/menu.c:764
+#~ msgid "/View/sep2"
+#~ msgstr "/檢視/sep2"
+
+# src/menu.c:761
+#~ msgid "/View/F_ull screen"
+#~ msgstr "/檢視/全螢幕(_U)"
+
+# 
+# src/menu.c:768
+#~ msgid "/View/sep3"
+#~ msgstr "/檢視/sep3"
+
+# src/menu.c:767
+#~ msgid "/View/_Hide file list"
+#~ msgstr "/檢視/隱藏檔案列表(_H)"
+
+# src/menu.c:759
+#~ msgid "/View/sep4"
+#~ msgstr "/檢視/sep4"
+
+# src/menu.c:755
+#~ msgid "/View/Sort _manager"
+#~ msgstr "/檢視/分類管理(_M)"
+
+# src/menu.c:759
+#~ msgid "/View/sep5"
+#~ msgstr "/檢視/sep5"
+
+# 
+# src/menu.c:769
+#~ msgid "/View/Toggle _slideshow"
+#~ msgstr "/檢視/切換投影片模式(_S)"
+
+# src/menu.c:765
+#~ msgid "/View/_Refresh Lists"
+#~ msgstr "/檢視/重新整理列表(_R)"
+
+# 
+# src/menu.c:772
+#~ msgid "/Help/tear1"
+#~ msgstr "/求助/tear1"
+
+# 
+# src/menu.c:775
+#~ msgid "/Help/sep1"
+#~ msgstr "/求助/sep1"
+
+# 
+# src/preferences.c:507
+#~ msgid "GQview configuration"
+#~ msgstr "GQview 設定"
+
+# 
+# src/menu.c:749
+#~ msgid "/Edit/_Remove old thumbnails"
+#~ msgstr "/編輯/移除舊縮圖(_R)"
+
+# 
+# src/dupe.c:1657 src/dupe.c:1945
+#~ msgid "path"
+#~ msgstr "路徑"
+
+# src/collect-dlg.c:167 src/collect.c:1052
+#~ msgid "Save"
+#~ msgstr "儲存"
+
+# 
+# src/collect.c:1053 src/ui_help.c:302
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+# 
+# src/collect-dlg.c:68
+#~ msgid ""
+#~ "Overwrite collection file:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "覆寫選集檔：\n"
+#~ "%s"
+
+# 
+# src/collect-dlg.c:166
+#~ msgid "Save collection as:"
+#~ msgstr "另存選集為："
+
+# src/collect-dlg.c:173
+#~ msgid "Open collection from:"
+#~ msgstr "由以下檔案開啟選集："
+
+# src/collect-dlg.c:174
+#~ msgid "Open"
+#~ msgstr "開啟"
+
+# 
+# src/collect-dlg.c:181
+#~ msgid "Append collection from:"
+#~ msgstr "由以下檔案附加至選集："
+
+# 
+# src/main.c:622
+#~ msgid "exit"
+#~ msgstr "離開"
+
+# 
+# src/main.c:622
+#~ msgid "Exit"
+#~ msgstr "離開"
+
+# 
+# src/preferences.c:165 src/preferences.c:523 src/ui_utildlg.c:208
+# src/utilops.c:220
+#~ msgid "Ok"
+#~ msgstr "確定"
+
+# 
+# src/collect-dlg.c:59
+#~ msgid "Initial folder"
+#~ msgstr "不正確的資料夾"
+
+# 
+# src/preferences.c:569
+#~ msgid "On startup, change to this folder:"
+#~ msgstr "在啟動時，切換到這個資料夾："
+
+# src/preferences.c:695 src/preferences.c:697
+#~ msgid "Zoom (scaling):"
+#~ msgstr "縮放（依比例）："
+
+# 
+# src/preferences.c:805
+#~ msgid "Place dialogs under mouse"
+#~ msgstr "將對話窗盒置於遊標下"
+
+# 
+# src/preferences.c:825
+#~ msgid "Include files of type:"
+#~ msgstr "包括檔案種類："
+
+# 
+# src/collect-table.c:622 src/dupe.c:1410 src/dupe.c:1568
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+# src/menu.c:771
+#~ msgid "Help"
+#~ msgstr "求助"
+
+# src/img-view.c:837 src/menu.c:1001
+#~ msgid "Full screen size:"
+#~ msgstr "全螢幕大小："
+
+# src/preferences.c:368
+#~ msgid "Point size:"
+#~ msgstr "點大小："
+
+#~ msgid "Width:"
+#~ msgstr "寬度"
+
+#~ msgid "Height:"
+#~ msgstr "高度"
+
+# 
+# src/utilops.c:338
+#~ msgid ""
+#~ "Overwrite file:\n"
+#~ " %s\n"
+#~ " with:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "將檔案：\n"
+#~ " %s\n"
+#~ " 覆寫為：\n"
+#~ " %s"
+
+# 
+# src/utilops.c:343
+#~ msgid "Yes"
+#~ msgstr "是"
+
+# src/utilops.c:344
+#~ msgid "Yes to all"
+#~ msgstr "全部皆是"
+
+# 
+# src/utilops.c:458
+#~ msgid ""
+#~ "Overwrite file:\n"
+#~ "%s\n"
+#~ " with:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "將檔案：\n"
+#~ "%s\n"
+#~ "覆寫為：\n"
+#~ "%s"
+
+# 
+# src/utilops.c:594
+#~ msgid ""
+#~ "Copy file:\n"
+#~ "%s\n"
+#~ "to:"
+#~ msgstr ""
+#~ "複製檔案：\n"
+#~ "%s\n"
+#~ "到："
+
+# 
+# src/utilops.c:603
+#~ msgid ""
+#~ "Move file:\n"
+#~ "%s\n"
+#~ "to:"
+#~ msgstr ""
+#~ "移動檔案：\n"
+#~ "%s\n"
+#~ "到："
+
+# 
+# src/utilops.c:707
+#~ msgid "About to delete multiple files..."
+#~ msgstr "將會刪除多個檔案..."
+
+# 
+# src/utilops.c:825 src/utilops.c:1031
+#~ msgid ""
+#~ "Overwrite file:\n"
+#~ "%s\n"
+#~ "by renaming:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "將檔案：\n"
+#~ "%s\n"
+#~ "覆寫為改變了檔案名稱的：\n"
+#~ "%s"
+
+# 
+# src/utilops.c:989
+#~ msgid "to:"
+#~ msgstr "至："
+
+# 
+# src/utilops.c:1216
+#~ msgid "Create"
+#~ msgstr "建立"
+
+# 
+# src/preferences.c:559
+#~ msgid "Initial directory"
+#~ msgstr "初始目錄"
+
+# src/ui_pathsel.c:507 src/ui_pathsel.c:759
+#~ msgid "New Directory"
+#~ msgstr "新增目錄"
+
+# 
+# src/ui_pathsel.c:517 src/utilops.c:1158
+#~ msgid ""
+#~ "Unable to create directory:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "無法建立目錄：\n"
+#~ "%s"
+
+# 
+# src/ui_pathsel.c:518 src/utilops.c:1159
+#~ msgid "Error creating directory"
+#~ msgstr "建立目錄發生錯誤"
+
+# src/utilops.c:539
+#~ msgid "Image details"
+#~ msgstr "影像細節"
+
+# 
+# src/menu.c:769
+#~ msgid "/View/Image _details"
+#~ msgstr "/檢視/影像細節(_d)"
+
+# 
+# src/collect-table.c:1820 src/dupe.c:2172
+#~ msgid "Add contents"
+#~ msgstr "加入所包含的內容"
+
+# 
+# src/collect-table.c:1821 src/dupe.c:2173
+#~ msgid "Add contents recursive"
+#~ msgstr "同時加入子目錄的內容"
+
+# 
+# src/collect-table.c:1822 src/dupe.c:2174
+#~ msgid "Skip directories"
+#~ msgstr "略過目錄"
+
+# 
+# src/utilops.c:543
+#~ msgid "Invalid directory"
+#~ msgstr "無效的目錄"
+
+# 
+# src/utilops.c:591
+#~ msgid "GQview - copy"
+#~ msgstr "GQview - 複製"
+
+# 
+# src/utilops.c:600
+#~ msgid "GQview - move"
+#~ msgstr "GQview - 移動"
+
+# src/utilops.c:1145
+#~ msgid "Directory exists"
+#~ msgstr "目錄已存在"
+
+# 
+# src/utilops.c:1212
+#~ msgid "GQview - new directory"
+#~ msgstr "GQview - 新增目錄"
+
+#~ msgid "Misc."
+#~ msgstr "雜項"

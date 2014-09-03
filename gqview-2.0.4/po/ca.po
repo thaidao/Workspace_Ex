@@ -1,0 +1,3025 @@
+# Penbwrdd yn Gymraeg.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# www.kyfieithu.co.uk, www.gyfieithu.co.uk, 2003.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GQview 1.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-02 12:05-0500\n"
+"PO-Revision-Date: 2005-09-10 18:08+0200\n"
+"Last-Translator: Jordi Vilalta Prat <jvprat@gmail.com>\n"
+"Language-Team: catux.org <mecatxis@ya.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/bar_info.c:30
+msgid "Favorite"
+msgstr "Preferit"
+
+#: src/bar_info.c:31
+msgid "Todo"
+msgstr "Pendents"
+
+#: src/bar_info.c:32
+msgid "People"
+msgstr "Gent"
+
+#: src/bar_info.c:33
+msgid "Places"
+msgstr "Llocs"
+
+#: src/bar_info.c:34
+msgid "Art"
+msgstr "Art"
+
+#: src/bar_info.c:35
+msgid "Nature"
+msgstr "Natura"
+
+#: src/bar_info.c:36
+msgid "Possessions"
+msgstr "Possessions"
+
+#: src/bar_info.c:505
+msgid "Keyword Presets"
+msgstr "Paraules Clau Predefinides"
+
+#: src/bar_info.c:508
+msgid "Favorite keywords list"
+msgstr "Llista de paraules clau preferides"
+
+#: src/bar_info.c:992 src/info.c:166 src/search.c:2692
+msgid "Keywords"
+msgstr "Paraules clau"
+
+#: src/bar_info.c:1006 src/info.c:716 src/print.c:2614
+msgid "Filename:"
+msgstr "Nom del fitxer:"
+
+#: src/bar_info.c:1007 src/info.c:360
+msgid "File date:"
+msgstr "Data:"
+
+#: src/bar_info.c:1027
+msgid "Keywords:"
+msgstr "Paraules clau:"
+
+#: src/bar_info.c:1095
+msgid "Comment:"
+msgstr "Comentari:"
+
+#: src/bar_info.c:1119
+msgid "Edit favorite keywords list."
+msgstr "Edita la llista de paraules clau preferides."
+
+#: src/bar_info.c:1123
+msgid "Add keywords to selected files"
+msgstr "Afegeix paraules clau als fitxers seleccionats"
+
+#: src/bar_info.c:1126
+msgid "Add keywords to selected files, replacing the existing ones."
+msgstr ""
+"Afegeix paraules clau als fitxers seleccionats i substitueix els ja "
+"existents."
+
+#: src/bar_info.c:1130
+msgid "Save comment now"
+msgstr "Desar commentari"
+
+#: src/bar_exif.c:423
+msgid "Tag"
+msgstr "Marcador"
+
+#: src/bar_exif.c:424 src/dupe.c:2589 src/dupe.c:3116 src/print.c:3205
+#: src/search.c:2753 src/view_file_list.c:1655
+msgid "Name"
+msgstr "Nom"
+
+#: src/bar_exif.c:425
+msgid "Value"
+msgstr "Valor"
+
+#: src/bar_exif.c:426
+msgid "Format"
+msgstr "Format"
+
+#: src/bar_exif.c:427
+msgid "Elements"
+msgstr "Elements"
+
+#: src/bar_exif.c:428 src/preferences.c:1026
+msgid "Description"
+msgstr "Descripció"
+
+#: src/bar_exif.c:549 src/info.c:105
+msgid "Exif"
+msgstr "Exif"
+
+#: src/bar_exif.c:622
+msgid "Advanced view"
+msgstr "Vista avançada"
+
+#: src/bar_sort.c:218
+msgid "Unlink failed"
+msgstr "No es pot fer Unlink"
+
+#: src/bar_sort.c:298
+msgid "Link failed"
+msgstr "No es pot obrir l'enllaç"
+
+#: src/bar_sort.c:435
+#, c-format
+msgid ""
+"The collection:\n"
+"%s\n"
+"already exists."
+msgstr ""
+"La col·lecció:\n"
+"%s\n"
+"ja existeix."
+
+#: src/bar_sort.c:436
+msgid "Collection exists"
+msgstr "Col·lecció existent"
+
+#: src/bar_sort.c:450 src/collect.c:1057 src/collect-dlg.c:84
+#, c-format
+msgid ""
+"Failed to save the collection:\n"
+"%s"
+msgstr ""
+"No s'ha pogut desar la col·lecció:\n"
+"%s"
+
+#: src/bar_sort.c:451 src/collect.c:1058 src/collect-dlg.c:85
+msgid "Save Failed"
+msgstr "No s'ha pogut desar"
+
+#: src/bar_sort.c:485 src/bar_sort.c:631
+msgid "Add Bookmark"
+msgstr "Afegeix a les adreces d'interès"
+
+#: src/bar_sort.c:489
+msgid "Add Collection"
+msgstr "Afegeix Col·lecció"
+
+#: src/bar_sort.c:506 src/ui_bookmark.c:603
+msgid "Name:"
+msgstr "Nom:"
+
+#: src/bar_sort.c:569
+msgid "Sort Manager"
+msgstr "Gestor d'ordenació"
+
+#: src/bar_sort.c:578 src/ui_pathsel.c:1094
+msgid "Folders"
+msgstr "Carpetes"
+
+#: src/bar_sort.c:579 src/main.c:1037
+msgid "Collections"
+msgstr "Col·leccions"
+
+#: src/bar_sort.c:586
+msgid "Copy"
+msgstr "Copia"
+
+#: src/bar_sort.c:593
+msgid "Move"
+msgstr "Mou"
+
+#: src/bar_sort.c:600
+msgid "Link"
+msgstr "Enllaç"
+
+#: src/bar_sort.c:610
+msgid "Add image"
+msgstr "Afegeix imatge"
+
+#: src/bar_sort.c:617
+msgid "Add selection"
+msgstr "Afegeix selecció"
+
+#: src/bar_sort.c:634
+msgid "Undo last image"
+msgstr "Desfés la darrera imatge"
+
+#: src/cache_maint.c:126 src/cache_maint.c:680 src/cache_maint.c:893
+#: src/editors.c:410
+msgid "done"
+msgstr "fet"
+
+#: src/cache_maint.c:303
+msgid "Removing old metadata..."
+msgstr "S'estan esborrant les metadades antigues..."
+
+#: src/cache_maint.c:307
+msgid "Clearing cached thumbnails..."
+msgstr "Netejant les miniatures de la memòria cau..."
+
+#: src/cache_maint.c:311 src/cache_maint.c:1047
+msgid "Removing old thumbnails..."
+msgstr "S'estan esborrant les miniatures antigues..."
+
+#: src/cache_maint.c:314 src/cache_maint.c:1050
+msgid "Maintenance"
+msgstr "Manteniment"
+
+#: src/cache_maint.c:791 src/utilops.c:945
+msgid "Invalid folder"
+msgstr "Carpeta no vàlida"
+
+#: src/cache_maint.c:792
+msgid "The specified folder can not be found."
+msgstr "No s'ha pogut trobar la carpeta especificada."
+
+#: src/cache_maint.c:820 src/cache_maint.c:834 src/cache_maint.c:1215
+msgid "Create thumbnails"
+msgstr "Crea miniatures"
+
+#: src/cache_maint.c:828 src/cache_maint.c:1057
+msgid "S_tart"
+msgstr "I_nici"
+
+#: src/cache_maint.c:841 src/preferences.c:1163
+msgid "Folder:"
+msgstr "Carpeta:"
+
+#: src/cache_maint.c:844
+msgid "Select folder"
+msgstr "Seleccioneu una carpeta"
+
+#: src/cache_maint.c:848
+msgid "Include subfolders"
+msgstr "Inclou les subcarpetes"
+
+#: src/cache_maint.c:849
+msgid "Store thumbnails local to source images"
+msgstr "Desa les miniatures al mateix lloc que les imatges originals"
+
+#: src/cache_maint.c:858 src/cache_maint.c:1066
+msgid "click start to begin"
+msgstr "feu clic a inici per començar"
+
+#: src/cache_maint.c:996 src/editors.c:558
+msgid "running..."
+msgstr "executant..."
+
+#: src/cache_maint.c:1042
+msgid "Clearing thumbnails..."
+msgstr "Esborrant miniatures..."
+
+#: src/cache_maint.c:1108 src/cache_maint.c:1111 src/cache_maint.c:1190
+#: src/cache_maint.c:1210
+msgid "Clear cache"
+msgstr "Buida la memoria cau"
+
+#: src/cache_maint.c:1112
+msgid ""
+"This will remove all thumbnails that have\n"
+"been saved to disk, continue?"
+msgstr ""
+"Aquesta acció esborrarà totes les miniatures que\n"
+"s'han desat al disc, voleu continuar?"
+
+#: src/cache_maint.c:1162
+msgid "Cache Maintenance - GQview"
+msgstr "Manteniment de la memòria cau - GQview"
+
+#: src/cache_maint.c:1172
+msgid "Cache and Data Maintenance"
+msgstr "Manteniment de Memòria cau i Dades"
+
+#: src/cache_maint.c:1176
+msgid "GQview thumbnail cache"
+msgstr "Memòria cau de miniatures de GQview"
+
+#: src/cache_maint.c:1178 src/cache_maint.c:1198 src/cache_maint.c:1226
+#: src/preferences.c:1140 src/utilops.c:1564
+msgid "Location:"
+msgstr "Ubicació:"
+
+#: src/cache_maint.c:1185 src/cache_maint.c:1205 src/cache_maint.c:1233
+msgid "Clean up"
+msgstr "Neteja"
+
+#: src/cache_maint.c:1188 src/cache_maint.c:1208
+msgid "Remove orphaned or outdated thumbnails."
+msgstr "Suprimeix les miniatures orfes o desactualitzades."
+
+#: src/cache_maint.c:1193 src/cache_maint.c:1213
+msgid "Delete all cached thumbnails."
+msgstr "Suprimeix totes les miniatures de la memòria cau."
+
+#: src/cache_maint.c:1196
+msgid "Shared thumbnail cache"
+msgstr "Miniatures de la memòria cau compartides"
+
+#: src/cache_maint.c:1219
+msgid "Render"
+msgstr "Representa"
+
+#: src/cache_maint.c:1222
+msgid "Render thumbnails for a specific folder."
+msgstr "Genera les miniatures per a una carpeta específica."
+
+#: src/cache_maint.c:1224
+msgid "Metadata"
+msgstr "Metadades"
+
+#: src/cache_maint.c:1236
+msgid "Remove orphaned keywords and comments."
+msgstr "Suprimeix les paraules clau i els comentaris orfes."
+
+#: src/collect.c:350 src/image.c:1160 src/image-overlay.c:74
+#: src/image-overlay.c:116
+#, c-format
+msgid "Untitled"
+msgstr "Sense títol"
+
+#: src/collect.c:354
+#, c-format
+msgid "Untitled (%d)"
+msgstr "Sense títol (%d)"
+
+#: src/collect.c:976
+#, c-format
+msgid "%s - GQview Collection"
+msgstr "%s - Col·lecció GQview"
+
+#: src/collect.c:1094 src/collect.c:1098
+msgid "Close collection"
+msgstr "Tanca la col·lecció"
+
+#: src/collect.c:1099
+msgid ""
+"Collection has been modified.\n"
+"Save first?"
+msgstr ""
+"S'ha modificat la col·lecció.\n"
+"Voleu desar abans de sortir?"
+
+#: src/collect.c:1102
+msgid "_Discard"
+msgstr "_Descarta"
+
+#: src/collect-dlg.c:58
+#, c-format
+msgid ""
+"Specified path:\n"
+"%s\n"
+"is a folder, collections are files"
+msgstr ""
+"El camí especificat:\n"
+"%s\n"
+"és una carpeta, les col·leccions són fitxers"
+
+#: src/collect-dlg.c:59
+msgid "Invalid filename"
+msgstr "Nom de fitxer no vàlid"
+
+#: src/collect-dlg.c:68
+msgid "Overwrite File"
+msgstr "S'obreescriu el fitxer"
+
+#: src/collect-dlg.c:73
+msgid "Overwrite existing file?"
+msgstr "Sobreescriure el fitxer existent?"
+
+#: src/collect-dlg.c:75 src/utilops.c:507 src/utilops.c:828 src/utilops.c:1708
+#: src/utilops.c:2260
+msgid "_Overwrite"
+msgstr "_Sobreescriure"
+
+#: src/collect-dlg.c:169
+msgid "Save collection"
+msgstr "Desa la col·lecció"
+
+#: src/collect-dlg.c:176
+msgid "Open collection"
+msgstr "Obre una col·lecció"
+
+#: src/collect-dlg.c:184
+msgid "Append collection"
+msgstr "Afegeix una col·lecció"
+
+#: src/collect-dlg.c:185
+msgid "_Append"
+msgstr "_Afegir"
+
+#: src/collect-dlg.c:203
+msgid "Collection Files"
+msgstr "Fitxers de col·lecció"
+
+#: src/collect-dlg.c:221
+msgid "Collection empty"
+msgstr "Col·lecció buida"
+
+#: src/collect-dlg.c:222
+msgid "The current collection is empty, save aborted."
+msgstr "La col·lecció actual és buida, no es pot desar."
+
+#: src/collect-table.c:164 src/layout_util.c:733
+msgid "Empty"
+msgstr "Buida"
+
+#: src/collect-table.c:168
+#, c-format
+msgid "%d images (%d)"
+msgstr "%d imatges (%d)"
+
+#: src/collect-table.c:172
+#, c-format
+msgid "%d images"
+msgstr "%d imatges"
+
+#: src/collect-table.c:186 src/dupe.c:1296 src/search.c:303
+#: src/view_file_icon.c:1782 src/view_file_icon.c:1897
+#: src/view_file_list.c:916 src/view_file_list.c:1021
+msgid "Loading thumbs..."
+msgstr "S'estan carregant les miniatures..."
+
+#: src/collect-table.c:773 src/dupe.c:2187 src/dupe.c:2497
+#: src/layout_util.c:776 src/search.c:969
+msgid "_View"
+msgstr "_Visualitza"
+
+#: src/collect-table.c:775 src/dupe.c:2189 src/dupe.c:2499 src/img-view.c:1249
+#: src/layout_image.c:734 src/search.c:971 src/view_file_icon.c:287
+#: src/view_file_list.c:398
+msgid "View in _new window"
+msgstr "Visualitzar en una finestra _nova"
+
+#: src/collect-table.c:778 src/dupe.c:2219 src/dupe.c:2507 src/search.c:997
+msgid "Rem_ove"
+msgstr "Sup_rimeix"
+
+#: src/collect-table.c:781
+msgid "Append from file list"
+msgstr "Afegeix des de la llista de fitxers"
+
+#: src/collect-table.c:783
+msgid "Append from collection..."
+msgstr "Afegeix des de col·lecció..."
+
+#: src/collect-table.c:786 src/dupe.c:2192 src/dupe.c:2502 src/search.c:974
+msgid "Select all"
+msgstr "Selecciona-ho tot"
+
+#: src/collect-table.c:788 src/dupe.c:2194 src/dupe.c:2504 src/search.c:976
+msgid "Select none"
+msgstr "Defés la selecció"
+
+#: src/collect-table.c:796 src/dupe.c:2203 src/img-view.c:1247
+#: src/layout_image.c:731 src/layout_util.c:809 src/search.c:981
+#: src/view_file_icon.c:284 src/view_file_list.c:396
+msgid "_Properties"
+msgstr "_Propietats"
+
+#: src/collect-table.c:799 src/dupe.c:2210 src/img-view.c:1252
+#: src/layout_image.c:739 src/layout_util.c:787 src/search.c:988
+#: src/view_file_icon.c:291 src/view_file_list.c:402
+msgid "_Copy..."
+msgstr "_Copia..."
+
+#: src/collect-table.c:801 src/dupe.c:2212 src/img-view.c:1253
+#: src/layout_image.c:741 src/layout_util.c:788 src/search.c:990
+#: src/view_file_icon.c:293 src/view_file_list.c:404
+msgid "_Move..."
+msgstr "_Mou..."
+
+#: src/collect-table.c:803 src/dupe.c:2214 src/img-view.c:1254
+#: src/layout_image.c:743 src/layout_util.c:789 src/search.c:992
+#: src/view_dir_list.c:407 src/view_dir_tree.c:497 src/view_file_icon.c:295
+#: src/view_file_list.c:406
+msgid "_Rename..."
+msgstr "Can_via el nom..."
+
+#: src/collect-table.c:805 src/dupe.c:2216 src/img-view.c:1255
+#: src/layout_image.c:745 src/layout_util.c:790 src/search.c:994
+#: src/view_file_icon.c:297 src/view_file_list.c:408
+msgid "_Delete..."
+msgstr "_Suprimeix..."
+
+#: src/collect-table.c:810 src/view_file_icon.c:313
+msgid "Show filename _text"
+msgstr "Mostra el _nom del fitxer"
+
+#: src/collect-table.c:813
+msgid "_Save collection"
+msgstr "_Desa la col·lecció"
+
+#: src/collect-table.c:815
+msgid "Save collection _as..."
+msgstr "Desa la col·lecció _com a..."
+
+#: src/collect-table.c:818 src/layout_util.c:784
+msgid "_Find duplicates..."
+msgstr "_Cerca imatges duplicades"
+
+#: src/collect-table.c:820 src/dupe.c:2207 src/search.c:985
+msgid "Print..."
+msgstr "Imprimeix..."
+
+#: src/collect-table.c:1978 src/dupe.c:3304 src/img-view.c:1409
+msgid "Dropped list includes folders."
+msgstr "La llista deixada inclou carpetes."
+
+#: src/collect-table.c:1980 src/dupe.c:3306 src/img-view.c:1411
+msgid "_Add contents"
+msgstr "_Afegeix continguts"
+
+#: src/collect-table.c:1982 src/dupe.c:3307 src/img-view.c:1412
+msgid "Add contents _recursive"
+msgstr "Afegeix continguts _recursivament"
+
+#: src/collect-table.c:1984 src/dupe.c:3308 src/img-view.c:1413
+msgid "_Skip folders"
+msgstr "_Salta carpetes"
+
+#: src/collect-table.c:1987 src/dupe.c:3310 src/img-view.c:1415
+#: src/view_dir_list.c:214 src/view_dir_tree.c:306
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: src/dupe.c:96
+msgid "Drop files to compare them."
+msgstr "Deixeu anar els fitxers per comparar-los"
+
+#: src/dupe.c:100
+#, c-format
+msgid "%d files"
+msgstr "%d fitxers"
+
+#: src/dupe.c:104
+#, c-format
+msgid "%d matches found in %d files"
+msgstr "S'han trobat %d coincidències en %d fitxers"
+
+#: src/dupe.c:109
+msgid "[set 1]"
+msgstr "[definir 1]"
+
+#: src/dupe.c:1422
+msgid "Reading checksums..."
+msgstr "S'estan llegint les sumes de verificació..."
+
+#: src/dupe.c:1455
+msgid "Reading dimensions..."
+msgstr "S'estan llegint les dimensions..."
+
+#: src/dupe.c:1489
+msgid "Reading similarity data..."
+msgstr "S'estan llegint dades de semblança..."
+
+#: src/dupe.c:1524 src/dupe.c:1555
+msgid "Comparing..."
+msgstr "S'està comparant..."
+
+#: src/dupe.c:1535
+msgid "Sorting..."
+msgstr "S'està ordenant..."
+
+#: src/dupe.c:2196
+msgid "Select group _1 duplicates"
+msgstr "Seleccioneu duplicats del grup _1"
+
+#: src/dupe.c:2198
+msgid "Select group _2 duplicates"
+msgstr "Seleccioneu duplicats del grup_ 2 duplicats"
+
+#: src/dupe.c:2205 src/search.c:983
+msgid "Add to new collection"
+msgstr "Afegeix a una nova col·lecció"
+
+#: src/dupe.c:2221 src/dupe.c:2509 src/search.c:999
+msgid "C_lear"
+msgstr "Nete_ja"
+
+#: src/dupe.c:2224 src/dupe.c:2512
+msgid "Close _window"
+msgstr "Tanca la _finestra"
+
+#: src/dupe.c:2382
+#, c-format
+msgid "%d files (set 2)"
+msgstr "%d fitxers (definiu-ne 2)"
+
+#: src/dupe.c:2590 src/dupe.c:3117 src/preferences.c:945 src/print.c:3209
+#: src/search.c:2754 src/view_file_list.c:1656
+msgid "Size"
+msgstr "Mida"
+
+#: src/dupe.c:2591 src/dupe.c:3118 src/exif.c:296 src/exif.c:418
+#: src/print.c:3207 src/search.c:2755 src/view_file_list.c:1657
+msgid "Date"
+msgstr "Data"
+
+#: src/dupe.c:2592 src/dupe.c:3119 src/print.c:3211 src/search.c:2756
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: src/dupe.c:2593
+msgid "Checksum"
+msgstr "Suma de verificació"
+
+#: src/dupe.c:2594 src/dupe.c:3120 src/search.c:2757 src/ui_pathsel.c:1106
+msgid "Path"
+msgstr "Camí"
+
+#: src/dupe.c:2595
+msgid "Similarity (high)"
+msgstr "Semblança (alta)"
+
+#: src/dupe.c:2596
+msgid "Similarity"
+msgstr "Semblança"
+
+#: src/dupe.c:2597
+msgid "Similarity (low)"
+msgstr "Semblança (baixa)"
+
+#: src/dupe.c:2598
+msgid "Similarity (custom)"
+msgstr "Semblança (personalitzada)"
+
+#: src/dupe.c:3080
+msgid "Find duplicates - GQview"
+msgstr "Cerca de duplicats - GQview"
+
+#: src/dupe.c:3152
+msgid "Compare to:"
+msgstr "Compara amb:"
+
+#: src/dupe.c:3165
+msgid "Compare by:"
+msgstr "Compara per:"
+
+#: src/dupe.c:3173 src/preferences.c:838 src/search.c:2770
+msgid "Thumbnails"
+msgstr "Miniatures"
+
+#: src/dupe.c:3180
+msgid "Compare two file sets"
+msgstr "Compara dos conjunts de fitxers"
+
+#: src/editors.c:50
+msgid "The Gimp"
+msgstr "El Gimp"
+
+#: src/editors.c:51
+msgid "XV"
+msgstr "XV"
+
+#: src/editors.c:52
+msgid "Xpaint"
+msgstr "Xpaint"
+
+#: src/editors.c:58
+msgid "Rotate jpeg clockwise"
+msgstr "Volteja el jpeg en sentit horari"
+
+#: src/editors.c:59
+msgid "Rotate jpeg counterclockwise"
+msgstr "Volteja el jpeg en sentit antihorari"
+
+#: src/editors.c:104
+msgid "stopping..."
+msgstr "Aturant..."
+
+#: src/editors.c:131
+msgid "Edit command results"
+msgstr "Edita els resultats de la comanda"
+
+#: src/editors.c:134
+#, c-format
+msgid "Output of %s"
+msgstr "Sortida de %s"
+
+#: src/editors.c:303
+#, c-format
+msgid ""
+"Failed to run command:\n"
+"%s\n"
+msgstr ""
+"No es pot executar la comanda:\n"
+"%s\n"
+
+#: src/editors.c:414
+msgid "stopped by user"
+msgstr "aturat per l'usuari"
+
+#: src/exif.c:111 src/exif.c:124 src/exif.c:138 src/exif.c:163 src/exif.c:601
+#: src/exif.c:1453 src/exif.c:1456 src/exif.c:1521
+msgid "unknown"
+msgstr "desconegut"
+
+#: src/exif.c:112
+msgid "top left"
+msgstr "superior esquerra"
+
+#: src/exif.c:113
+msgid "top right"
+msgstr "superior dreta"
+
+#: src/exif.c:114
+msgid "bottom right"
+msgstr "inferior dreta"
+
+#: src/exif.c:115
+msgid "bottom left"
+msgstr "inferior esquerra"
+
+#: src/exif.c:116
+msgid "left top"
+msgstr "isquerra superior"
+
+#: src/exif.c:117
+msgid "right top"
+msgstr "dreta superior"
+
+#: src/exif.c:118
+msgid "right bottom"
+msgstr "dreta inferior"
+
+#: src/exif.c:119
+msgid "left bottom"
+msgstr "Esquerra inferior"
+
+#: src/exif.c:126
+msgid "inch"
+msgstr "polzada"
+
+#: src/exif.c:127
+msgid "centimeter"
+msgstr "centímetre"
+
+#: src/exif.c:139
+msgid "average"
+msgstr "Mitjana"
+
+#: src/exif.c:140
+msgid "center weighted"
+msgstr "centre ponderat"
+
+#: src/exif.c:141
+msgid "spot"
+msgstr "punts"
+
+#: src/exif.c:142
+msgid "multi-spot"
+msgstr "multi-punt"
+
+#: src/exif.c:143
+msgid "multi-segment"
+msgstr "multi-segment"
+
+#: src/exif.c:144
+msgid "partial"
+msgstr "parcial"
+
+#: src/exif.c:145 src/exif.c:183
+msgid "other"
+msgstr "altres"
+
+#: src/exif.c:150
+msgid "not defined"
+msgstr "sense definir"
+
+#: src/exif.c:151
+msgid "manual"
+msgstr "manual"
+
+#: src/exif.c:152
+msgid "normal"
+msgstr "normal"
+
+#: src/exif.c:153
+msgid "aperture"
+msgstr "obertura"
+
+#: src/exif.c:154
+msgid "shutter"
+msgstr "obturador"
+
+#: src/exif.c:155
+msgid "creative"
+msgstr "creatiu"
+
+#: src/exif.c:156
+msgid "action"
+msgstr "acció"
+
+#: src/exif.c:157
+msgid "portrait"
+msgstr "vertical"
+
+#: src/exif.c:158
+msgid "landscape"
+msgstr "apaïsat"
+
+#: src/exif.c:164
+msgid "daylight"
+msgstr "llum de dia"
+
+#: src/exif.c:165
+msgid "fluorescent"
+msgstr "fluorescent"
+
+#: src/exif.c:166
+msgid "tungsten (incandescent)"
+msgstr "tungstè (incandescent)"
+
+#: src/exif.c:167
+msgid "flash"
+msgstr "flaix"
+
+#: src/exif.c:188 src/exif.c:1476 src/info.c:226
+msgid "no"
+msgstr "no"
+
+#. flash fired (bit 0)
+#: src/exif.c:189 src/exif.c:1476 src/info.c:226
+msgid "yes"
+msgstr "sí"
+
+#: src/exif.c:190
+msgid "yes, not detected by strobe"
+msgstr "sí, no detectat per l'efecte estroboscòpic "
+
+#: src/exif.c:191
+msgid "yes, detected by strobe"
+msgstr "sí, detectat per l'efecte estroboscòpic"
+
+#: src/exif.c:288
+msgid "Image description"
+msgstr "Descripció de la imatge"
+
+#: src/exif.c:291
+msgid "Orientation"
+msgstr "Orientació"
+
+#: src/exif.c:302
+msgid "Copyright"
+msgstr "Copyright"
+
+#: src/exif.c:307
+msgid "Exposure program"
+msgstr "Programació del diafragma"
+
+#: src/exif.c:309 src/exif.c:345 src/exif.c:422
+msgid "ISO sensitivity"
+msgstr "Sensibilitat ISO"
+
+#: src/exif.c:312
+msgid "Date original"
+msgstr "Data original"
+
+#: src/exif.c:313
+msgid "Date digitized"
+msgstr "Data de digitalització"
+
+#: src/exif.c:316 src/exif.c:419
+msgid "Shutter speed"
+msgstr "Velocitat de l'obturador"
+
+#: src/exif.c:317 src/exif.c:420
+msgid "Aperture"
+msgstr "Obertura"
+
+#: src/exif.c:319 src/exif.c:421
+msgid "Exposure bias"
+msgstr "Obertura del diafragma"
+
+#: src/exif.c:321 src/exif.c:424
+msgid "Subject distance"
+msgstr "Distància al subjecte"
+
+#: src/exif.c:322
+msgid "Metering mode"
+msgstr "Mètode de mesurament"
+
+#: src/exif.c:323
+msgid "Light source"
+msgstr "Font de llum"
+
+#: src/exif.c:324 src/exif.c:425
+msgid "Flash"
+msgstr "Flaix"
+
+#: src/exif.c:325 src/exif.c:423
+msgid "Focal length"
+msgstr "Distància focal"
+
+#. ExifImageWidth, ExifImageHeight can also be unsigned short
+#: src/exif.c:335
+msgid "Width"
+msgstr "Amplada"
+
+#: src/exif.c:336
+msgid "Height"
+msgstr "Alçada"
+
+#: src/exif.c:417
+msgid "Camera"
+msgstr "Càmera"
+
+#: src/exif.c:426
+msgid "Resolution"
+msgstr "Resolució"
+
+#: src/exif.c:1452
+msgid "infinity"
+msgstr "infinit"
+
+#: src/exif.c:1480
+msgid "mode:"
+msgstr "mode:"
+
+#: src/exif.c:1484 src/utilops.c:1293
+msgid "on"
+msgstr "actiu"
+
+#: src/exif.c:1487 src/utilops.c:1293
+msgid "off"
+msgstr "inactiu"
+
+#: src/exif.c:1490
+msgid "auto"
+msgstr "automàtic"
+
+#: src/exif.c:1496
+msgid "not detected by strobe"
+msgstr "no ha estat detectat per l'efecte estreboscòpic"
+
+#: src/exif.c:1497
+msgid "detected by strobe"
+msgstr "ha estat detectat per l'efecte estreboscòpic"
+
+#. we ignore flash function (bit 5)
+#. red-eye (bit 6)
+#: src/exif.c:1502
+msgid "red-eye reduction"
+msgstr "reducció de l'efecte \"ulls vermells\""
+
+#: src/exif.c:1521
+msgid "dot"
+msgstr "punts"
+
+#: src/filelist.c:513
+#, c-format
+msgid "%d bytes"
+msgstr "%d bytes"
+
+#: src/filelist.c:517
+#, c-format
+msgid "%.1f K"
+msgstr "%.1f K"
+
+#: src/filelist.c:521
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: src/filelist.c:526
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+#: src/fullscreen.c:267
+msgid "GQview full screen"
+msgstr "GQview pantalla completa"
+
+#: src/fullscreen.c:397
+msgid "Full size"
+msgstr "Mida Màxima"
+
+#: src/fullscreen.c:402
+msgid "Monitor"
+msgstr "Monitor"
+
+#: src/fullscreen.c:407
+msgid "Screen"
+msgstr "Pantalla"
+
+#: src/fullscreen.c:644
+msgid "Stay above other windows"
+msgstr "Mantenir sobre les altres finestres"
+
+#: src/fullscreen.c:651
+msgid "Determined by Window Manager"
+msgstr "Determinat pel Gestor de Finestres"
+
+#: src/fullscreen.c:652
+msgid "Active screen"
+msgstr "Pantalla activa"
+
+#: src/fullscreen.c:654
+msgid "Active monitor"
+msgstr "Monitor actiu"
+
+#: src/img-view.c:1235 src/layout_image.c:718 src/layout_util.c:816
+msgid "Zoom _in"
+msgstr "Apropa"
+
+#: src/img-view.c:1236 src/layout_image.c:719 src/layout_util.c:817
+msgid "Zoom _out"
+msgstr "Allunya"
+
+#: src/img-view.c:1237 src/layout_image.c:720 src/layout_util.c:818
+msgid "Zoom _1:1"
+msgstr "Escala real"
+
+#: src/img-view.c:1238 src/layout_image.c:721
+msgid "Fit image to _window"
+msgstr "Ajusta la imatge a la _finestra"
+
+#: src/img-view.c:1243 src/layout_image.c:727 src/layout_util.c:814
+msgid "Set as _wallpaper"
+msgstr "Posa com a _fons d'escriptori"
+
+#: src/img-view.c:1261 src/layout_image.c:752
+msgid "_Stop slideshow"
+msgstr "_Atura les diapositives"
+
+#: src/img-view.c:1264 src/layout_image.c:755
+msgid "Continue slides_how"
+msgstr "_Continua mostrant diapositives"
+
+#: src/img-view.c:1269 src/img-view.c:1277 src/layout_image.c:760
+#: src/layout_image.c:767
+msgid "Pause slides_how"
+msgstr "_Pausa la seqüència de diapositives"
+
+#: src/img-view.c:1275 src/layout_image.c:766
+msgid "_Start slideshow"
+msgstr "_Inicia la seqüència de diapositives"
+
+#: src/img-view.c:1283 src/layout_image.c:777
+msgid "Exit _full screen"
+msgstr "Sortir del mode _pantalla completa"
+
+#: src/img-view.c:1287 src/layout_image.c:773
+msgid "_Full screen"
+msgstr "_Pantalla completa"
+
+#: src/img-view.c:1291 src/layout_util.c:791
+msgid "C_lose window"
+msgstr "_Tanca la finestra"
+
+#: src/info.c:361
+msgid "File size:"
+msgstr "Mida del fitxer:"
+
+#: src/info.c:363
+msgid "Dimensions:"
+msgstr "Dimensions:"
+
+#: src/info.c:364
+msgid "Transparent:"
+msgstr "Transparent:"
+
+#: src/info.c:365 src/print.c:3386
+msgid "Image size:"
+msgstr "Mida de la imatge:"
+
+#: src/info.c:367
+msgid "Compress ratio:"
+msgstr "Ràtio de compressió"
+
+#: src/info.c:368
+msgid "File type:"
+msgstr "Tipus de fitxer:"
+
+#: src/info.c:370
+msgid "Owner:"
+msgstr "Propietari:"
+
+#: src/info.c:371
+msgid "Group:"
+msgstr "Grup:"
+
+#: src/info.c:374 src/preferences.c:819
+msgid "General"
+msgstr "General"
+
+#: src/info.c:455
+#, c-format
+msgid "Image %d of %d"
+msgstr "Imatge %d de %d"
+
+#: src/info.c:678
+msgid "Image properties - GQview"
+msgstr "Propietats de la imatge - GQview"
+
+#: src/layout.c:272 src/view_file_icon.c:305 src/view_file_list.c:416
+msgid "Ascending"
+msgstr "Ascendent"
+
+#: src/layout.c:338
+msgid " Slideshow"
+msgstr " Projecció de diapositives"
+
+#: src/layout.c:342
+msgid " Paused"
+msgstr " En pausa"
+
+#: src/layout.c:359
+#, c-format
+msgid "%s, %d files (%s, %d)%s"
+msgstr "%s, %d arxius (%s, %d)%s"
+
+#: src/layout.c:366
+#, c-format
+msgid "%s, %d files%s"
+msgstr "%s, %d fitxers%s"
+
+#: src/layout.c:371
+#, c-format
+msgid "%d files%s"
+msgstr "%d fitxers%s"
+
+#: src/layout.c:400
+#, c-format
+msgid "(no read permission) %s bytes"
+msgstr "(no teniu permís de lectura) %s bytes"
+
+#: src/layout.c:404
+#, c-format
+msgid "( ? x ? ) %s bytes"
+msgstr "( ? x ? ) %s bytes"
+
+#: src/layout.c:409
+#, c-format
+msgid "( %d x %d ) %s bytes"
+msgstr "( %d x %d ) %s bytes"
+
+#: src/layout.c:1105
+msgid "GQview Tools"
+msgstr "Eines de GQview"
+
+#: src/layout_config.c:57
+msgid "Tools"
+msgstr "Eines"
+
+#: src/layout_config.c:57 src/ui_pathsel.c:1174
+msgid "Files"
+msgstr "Fitxers"
+
+#: src/layout_config.c:57 src/preferences.c:879 src/print.c:114
+msgid "Image"
+msgstr "Imatge"
+
+#: src/layout_config.c:363
+msgid "(drag to change order)"
+msgstr "(arrossegueu per canviar l'ordre)"
+
+#: src/layout_image.c:782
+msgid "Hide file _list"
+msgstr "Oculta la _llista de fitxers"
+
+#: src/layout_util.c:650 src/menu.c:74
+#, c-format
+msgid "in %s..."
+msgstr "a %s..."
+
+#: src/layout_util.c:654 src/menu.c:76
+msgid "in (unknown)..."
+msgstr "a (desconegut)..."
+
+#: src/layout_util.c:662
+msgid "empty"
+msgstr "buida"
+
+#: src/layout_util.c:773
+msgid "_File"
+msgstr "_Fitxer"
+
+#: src/layout_util.c:774 src/menu.c:91
+msgid "_Edit"
+msgstr "_Edita"
+
+#: src/layout_util.c:775 src/menu.c:255
+msgid "_Adjust"
+msgstr "_Ajusta"
+
+#: src/layout_util.c:777
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: src/layout_util.c:779
+msgid "New _window"
+msgstr "Nova _finestra"
+
+#: src/layout_util.c:780
+msgid "_New collection"
+msgstr "_Nova col·lecció"
+
+#: src/layout_util.c:781
+msgid "_Open collection..."
+msgstr "_Obre una col·lecció..."
+
+#: src/layout_util.c:782
+msgid "Open _recent"
+msgstr "Obre _recents"
+
+#: src/layout_util.c:783
+msgid "_Search..."
+msgstr "_Cerca..."
+
+#: src/layout_util.c:785
+msgid "_Print..."
+msgstr "_Imprimeix..."
+
+#: src/layout_util.c:786
+msgid "N_ew folder..."
+msgstr "_Nova carpeta..."
+
+#: src/layout_util.c:792
+msgid "_Quit"
+msgstr "_Surt"
+
+#: src/layout_util.c:804 src/menu.c:201
+msgid "_Rotate clockwise"
+msgstr "_Gira en sentit horari"
+
+#: src/layout_util.c:805 src/menu.c:204
+msgid "Rotate _counterclockwise"
+msgstr "Gira en sentit _antihorari"
+
+#: src/layout_util.c:806
+msgid "Rotate 1_80"
+msgstr "Gira _180"
+
+#: src/layout_util.c:807 src/menu.c:210
+msgid "_Mirror"
+msgstr "_Reflexa"
+
+#: src/layout_util.c:808 src/menu.c:213
+msgid "_Flip"
+msgstr "_Inverteix"
+
+#: src/layout_util.c:810
+msgid "Select _all"
+msgstr "Selecciona-ho _tot"
+
+#: src/layout_util.c:811
+msgid "Select _none"
+msgstr "_Desfés la selecció"
+
+#: src/layout_util.c:812
+msgid "P_references..."
+msgstr "_Preferències..."
+
+#: src/layout_util.c:813
+msgid "_Thumbnail maintenance..."
+msgstr "Manteniment de les _Miniatures..."
+
+#: src/layout_util.c:819
+msgid "_Zoom to fit"
+msgstr "Fes _zoom fins que encaixi"
+
+#: src/layout_util.c:820
+msgid "F_ull screen"
+msgstr "_Pantalla completa"
+
+#: src/layout_util.c:821
+msgid "_Hide file list"
+msgstr "Oculta la _llista de fitxers"
+
+#: src/layout_util.c:822
+msgid "Toggle _slideshow"
+msgstr "_Commuta la projecció de diapositives"
+
+#: src/layout_util.c:823
+msgid "_Refresh"
+msgstr "A_ctualitza"
+
+#: src/layout_util.c:825
+msgid "_Contents"
+msgstr "_Continguts"
+
+#: src/layout_util.c:826
+msgid "_Keyboard shortcuts"
+msgstr "_Tecles de dreçera"
+
+#: src/layout_util.c:827
+msgid "_Release notes"
+msgstr "_Notes de la versió"
+
+#: src/layout_util.c:828
+msgid "_About"
+msgstr "_Quant a"
+
+#: src/layout_util.c:832
+msgid "_Thumbnails"
+msgstr "_Miniatures"
+
+#: src/layout_util.c:833
+msgid "Tr_ee"
+msgstr "Ar_bre"
+
+#: src/layout_util.c:834
+msgid "_Float file list"
+msgstr "_Llista de fitxers flotant"
+
+#: src/layout_util.c:835
+msgid "Hide tool_bar"
+msgstr "Oculta la _barra d'eines"
+
+#: src/layout_util.c:836
+msgid "_Keywords"
+msgstr "_Paraules clau"
+
+#: src/layout_util.c:837
+msgid "E_xif data"
+msgstr "Dades e_xif"
+
+#: src/layout_util.c:838
+msgid "Sort _manager"
+msgstr "_Gestor d'ordenació"
+
+#: src/layout_util.c:842
+msgid "_List"
+msgstr "_Llista"
+
+#: src/layout_util.c:843
+msgid "I_cons"
+msgstr "_Icones"
+
+#: src/layout_util.c:1108
+msgid "Show thumbnails"
+msgstr "Mostra miniatures"
+
+#: src/layout_util.c:1110
+msgid "Change to home folder"
+msgstr "Ves a la carpeta de l'usuari"
+
+#: src/layout_util.c:1112
+msgid "Refresh file list"
+msgstr "Refresca la llista de fitxers"
+
+#: src/layout_util.c:1114
+msgid "Zoom in"
+msgstr "Apropa"
+
+#: src/layout_util.c:1116
+msgid "Zoom out"
+msgstr "Allunya"
+
+#: src/layout_util.c:1118 src/preferences.c:908
+msgid "Fit image to window"
+msgstr "Ajusta la imatge a la finestra"
+
+#: src/layout_util.c:1120
+msgid "Set zoom 1:1"
+msgstr "Sense zoom (1:1)"
+
+#: src/layout_util.c:1122
+msgid "Configure options"
+msgstr "Configura les opcions"
+
+#: src/layout_util.c:1124
+msgid "Float Controls"
+msgstr "Controls Flotants"
+
+#: src/main.c:237
+msgid "Help - GQview"
+msgstr "Ajuda - GQview"
+
+#: src/main.c:460 src/main.c:1276
+msgid "Command line"
+msgstr "Línia de comandes"
+
+#. short, long                  callback,               extra, prefer,description
+#: src/main.c:498
+msgid "next image"
+msgstr "imatge següent"
+
+#: src/main.c:499
+msgid "previous image"
+msgstr "imatge anterior"
+
+#: src/main.c:500
+msgid "first image"
+msgstr "primera imatge"
+
+#: src/main.c:501
+msgid "last image"
+msgstr "darrera imatge"
+
+#: src/main.c:502
+msgid "toggle full screen"
+msgstr "commuta la pantalla completa"
+
+#: src/main.c:503
+msgid "start full screen"
+msgstr "posa la pantalla completa"
+
+#: src/main.c:504
+msgid "stop full screen"
+msgstr "treu la pantalla completa"
+
+#: src/main.c:505
+msgid "toggle slide show"
+msgstr "commuta la projecció de diapositives"
+
+#: src/main.c:506
+msgid "start slide show"
+msgstr "inicia la projecció de diapositives"
+
+#: src/main.c:507
+msgid "stop slide show"
+msgstr "atura la projecció de diapositives"
+
+#: src/main.c:508
+msgid "start recursive slide show"
+msgstr "inicia la projecció recursiva de diapositives"
+
+#: src/main.c:509
+msgid "set slide show delay in seconds"
+msgstr "ajusta el temps entre diapositives, en segons"
+
+#: src/main.c:510
+msgid "show tools"
+msgstr "mostra les eines"
+
+#: src/main.c:511
+msgid "hide tools"
+msgstr "amaga les eines"
+
+#: src/main.c:512
+msgid "quit"
+msgstr "surt"
+
+#: src/main.c:513
+msgid "open file"
+msgstr "obre fitxer"
+
+#: src/main.c:514
+msgid "open file in new window"
+msgstr "obre el fitxer en una nova finestra"
+
+#: src/main.c:580
+msgid "Remote command list:\n"
+msgstr "Llista de comandes remotes:\n"
+
+#: src/main.c:638
+msgid "Remote GQview not running, starting..."
+msgstr "El GQview remot no s'està executant, s'està iniciant..."
+
+#: src/main.c:773
+msgid "Remote not available\n"
+msgstr "GQview remot no està disponible\n"
+
+#: src/main.c:915
+msgid ""
+"Usage: gqview [options] [path]\n"
+"\n"
+msgstr ""
+"Sintaxi: gqview [opcions] [camí]\n"
+"\n"
+
+#: src/main.c:916
+msgid "valid options are:\n"
+msgstr "les opcions vàlides són:\n"
+
+#: src/main.c:917
+msgid "  +t, --with-tools           force show of tools\n"
+msgstr "  +t, --with-tools força a mostrar les eines\n"
+
+#: src/main.c:918
+msgid "  -t, --without-tools        force hide of tools\n"
+msgstr "  -t, --without-tools força a ocultar les eines\n"
+
+#: src/main.c:919
+msgid "  -f, --fullscreen           start in full screen mode\n"
+msgstr "  -f, --fullscreen inicia en mode de pantalla completa\n"
+
+#: src/main.c:920
+msgid "  -s, --slideshow            start in slideshow mode\n"
+msgstr "  -s, --slideshow inicia en el mode de projecció de diapositives\n"
+
+#: src/main.c:921
+msgid "  -l, --list                 open collection window for command line\n"
+msgstr ""
+"  -l, --list obre una finestra de col·lecció des d'una línia de comandes\n"
+
+#: src/main.c:922
+msgid "  -r, --remote               send following commands to open window\n"
+msgstr "  -r, --remote envia les següents comandes a la finestra oberta\n"
+
+#: src/main.c:923
+msgid "  -rh,--remote-help          print remote command list\n"
+msgstr "  -rh,--remote-help mostra la llista de comandes remotes\n"
+
+#: src/main.c:924
+msgid "  --debug                    turn on debug output\n"
+msgstr "  --debug activa la sortida de depuració\n"
+
+#: src/main.c:925
+msgid "  -v, --version              print version info\n"
+msgstr "  -v, --version mostra la informació de versió\n"
+
+#: src/main.c:926
+msgid ""
+"  -h, --help                 show this message\n"
+"\n"
+msgstr ""
+"  -h, --help mostra aquest missatge d'ajuda\n"
+"\n"
+
+#: src/main.c:940
+#, c-format
+msgid ""
+"invalid or ignored: %s\n"
+"Use --help for options\n"
+msgstr ""
+"invàlid o ignorat: %s\n"
+"Utilitzeu --help per les opcions\n"
+
+#: src/main.c:1005
+#, c-format
+msgid "Creating GQview dir:%s\n"
+msgstr "S'està creant el directori de GQview:%s\n"
+
+#: src/main.c:1011
+#, c-format
+msgid "Could not create dir:%s\n"
+msgstr "No s'ha pogut crear el directori:%s\n"
+
+#: src/main.c:1032 src/ui_bookmark.c:858 src/ui_pathsel.c:1042
+msgid "Home"
+msgstr "Directori de l'usuari"
+
+#: src/main.c:1034 src/ui_bookmark.c:865
+msgid "Desktop"
+msgstr "Escriptori"
+
+#: src/main.c:1123
+msgid "GQview - exit"
+msgstr "GQview - sortir"
+
+#: src/main.c:1127
+msgid "Quit GQview"
+msgstr "Surt de GQview"
+
+#: src/main.c:1127
+msgid "Collections have been modified. Quit anyway?"
+msgstr "Les col·leccions han estat modificades. Voleu sortir igualment?"
+
+#: src/menu.c:115
+msgid "Sort by size"
+msgstr "Ordena segons la mida"
+
+#: src/menu.c:118
+msgid "Sort by date"
+msgstr "Ordena segons la data"
+
+#: src/menu.c:121
+msgid "Unsorted"
+msgstr "Desordenat"
+
+#: src/menu.c:124
+msgid "Sort by path"
+msgstr "Ordena segons el camí"
+
+#: src/menu.c:127
+msgid "Sort by number"
+msgstr "Ordena segons el número"
+
+#: src/menu.c:131
+msgid "Sort by name"
+msgstr "Ordena segons el nom"
+
+#: src/menu.c:182
+msgid "Sort"
+msgstr "Ordena"
+
+#: src/menu.c:207
+msgid "Rotate _180"
+msgstr "Gira _180"
+
+#: src/preferences.c:382
+msgid "Nearest (worst, but fastest)"
+msgstr "El més proper (el pitjor, però el més ràpid)"
+
+#: src/preferences.c:384
+msgid "Tiles"
+msgstr "mosaic"
+
+#: src/preferences.c:386
+msgid "Bilinear"
+msgstr "Bilineal"
+
+#: src/preferences.c:388
+msgid "Hyper (best, but slowest)"
+msgstr "Hyper (el millor, però el més lent)"
+
+#: src/preferences.c:416
+msgid "None"
+msgstr "Cap"
+
+#: src/preferences.c:417
+msgid "Normal"
+msgstr "Normal"
+
+#: src/preferences.c:418
+msgid "Best"
+msgstr "El millor"
+
+#: src/preferences.c:496 src/print.c:369
+msgid "Custom"
+msgstr "Personalitzat"
+
+#: src/preferences.c:660 src/preferences.c:663
+msgid "Reset filters"
+msgstr "Reinicia els filtres"
+
+#: src/preferences.c:664
+msgid ""
+"This will reset the file filters to the defaults.\n"
+"Continue?"
+msgstr ""
+"Això deixarà els filtres amb les opcions per defecte.\n"
+"Voleu continuar?"
+
+#: src/preferences.c:697 src/preferences.c:700
+msgid "Reset editors"
+msgstr "Reinicia els editors"
+
+#: src/preferences.c:701
+msgid ""
+"This will reset the edit commands to the defaults.\n"
+"Continue?"
+msgstr ""
+"Es modificaran les ordres d'edició pels seus valors per defecte.\n"
+"Voleu continuar?"
+
+#: src/preferences.c:725 src/preferences.c:728
+msgid "Clear trash"
+msgstr "Buida la paperera"
+
+#: src/preferences.c:729
+msgid "This will remove the trash contents."
+msgstr "Això eliminarà el contingut de la paperera."
+
+#: src/preferences.c:768
+msgid "GQview Preferences"
+msgstr "Preferències de GQview"
+
+#: src/preferences.c:822
+msgid "Startup"
+msgstr "Inici"
+
+#: src/preferences.c:824
+msgid "Change to folder:"
+msgstr "Canvia a la carpeta:"
+
+#: src/preferences.c:835
+msgid "Use current"
+msgstr "Fes servir l'actual"
+
+#: src/preferences.c:841 src/print.c:3216 src/print.c:3423
+msgid "Size:"
+msgstr "Mida:"
+
+#: src/preferences.c:842 src/preferences.c:888
+msgid "Quality:"
+msgstr "Qualitat:"
+
+#: src/preferences.c:844
+msgid "Cache thumbnails"
+msgstr "Desa les miniatures en memòria cau"
+
+#: src/preferences.c:850
+msgid "Use shared thumbnail cache"
+msgstr "Utilitza la memòria cau compartida de miniatures"
+
+#: src/preferences.c:856
+msgid "Cache thumbnails into .thumbnails"
+msgstr "Desa les miniatures a .thumbnails (com a memòria cau)"
+
+#: src/preferences.c:859
+msgid "Use xvpics thumbnails when found (read only)"
+msgstr ""
+"Utilitza les miniatures de xvpics quan estiguin disponibles (només de "
+"lectura)"
+
+#: src/preferences.c:862
+msgid "Slide show"
+msgstr "Projecció de diapositives"
+
+#: src/preferences.c:865
+msgid "Delay between image change:"
+msgstr "Retard abans del canvi d'imatge:"
+
+#: src/preferences.c:865
+msgid "seconds"
+msgstr "segons"
+
+#: src/preferences.c:871
+msgid "Random"
+msgstr "Aleatori"
+
+#: src/preferences.c:872
+msgid "Repeat"
+msgstr "Repeteix"
+
+#: src/preferences.c:882
+msgid "Zoom"
+msgstr "Zoom"
+
+#: src/preferences.c:885
+msgid "Dithering method:"
+msgstr "Mètode de tramat:"
+
+#: src/preferences.c:890
+msgid "Two pass zooming"
+msgstr "Fes zoom en dues passades"
+
+#: src/preferences.c:893
+msgid "Allow enlargement of image for zoom to fit."
+msgstr "Permet l'ampliació de la imatge perque encaixi."
+
+#: src/preferences.c:897
+msgid "Zoom increment:"
+msgstr "Increment del zoom:"
+
+#: src/preferences.c:902
+msgid "When new image is selected:"
+msgstr "Quan se seleccioni una nova imatge:"
+
+#: src/preferences.c:905
+msgid "Zoom to original size"
+msgstr "Mostra en la mida original"
+
+#: src/preferences.c:911
+msgid "Leave Zoom at previous setting"
+msgstr "Deixa el Zoom en l'estat anterior"
+
+#: src/preferences.c:915
+msgid "Appearance"
+msgstr "Aspecte"
+
+#: src/preferences.c:917
+msgid "Black background"
+msgstr "Fons de pantalla negre"
+
+#: src/preferences.c:920
+msgid "Convenience"
+msgstr "Conveniència"
+
+#: src/preferences.c:922
+msgid "Refresh on file change"
+msgstr "Actualitzar quant hi hagi un canvi a l'arxiu"
+
+#: src/preferences.c:924
+msgid "Preload next image"
+msgstr "Precarrega la següent imatge"
+
+#: src/preferences.c:926
+msgid "Auto rotate image using Exif information"
+msgstr "Volteja la imatge automàticament usant la informació Exif"
+
+#: src/preferences.c:935
+msgid "Windows"
+msgstr "Finestres"
+
+#: src/preferences.c:938
+msgid "State"
+msgstr "Estat"
+
+#: src/preferences.c:940
+msgid "Remember window positions"
+msgstr "Recordar la posició de les finestres"
+
+#: src/preferences.c:942
+msgid "Remember tool state (float/hidden)"
+msgstr "Recordar l'estat de les eines (en pantalla/ocult)"
+
+#: src/preferences.c:947
+msgid "Fit window to image when tools are hidden/floating"
+msgstr ""
+"Ajusta la finestra a la imatge quan les eines estiguin amagades o flotant"
+
+#: src/preferences.c:951
+msgid "Limit size when auto-sizing window (%):"
+msgstr "Limitar la mida quan es dimensioni automaticament la finestra (%):"
+
+#: src/preferences.c:958 src/print.c:3371 src/print.c:3378
+msgid "Layout"
+msgstr "Format"
+
+#: src/preferences.c:971
+msgid "Filtering"
+msgstr "Filtratge"
+
+#: src/preferences.c:976
+msgid "Show entries that begin with a dot"
+msgstr "Mostra les entrades que comencen per punt"
+
+#: src/preferences.c:978
+msgid "Case sensitive sort"
+msgstr "Ordena distingint entre majúscules i minúscules"
+
+#: src/preferences.c:981
+msgid "Disable File Filtering"
+msgstr "Desactivar els filtres de fitxers"
+
+#: src/preferences.c:984
+msgid "File types"
+msgstr "Tipus de fitxers"
+
+#: src/preferences.c:1006
+msgid "Filter"
+msgstr "Filtre"
+
+#: src/preferences.c:1043 src/preferences.c:1107
+msgid "Defaults"
+msgstr "Opcions per defecte"
+
+#: src/preferences.c:1064
+msgid "Editors"
+msgstr "Editors"
+
+#: src/preferences.c:1070
+msgid "#"
+msgstr "#"
+
+#: src/preferences.c:1073
+msgid "Menu name"
+msgstr "Nom del menú"
+
+#: src/preferences.c:1076
+#, fuzzy
+msgid "Command Line"
+msgstr "Línia de comandes"
+
+#: src/preferences.c:1123
+msgid "Advanced"
+msgstr "Avançat"
+
+#: src/preferences.c:1136
+msgid "Full screen"
+msgstr "Pantalla completa"
+
+#: src/preferences.c:1144
+msgid "Smooth image flip"
+msgstr "Inverteix la imatge suaument"
+
+#: src/preferences.c:1146
+msgid "Disable screen saver"
+msgstr "Desactiva el salvapantalles"
+
+#: src/preferences.c:1149
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: src/preferences.c:1151
+msgid "Confirm file delete"
+msgstr "Confirmeu l'eliminació del fitxer"
+
+#: src/preferences.c:1153
+msgid "Enable Delete key"
+msgstr "Activa la tecla de supressió"
+
+#: src/preferences.c:1156
+msgid "Safe delete"
+msgstr "Supressió segura"
+
+#: src/preferences.c:1174
+msgid "Maximum size:"
+msgstr "Mida màxima:"
+
+#: src/preferences.c:1174
+msgid "MB"
+msgstr "MB"
+
+#: src/preferences.c:1177
+msgid "View"
+msgstr "Visualització"
+
+#: src/preferences.c:1187
+msgid "Behavior"
+msgstr "Comportament"
+
+#: src/preferences.c:1189
+msgid "Rectangular selection in icon view"
+msgstr "Selecció rectangular a la vista d'icones"
+
+#: src/preferences.c:1192
+msgid "Descend folders in tree view"
+msgstr "Carpetes descendents en la vista d'arbre"
+
+#: src/preferences.c:1195
+msgid "In place renaming"
+msgstr "Canvia el nom en el lloc"
+
+#: src/preferences.c:1198
+msgid "Navigation"
+msgstr "Navegació"
+
+#: src/preferences.c:1200
+msgid "Progressive keyboard scrolling"
+msgstr "Desplaçament progressiu des del teclat"
+
+#: src/preferences.c:1202
+msgid "Mouse wheel scrolls image"
+msgstr "La rodeta del ratolí pot desplaçar la imatge"
+
+#: src/preferences.c:1205
+msgid "Miscellaneous"
+msgstr "Miscel·lània"
+
+#: src/preferences.c:1207
+msgid "Store keywords and comments local to source images"
+msgstr ""
+"Desa les paraules clau i els comentaris al mateix lloc que les imatges "
+"originals"
+
+#: src/preferences.c:1210
+msgid "Custom similarity threshold:"
+msgstr "Llindar de semblança personalitzat:"
+
+#: src/preferences.c:1213
+msgid "Offscreen cache size (Mb per image):"
+msgstr "Mida a la memòria cau fora d'enquadrament"
+
+#: src/preferences.c:1289
+msgid "About - GQview"
+msgstr "Sobre - GQview"
+
+#: src/preferences.c:1302
+#, c-format
+msgid ""
+"GQview %s\n"
+"\n"
+"Copyright (c) %s John Ellis\n"
+"website: %s\n"
+"email: %s\n"
+"\n"
+"Released under the GNU General Public License"
+msgstr ""
+"GQview %s\n"
+"\n"
+"Copyright (c) %s John Ellis\n"
+"lloc web: %s\n"
+"correu-e: %s\n"
+"\n"
+"Alliberat sota la Llicència Pública General GNU"
+
+#: src/preferences.c:1320
+msgid "Credits..."
+msgstr "Credits..."
+
+#: src/print.c:115
+msgid "Selection"
+msgstr "Selecció"
+
+#: src/print.c:116
+msgid "All"
+msgstr "Tot"
+
+#: src/print.c:127
+msgid "One image per page"
+msgstr "Una imatge per pàgina"
+
+#: src/print.c:128
+msgid "Proof sheet"
+msgstr "Full de prova"
+
+#: src/print.c:141
+msgid "Default printer"
+msgstr "Impressora per defecte"
+
+#: src/print.c:142
+msgid "Custom printer"
+msgstr "Impressora personalitzada"
+
+#: src/print.c:143
+msgid "PostScript file"
+msgstr "Fitxer PostScript"
+
+#: src/print.c:144
+msgid "Image file"
+msgstr "Fitxer d'imatge"
+
+#: src/print.c:158
+msgid "jpeg, low quality"
+msgstr "jpeg, qualitat baixa"
+
+#: src/print.c:159
+msgid "jpeg, normal quality"
+msgstr "jpeg, qualitat normal"
+
+#: src/print.c:160
+msgid "jpeg, high quality"
+msgstr "jpeg, qualitat alta"
+
+#: src/print.c:354 src/print.c:3216
+msgid "points"
+msgstr "punts"
+
+#: src/print.c:355
+msgid "millimeters"
+msgstr "milímetres"
+
+#: src/print.c:356
+msgid "centimeters"
+msgstr "centímetres"
+
+#: src/print.c:357
+msgid "inches"
+msgstr "polzades"
+
+#: src/print.c:358
+msgid "picas"
+msgstr "piques"
+
+#: src/print.c:363
+msgid "Portrait"
+msgstr "Vertical"
+
+#: src/print.c:364
+msgid "Landscape"
+msgstr "Apaïsat"
+
+#: src/print.c:370
+msgid "Letter"
+msgstr "Carta"
+
+#. in 8.5 x 11
+#: src/print.c:371
+msgid "Legal"
+msgstr "Legal"
+
+#. in 8.5 x 14
+#: src/print.c:372
+msgid "Executive"
+msgstr "Executiu"
+
+#. in 7.25x 10.5
+#. mm 841 x 1189
+#. mm 594 x 841
+#. mm 420 x 594
+#. mm 297 x 420
+#. mm 210 x 297
+#. mm 148 x 210
+#. mm 105 x 148
+#. mm 353 x 500
+#. mm 250 x 353
+#. mm 176 x 250
+#. mm 125 x 176
+#: src/print.c:384
+msgid "Envelope #10"
+msgstr "Sobre #10"
+
+#. in 4.125 x 9.5
+#: src/print.c:385
+msgid "Envelope #9"
+msgstr "Sobre #9"
+
+#. in 3.875 x 8.875
+#: src/print.c:386
+msgid "Envelope C4"
+msgstr "Sobre C4"
+
+#. mm 229 x 324
+#: src/print.c:387
+msgid "Envelope C5"
+msgstr "Sobre C5"
+
+#. mm 162 x 229
+#: src/print.c:388
+msgid "Envelope C6"
+msgstr "Sobre C6"
+
+#. mm 114 x 162
+#: src/print.c:389
+msgid "Photo 6x4"
+msgstr "Foto 6x4"
+
+#. in 6   x 4
+#: src/print.c:390
+msgid "Photo 8x10"
+msgstr "Foto 8x10"
+
+#. in 8   x 10
+#: src/print.c:391
+msgid "Postcard"
+msgstr "Postal"
+
+#. mm 100 x 148
+#: src/print.c:392
+msgid "Tabloid"
+msgstr "Tabloide"
+
+#: src/print.c:548
+#, c-format
+msgid "page %d of %d"
+msgstr "pàgina %d de %d"
+
+#: src/print.c:740 src/utilops.c:2128
+msgid "Preview"
+msgstr "Visualització prèvia"
+
+#: src/print.c:1048
+#, c-format
+msgid ""
+"Unable to open pipe for writing.\n"
+"\"%s\""
+msgstr ""
+"No s'ha pogut obrir la canonada per escriure.\n"
+"\"%s\""
+
+#: src/print.c:1063 src/print.c:1503 src/ui_pathsel.c:423
+#: src/view_file_list.c:456
+#, c-format
+msgid "A file with name %s already exists."
+msgstr "Ja existeix un fitxer anomenat %s."
+
+#: src/print.c:1078 src/print.c:1558
+#, c-format
+msgid "Failure writing to file %s"
+msgstr "Fallida en escriure al fitxer %s"
+
+#: src/print.c:1132 src/print.c:1169 src/print.c:1205 src/print.c:1322
+#: src/print.c:1413 src/print.c:1444
+msgid "SIGPIPE error writing to printer."
+msgstr "S'ha produït l'error SIGPIPE en escriure a la impressora."
+
+#: src/print.c:1979
+#, c-format
+msgid "Page %d"
+msgstr "Pàgina %d"
+
+#: src/print.c:2001 src/print.c:2006
+msgid "Printing error"
+msgstr "Error d'impressió"
+
+#: src/print.c:2005
+#, c-format
+msgid "An error occured printing to %s."
+msgstr "S'ha produït un error en imprimir a %s."
+
+#: src/print.c:2009
+msgid "Details"
+msgstr "Detalls"
+
+#: src/print.c:2602 src/print.c:3347
+msgid "Print - GQview"
+msgstr "Imprimir - GQview"
+
+#: src/print.c:2606
+#, c-format
+msgid "Printing %d pages to %s."
+msgstr "Imprimint %d pàgines a %s."
+
+#: src/print.c:2706
+msgid "Format:"
+msgstr "Format:"
+
+#: src/print.c:2781
+msgid "Units:"
+msgstr "Unitats:"
+
+#: src/print.c:2825
+msgid "Orientation:"
+msgstr "Orientació:"
+
+#: src/print.c:2957
+msgid "Destination:"
+msgstr "Destí:"
+
+#: src/print.c:3005
+msgid "<printer name>"
+msgstr "<nom de la impressora>"
+
+#: src/print.c:3094
+msgid "Unlimited"
+msgstr "Sense límit"
+
+#: src/print.c:3203
+msgid "Show"
+msgstr "Mostra"
+
+#: src/print.c:3214
+msgid "Font"
+msgstr "Font"
+
+#: src/print.c:3374
+msgid "Source"
+msgstr "Orígen"
+
+#: src/print.c:3390
+msgid "Proof size:"
+msgstr "Mida de la prova:"
+
+#: src/print.c:3406
+msgid "Text"
+msgstr "Text"
+
+#: src/print.c:3416
+msgid "Paper"
+msgstr "Paper"
+
+#: src/print.c:3439
+msgid "Margins"
+msgstr "Marges"
+
+#: src/print.c:3441
+msgid "Left:"
+msgstr "Esquerre:"
+
+#: src/print.c:3444
+msgid "Right:"
+msgstr "Dret:"
+
+#: src/print.c:3447
+msgid "Top:"
+msgstr "Superior:"
+
+#: src/print.c:3450
+msgid "Bottom:"
+msgstr "Inferior:"
+
+#: src/print.c:3459
+msgid "Printer"
+msgstr "Impressora"
+
+#: src/print.c:3465
+msgid "Custom printer:"
+msgstr "Impressora personalitzada:"
+
+#: src/print.c:3474
+msgid "File:"
+msgstr "Fitxer:"
+
+#: src/print.c:3483
+msgid "File format:"
+msgstr "Format del fitxer:"
+
+#: src/print.c:3488
+msgid "DPI:"
+msgstr "PPP:"
+
+#: src/print.c:3496
+msgid "Remember print settings"
+msgstr "Recorda els ajustos d'impressió"
+
+#: src/rcfile.c:185
+#, c-format
+msgid "error saving config file: %s\n"
+msgstr "s'ha produït un error en desar el fitxer de configuració: %s\n"
+
+#: src/search.c:200
+msgid "folder"
+msgstr "Carpeta"
+
+#: src/search.c:201
+msgid "comments"
+msgstr "comentaris"
+
+#: src/search.c:202
+msgid "results"
+msgstr "resultats"
+
+#: src/search.c:206
+msgid "contains"
+msgstr "conté"
+
+#: src/search.c:207
+msgid "is"
+msgstr "és"
+
+#: src/search.c:211 src/search.c:218
+msgid "equal to"
+msgstr "igual que"
+
+#: src/search.c:212
+msgid "less than"
+msgstr "menor que"
+
+#: src/search.c:213
+msgid "greater than"
+msgstr "major que"
+
+#: src/search.c:214 src/search.c:221
+msgid "between"
+msgstr "entre"
+
+#: src/search.c:219
+msgid "before"
+msgstr "abans de"
+
+#: src/search.c:220
+msgid "after"
+msgstr "després de"
+
+#: src/search.c:225
+msgid "match all"
+msgstr "Fes-les coincidir totes"
+
+#: src/search.c:226
+msgid "match any"
+msgstr "Qualsevol ocurrència"
+
+#: src/search.c:227
+msgid "exclude"
+msgstr "Exclou"
+
+#: src/search.c:277
+#, c-format
+msgid "%s, %d files (%s, %d)"
+msgstr "%s, %d fitxers (%s, %d)"
+
+#: src/search.c:284
+#, c-format
+msgid "%s, %d files"
+msgstr "%s, %d fitxers"
+
+#: src/search.c:301
+msgid "Searching..."
+msgstr "Cercant..."
+
+#: src/search.c:2093
+msgid "File not found"
+msgstr "No s'ha trobat el fitxer"
+
+#: src/search.c:2094
+msgid "Please enter an existing file for image content."
+msgstr "Si us plau, introdueixi el nom d'un fitxer d'imatge que existeixi."
+
+#: src/search.c:2140
+msgid "Folder not found"
+msgstr "No s'ha trobat la carpeta"
+
+#: src/search.c:2141
+msgid "Please enter an existing folder to search."
+msgstr ""
+"Si us plau, introdueixi el nom d'una carpeta que existeixi per la cerca."
+
+#: src/search.c:2570
+msgid "Image search - GQview"
+msgstr "Cerca d'imatges - GQview"
+
+#: src/search.c:2599
+msgid "Search:"
+msgstr "Cerca:"
+
+#: src/search.c:2613
+msgid "Recurse"
+msgstr "Recursivitat"
+
+#: src/search.c:2617
+msgid "File name"
+msgstr "Nom del fitxer"
+
+#: src/search.c:2623
+msgid "Match case"
+msgstr "Coincidència definida"
+
+#: src/search.c:2627
+msgid "File size is"
+msgstr "La mida del fitxer és"
+
+#: src/search.c:2634 src/search.c:2649 src/search.c:2667
+msgid "and"
+msgstr "i"
+
+#: src/search.c:2639
+msgid "File date is"
+msgstr "La data del fitxer és"
+
+#: src/search.c:2656
+msgid "Image dimensions are"
+msgstr "Les mides de la imatge són"
+
+#: src/search.c:2676
+msgid "Image content is"
+msgstr "El contingut de la imatge és"
+
+#: src/search.c:2682
+#, no-c-format
+msgid "% similar to"
+msgstr "% semblant a"
+
+#: src/search.c:2751
+msgid "Rank"
+msgstr "Rang"
+
+#: src/thumb.c:378
+msgid "Thumbnail image in cache failed to load, trying to recreate.\n"
+msgstr ""
+"Ha fallat la càrrega a la caché de la imatge en miniatura, proveu de tornar-"
+"la a crear.\n"
+
+#: src/ui_bookmark.c:148
+#, c-format
+msgid "Unable to write history lists to: %s\n"
+msgstr "No és possible escriure llistats d'històrics a: %s\n"
+
+#: src/ui_bookmark.c:445 src/ui_bookmark.c:508
+msgid "New Bookmark"
+msgstr "Nou adreça d'interés"
+
+#: src/ui_bookmark.c:591 src/ui_bookmark.c:597
+msgid "Edit Bookmark"
+msgstr "Edita Adreçes d'interès"
+
+#: src/ui_bookmark.c:612
+msgid "Path:"
+msgstr "Camí:"
+
+#: src/ui_bookmark.c:621
+msgid "Icon:"
+msgstr "Icona:"
+
+#: src/ui_bookmark.c:627
+msgid "Select icon"
+msgstr "Selecciona la icona"
+
+#: src/ui_bookmark.c:718
+msgid "_Properties..."
+msgstr "_Propietats..."
+
+#: src/ui_bookmark.c:720
+msgid "Move _up"
+msgstr "Mou _amunt"
+
+#: src/ui_bookmark.c:722
+msgid "Move _down"
+msgstr "Mou a_vall"
+
+#: src/ui_bookmark.c:724
+msgid "_Remove"
+msgstr "_Suprimeix"
+
+#: src/ui_help.c:111
+#, c-format
+msgid ""
+"Unable to load:\n"
+"%s"
+msgstr ""
+"No es pot carregar:\n"
+"%s"
+
+#: src/ui_pathsel.c:429 src/utilops.c:2486
+#, c-format
+msgid "Failed to rename %s to %s."
+msgstr "És impossible canviar el nom de %s a %s."
+
+#: src/ui_pathsel.c:485 src/utilops.c:1347 src/utilops.c:1520
+#, c-format
+msgid ""
+"Unable to delete file:\n"
+"%s"
+msgstr ""
+"No es pot suprimir el fitxer:\n"
+"%s"
+
+#: src/ui_pathsel.c:486 src/utilops.c:1521
+msgid "File deletion failed"
+msgstr "No es pot suprimir el fitxer"
+
+#: src/ui_pathsel.c:528 src/ui_pathsel.c:536
+msgid "Delete file"
+msgstr "Suprimeix l'arxiu"
+
+#: src/ui_pathsel.c:534
+#, c-format
+msgid ""
+"About to delete the file:\n"
+" %s"
+msgstr ""
+"Quant a suprimir el fitxer:\n"
+" %s"
+
+#: src/ui_pathsel.c:625 src/ui_pathsel.c:633 src/utilops.c:2096
+#: src/utilops.c:2320
+msgid "_Rename"
+msgstr "Canvia el _nom"
+
+#: src/ui_pathsel.c:627 src/ui_pathsel.c:637
+msgid "Add _Bookmark"
+msgstr "Afegeix _adreça d'interès"
+
+#: src/ui_pathsel.c:635
+msgid "_Delete"
+msgstr "_Suprimeix"
+
+#: src/ui_pathsel.c:739 src/ui_pathsel.c:1044
+msgid "New folder"
+msgstr "Nova carpeta"
+
+#: src/ui_pathsel.c:749 src/utilops.c:2392 src/view_dir_list.c:330
+#: src/view_dir_tree.c:426
+#, c-format
+msgid ""
+"Unable to create folder:\n"
+"%s"
+msgstr ""
+"No es pot crear la carpeta:\n"
+"%s"
+
+#: src/ui_pathsel.c:750 src/utilops.c:2393 src/view_dir_list.c:331
+#: src/view_dir_tree.c:427
+msgid "Error creating folder"
+msgstr "Error quan s'intentava crear la carpeta"
+
+#: src/ui_pathsel.c:971
+msgid "All Files"
+msgstr "Tots els Fitxers"
+
+#: src/ui_pathsel.c:1047
+msgid "Show hidden"
+msgstr "Mostra els ocults"
+
+#: src/ui_pathsel.c:1131
+msgid "Filter:"
+msgstr "Filtra:"
+
+#: src/ui_tabcomp.c:836
+msgid "Select path"
+msgstr "Seleccioneu el camí"
+
+#: src/ui_tabcomp.c:852
+msgid "All files"
+msgstr "Tots els fitxers"
+
+#: src/utilops.c:498 src/utilops.c:819 src/utilops.c:1699 src/utilops.c:2251
+msgid "Overwrite file"
+msgstr "Sobreescriu el fitxer"
+
+#: src/utilops.c:503 src/utilops.c:824 src/utilops.c:1704 src/utilops.c:2256
+msgid "Overwrite file?"
+msgstr "Sobreescriure el fitxer?"
+
+#: src/utilops.c:504 src/utilops.c:825
+msgid "Replace existing file with new file."
+msgstr "Reemplaça el fitxer existent amb el nou."
+
+#: src/utilops.c:508
+msgid "Overwrite _all"
+msgstr "Sobreescriu-ho tot"
+
+#: src/utilops.c:510
+msgid "S_kip all"
+msgstr "O_met-ho tot"
+
+#: src/utilops.c:511
+msgid "_Skip"
+msgstr "_Omet"
+
+#: src/utilops.c:512 src/utilops.c:829 src/utilops.c:1709 src/utilops.c:2261
+msgid "Existing file"
+msgstr "Fitxer existent"
+
+#: src/utilops.c:512 src/utilops.c:829 src/utilops.c:1709 src/utilops.c:2261
+msgid "New file"
+msgstr "Nou fitxer"
+
+#: src/utilops.c:522 src/utilops.c:838 src/utilops.c:1805 src/utilops.c:1869
+#: src/utilops.c:2162
+msgid "Auto rename"
+msgstr "Torna a anomenar automàticament"
+
+#: src/utilops.c:530 src/utilops.c:846
+msgid "Rename"
+msgstr "Torna a anomenar"
+
+#: src/utilops.c:571
+msgid "Source to copy matches destination"
+msgstr "L'origen i el destí són els mateixos"
+
+#: src/utilops.c:572
+#, c-format
+msgid ""
+"Unable to copy file:\n"
+"%s\n"
+"to itself."
+msgstr ""
+"No es pot copiar el fitxer:\n"
+"%s\n"
+"sobre sí mateix."
+
+#: src/utilops.c:576
+msgid "Source to move matches destination"
+msgstr "L'origen i el destí són els mateixos"
+
+#: src/utilops.c:577
+#, c-format
+msgid ""
+"Unable to move file:\n"
+"%s\n"
+"to itself."
+msgstr ""
+"No es pot moure el fitxer:\n"
+"%s\n"
+"sobre sí mateix."
+
+#: src/utilops.c:585 src/utilops.c:672 src/utilops.c:1339
+msgid "Co_ntinue"
+msgstr "Co_ntinua"
+
+#: src/utilops.c:658 src/utilops.c:886
+msgid "Error copying file"
+msgstr "Error en copiar el fitxer"
+
+#: src/utilops.c:659
+#, c-format
+msgid ""
+"Unable to copy file:\n"
+"%s\n"
+"to:\n"
+"%s\n"
+"during multiple file copy."
+msgstr ""
+"No s'ha pogut copiar el fitxer:\n"
+"%s\n"
+"a:\n"
+"%s\n"
+"en copiar múltiples fitxers."
+
+#: src/utilops.c:663 src/utilops.c:891
+msgid "Error moving file"
+msgstr "Error en moure el fitxer"
+
+#: src/utilops.c:664
+#, c-format
+msgid ""
+"Unable to move file:\n"
+"%s\n"
+"to:\n"
+"%s\n"
+"during multiple file move."
+msgstr ""
+"No s'ha pogut moure el fitxer:\n"
+"%s\n"
+"a:\n"
+"%s\n"
+"en moure múltiples fitxers."
+
+#: src/utilops.c:810
+msgid "Source matches destination"
+msgstr "L'origen i el destí són els mateixos"
+
+#: src/utilops.c:811
+msgid "Source and destination are the same, operation cancelled."
+msgstr "L'origen i el destí són els mateixos, l'operació s'ha cancel·lat."
+
+#: src/utilops.c:887
+#, c-format
+msgid ""
+"Unable to copy file:\n"
+"%s\n"
+"to:\n"
+"%s"
+msgstr ""
+"No es pot copiar el fitxer:\n"
+"%s\n"
+"a:\n"
+"%s"
+
+#: src/utilops.c:892
+#, c-format
+msgid ""
+"Unable to move file:\n"
+"%s\n"
+"to:\n"
+"%s"
+msgstr ""
+"No es pot moure el fitxer:\n"
+"%s\n"
+"a:\n"
+"%s"
+
+#: src/utilops.c:940
+msgid "Invalid destination"
+msgstr "Destí no vàlid."
+
+#: src/utilops.c:941
+msgid ""
+"When operating with multiple files, please select\n"
+"a folder, not a file."
+msgstr ""
+"Quan treballeu amb múltiples fitxers seleccioneu\n"
+"una carpeta, no pas un fitxer."
+
+#: src/utilops.c:946
+msgid "Please select an existing folder."
+msgstr "Seleccioneu una carpeta que existeixi."
+
+#: src/utilops.c:1015
+msgid "Copy - GQview"
+msgstr "Copia - GQview"
+
+#: src/utilops.c:1016 src/view_dir_list.c:209 src/view_dir_tree.c:301
+msgid "_Copy"
+msgstr "_Copia"
+
+#: src/utilops.c:1019
+msgid "Copy file"
+msgstr "Copia el fitxer"
+
+#: src/utilops.c:1023
+msgid "Copy multiple files"
+msgstr "Copia múltiples fitxers"
+
+#: src/utilops.c:1029
+msgid "Move - GQview"
+msgstr "Mou - GQview"
+
+#: src/utilops.c:1030 src/view_dir_list.c:211 src/view_dir_tree.c:303
+msgid "_Move"
+msgstr "_Mou"
+
+#: src/utilops.c:1033
+msgid "Move file"
+msgstr "Mou el fitxer"
+
+#: src/utilops.c:1037
+msgid "Move multiple files"
+msgstr "Mou múltiples fitxers"
+
+#: src/utilops.c:1051 src/utilops.c:1561
+msgid "File name:"
+msgstr "Nom del fitxer:"
+
+#: src/utilops.c:1055
+msgid "Choose the destination folder."
+msgstr "Seleccioneu la carpeta de destí."
+
+#: src/utilops.c:1182 src/utilops.c:1331 src/utilops.c:1348
+msgid "Delete failed"
+msgstr "No es pot suprimir"
+
+#: src/utilops.c:1183
+msgid "Unable to remove old file from trash folder"
+msgstr "No es pot suprimir el fitxer antic de la paperera"
+
+#: src/utilops.c:1239 src/utilops.c:2385
+msgid "Could not create folder"
+msgstr "No es pot crear la carpeta"
+
+#: src/utilops.c:1261
+msgid "Permission denied"
+msgstr "Permís denegat"
+
+#: src/utilops.c:1271
+#, c-format
+msgid ""
+"Unable to access or create the trash folder.\n"
+"\"%s\""
+msgstr ""
+"No es pot accedir o crear la paperera.\n"
+"\"%s\""
+
+#: src/utilops.c:1275
+msgid "Turn off safe delete"
+msgstr "Desactiva l'esborrat segur"
+
+#: src/utilops.c:1293
+#, c-format
+msgid "Safe delete: %s"
+msgstr "Esborrat segur: %s"
+
+#: src/utilops.c:1335
+#, c-format
+msgid ""
+"Unable to delete file:\n"
+" %s\n"
+" Continue multiple delete operation?"
+msgstr ""
+"No es pot eliminar el fitxer:\n"
+" %s\n"
+" Voleu continuar l'eliminació de múltiples fitxers?"
+
+#: src/utilops.c:1406
+#, c-format
+msgid "File %d of %d"
+msgstr "Fitxer %d de %d"
+
+#: src/utilops.c:1475
+msgid "Delete files - GQview"
+msgstr "Suprimeix fitxers - GQview"
+
+#: src/utilops.c:1479
+msgid "Delete multiple files"
+msgstr "Suprimeix múltiples fitxers"
+
+#: src/utilops.c:1497
+#, c-format
+msgid "Review %d files"
+msgstr "%d fitxers revisats"
+
+#: src/utilops.c:1553
+msgid "Delete file - GQview"
+msgstr "Suprimir fitxer - GQview"
+
+#: src/utilops.c:1557
+msgid "Delete file?"
+msgstr "Suprimir el fitxer?"
+
+#: src/utilops.c:1705 src/utilops.c:2257
+msgid "Replace existing file by renaming new file."
+msgstr "Reemplaça el fitxer existent reanomenant el nou."
+
+#: src/utilops.c:1720
+#, c-format
+msgid ""
+"Unable to rename file:\n"
+"%s\n"
+" to:\n"
+"%s"
+msgstr ""
+"No es pot canviar el nom del fitxer:\n"
+"%s\n"
+" per:\n"
+"%s"
+
+#: src/utilops.c:1723 src/utilops.c:2272 src/view_file_list.c:451
+#: src/view_file_list.c:457 src/view_file_list.c:463
+msgid "Error renaming file"
+msgstr "Error en canviar el nom del fitxer"
+
+#: src/utilops.c:1806
+msgid ""
+"Can not auto rename with the selected\n"
+"number set, one or more files exist that\n"
+"match the resulting name list.\n"
+msgstr ""
+"No es pot canviar el nom automàticament\n"
+"amb el número seleccionat. Existeix un o més fitxers\n"
+"que coincideixen amb els noms de la llista resultant.\n"
+
+#: src/utilops.c:1868
+#, c-format
+msgid ""
+"Failed to rename\n"
+"%s\n"
+"The number was %d."
+msgstr ""
+"No es pot canviar el nom\n"
+"%s\n"
+"El número era %d."
+
+#: src/utilops.c:2092 src/utilops.c:2314
+msgid "Rename - GQview"
+msgstr "Canvia el nom - GQview"
+
+#: src/utilops.c:2095
+msgid "Rename multiple files"
+msgstr "Canvia el nom de múltiples fitxers"
+
+#: src/utilops.c:2127
+msgid "Original Name"
+msgstr "Nom original"
+
+#: src/utilops.c:2171 src/utilops.c:2327
+msgid "Original name:"
+msgstr "Nom original:"
+
+#: src/utilops.c:2174 src/utilops.c:2330
+msgid "New name:"
+msgstr "Nou nom:"
+
+#: src/utilops.c:2192
+msgid "Begin text"
+msgstr "Comença un text"
+
+#: src/utilops.c:2200
+msgid "Start #"
+msgstr "Inici #"
+
+#: src/utilops.c:2206
+msgid "End text"
+msgstr "Fi del text"
+
+#: src/utilops.c:2214
+msgid "Padding:"
+msgstr "Separació:"
+
+#: src/utilops.c:2271 src/view_file_list.c:462
+#, c-format
+msgid ""
+"Unable to rename file:\n"
+"%s\n"
+"to:\n"
+"%s"
+msgstr ""
+"No es pot canviar el nom del fitxer:\n"
+"%s\n"
+"per:\n"
+"%s"
+
+#: src/utilops.c:2317
+msgid "Rename file"
+msgstr "Canvia el nom del fitxer"
+
+#: src/utilops.c:2378 src/utilops.c:2468
+#, c-format
+msgid ""
+"The folder:\n"
+"%s\n"
+"already exists."
+msgstr ""
+"La carpeta:\n"
+"%s\n"
+"ja existeix."
+
+#: src/utilops.c:2379 src/utilops.c:2469
+msgid "Folder exists"
+msgstr "La carpeta ja existeix"
+
+#: src/utilops.c:2384 src/utilops.c:2477
+#, c-format
+msgid ""
+"The path:\n"
+"%s\n"
+"already exists as a file."
+msgstr ""
+"El camí:\n"
+"%s\n"
+"ja existeix com a fitxer."
+
+#: src/utilops.c:2436
+msgid "New folder - GQview"
+msgstr "Nova carpeta - GQview"
+
+#: src/utilops.c:2439
+#, c-format
+msgid ""
+"Create folder in:\n"
+"%s\n"
+"named:"
+msgstr ""
+"Crea la carpeta a:\n"
+"%s\n"
+"amb el nom:"
+
+#: src/utilops.c:2478 src/utilops.c:2487
+#, fuzzy
+msgid "Rename failed"
+msgstr "Canvia el nom del fitxer"
+
+#: src/view_dir_list.c:321 src/view_dir_tree.c:417
+msgid "new_folder"
+msgstr "nova _carpeta"
+
+#: src/view_dir_list.c:379 src/view_dir_tree.c:474
+msgid "_Up to parent"
+msgstr "_Puja una carpeta"
+
+#: src/view_dir_list.c:384 src/view_dir_tree.c:479
+msgid "_Slideshow"
+msgstr "Seqüència de _diapositives"
+
+#: src/view_dir_list.c:386 src/view_dir_tree.c:481
+msgid "Slideshow recursive"
+msgstr "Seqüència de _diapositives recursiva"
+
+#: src/view_dir_list.c:390 src/view_dir_tree.c:485
+msgid "Find _duplicates..."
+msgstr "Busca _duplicats..."
+
+#: src/view_dir_list.c:392 src/view_dir_tree.c:487
+msgid "Find duplicates recursive..."
+msgstr "Busca duplicats recursivament..."
+
+#: src/view_dir_list.c:399 src/view_dir_tree.c:494
+msgid "_New folder..."
+msgstr "_Nova carpeta..."
+
+#: src/view_dir_list.c:411 src/view_dir_tree.c:501
+msgid "View as _tree"
+msgstr "Visualitza com a _arbre"
+
+#: src/view_dir_list.c:413 src/view_dir_tree.c:503 src/view_file_icon.c:315
+#: src/view_file_list.c:426
+msgid "Re_fresh"
+msgstr "A_ctualitza"
+
+#: src/view_file_icon.c:308 src/view_file_list.c:419
+msgid "_Sort"
+msgstr "_Ordena"
+
+#: src/view_file_icon.c:311 src/view_file_list.c:422
+msgid "View as _icons"
+msgstr "Visualitza com a _icones"
+
+#: src/view_file_list.c:424
+msgid "Show _thumbnails"
+msgstr "Mostra les _miniatures"
+
+#: src/view_file_list.c:450
+#, c-format
+msgid ""
+"Invalid file name:\n"
+"%s"
+msgstr ""
+"Nom de fitxer invàlid:\n"
+"%s"

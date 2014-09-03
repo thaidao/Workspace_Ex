@@ -1,0 +1,57 @@
+TODO key: d = done, w = work in progress, ? = possibly fixed
+          * = required before next release
+
+NOTE: For an up to date TODO list, please see TODO in latest devel release.
+
+
+Major (release blockers):
+----------------------------------------------
+
+ > document recent additions/changes:
+    (none currently)
+
+
+Minor (non blockers):
+----------------------------------------------
+
+ > when resizing/refreshing collection window, keep the same top left thumbnail visible
+
+ > do not lose slideshow when reworking window layout.
+
+ > add toolbar to: (UPDATE: these toolbars may not make it into 1.6)
+   > find dupes window (with button to open dialog to add new files/folders)
+   > collection window
+   > search window
+
+
+Wishlist?:
+----------------------------------------------
+
+ > Initiating full screen from the command line should not
+   show main window until full screen is exited.
+
+ > add animated image support
+
+ > add gamma correction patch
+
+ > deleting a file should not discontinue slide show.
+
+ > add option to only preload max # of thumbnails (to conserve memory),
+   then release old/load new needed thumbnails on demand.
+
+ > printing (low priority):
+   > fix text postscript output by converting utf8 to a locale (better) understood by postscript...
+   > allow selection of background color... (for image files only?)...
+   > allow text color and font selection
+
+ > image comparison window (displays two or more images for comparison)
+
+ > add symlink option (in addition to the move/copy stuff.)
+
+ > allow slideshow transition effects (wipe/fade etc.)
+
+ > allow on the fly slideshow delay change with [,] and [.] (< and > too?)
+   > show change in overlay for image...
+   > account for changing of imd when toggling full screen...
+   > should change be only to current slideshow?
+
