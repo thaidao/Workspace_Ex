@@ -1,0 +1,32 @@
+This project bases on folow repository link:
+https://github.com/prpplague/fb-test-app
+Then, i changed make file to make for iMx6Q, Linux Kernel 3.0.35 is implemented 
+
+Guideline:
+- rebuild fb-test-app
+https://github.com/prpplague/fb-test-app
+step 1: Download soure code
+git init, git clone https://github.com/Freescale/gstreamer-imx.git)
+step 2: Change makefile
+	vi Makefile	//open Makefile by vim editor
+	:set nu		//show line number
+	replace from line 6 to line 12 by folow code:
+	CC=arm-linux-gnueabi-gcc
+	CFLAGS=-02 -Wall
+	:wq
+step 3: Rebuid
+	Type “make” command
+step 4: Copy execute file to target system by filezilla or something like that
+step 5: Remote target by root account, change mode of execute file (what copied from host)
+	su
+	chmod +x fb-test
+step 6: Test app
+	./fb-test -f 0 -r 		//fullfill fb0 by red colour
+	./fb-test -f 1 -b		//fullfill fb1 by blue colour
+step 7: Validation: copy frame buffer (raw pixel to view)
+	mkdir /home/thaidao/img
+	cp /dev/fb0 /home/thaidao/img
+	cp /dev/fb1 /home/thaidao/img
+step 8: Copy raw pixel from target to host by filezilla or ..
+step 9: Go to rawpixels.net to check pixel raw copied from target board
+
