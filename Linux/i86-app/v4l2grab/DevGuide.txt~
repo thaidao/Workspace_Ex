@@ -1,0 +1,13 @@
+Original link
+http://www.twam.info/linux/v4l2grab-grabbing-jpegs-from-v4l2-devices
+
+Compile command
+gcc v4l2grab.c -o v4l2grab -Wall -ljpeg -DIO_READ -DIO_MMAP -DIO_USERPTR
+
+Test
+./v4l2grab -o image.jpg
+
+Github link
+https://github.com/twam/v4l2grab/tree/master
+Clone:
+https://github.com/twam/v4l2grab.git
