@@ -30,3 +30,10 @@ step 7: Validation: copy frame buffer (raw pixel to view)
 step 8: Copy raw pixel from target to host by filezilla or ..
 step 9: Go to rawpixels.net to check pixel raw copied from target board
 
+Setup Eclipse for build project
+- New project
+- Linux project (I don't know while that, Ubuntu is host, although we need compile to Debian board.
+- add arm-linux-gnueabi-gcc in compiler and debugger
+- add arm-linux-gnueabi-as in assembler
+- Rebuild all project
+

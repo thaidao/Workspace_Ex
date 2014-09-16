@@ -6,15 +6,6 @@ NAME = tablet_rosa
 CC=arm-linux-gnueabi-gcc
 CFLAGS=-O2 -Wall
 
-
-
-
-
-
-
-
-
-
 override CFLAGS += -DVERSION=$(VERSION)
 override CFLAGS += -DPATCHLEVEL=$(PATCHLEVEL)
 override CFLAGS += -DSUBLEVEL=$(SUBLEVEL)

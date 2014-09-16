@@ -168,6 +168,23 @@ void fill_screen_solid(struct fb_info *fb_info, unsigned int color)
 	}
 }
 
+void fill_screen_change(struct fb_info *fb_info)
+{
+	int tmo_cnt = 100;
+
+	while(tmo_cnt--)
+	{
+		fill_screen_solid(fb_info, 0xff0000);
+		sleep(1);
+		fill_screen_solid(fb_info, 0x00ff00);
+		sleep(1);
+		fill_screen_solid(fb_info, 0x0000ff);
+		sleep(1);
+		fill_screen_solid(fb_info, 0xffffff);
+		sleep(1);
+	}
+}
+
 static void do_fill_screen(struct fb_info *fb_info, int pattern)
 {
 
@@ -184,6 +201,10 @@ static void do_fill_screen(struct fb_info *fb_info, int pattern)
 	case 4:
 		fill_screen_solid(fb_info, 0xffffff);
 		break;
+	case 5:	//Continuously change colour in 1 sec
+		fill_screen_change(fb_info);
+		break;
+
 	case 0:
 	default:
 		fill_screen(fb_info);
@@ -199,6 +220,7 @@ void show_help(void)
 	printf("      -g         = fill framebuffer with green\n");
 	printf("      -b         = fill framebuffer with blue\n");
 	printf("      -w         = fill framebuffer with white\n");
+	printf("      -c         = fill framebuffer with various color\n");
 	printf("      -p pattern = fill framebuffer with pattern number\n");
 }
 
@@ -208,8 +230,17 @@ int main(int argc, char **argv)
 	int req_fb = 0;
 	int req_pattern = 0;
 
-	printf("fb-test %d.%d.%d (%s)\n", VERSION, PATCHLEVEL, SUBLEVEL,
-		VERSION_NAME);
+/*	printf("fb-test %d.%d.%d (%s)\n", VERSION, PATCHLEVEL, SUBLEVEL,
+		VERSION_NAME);*/
+
+	if(argv[1] == NULL)
+	{
+		show_help();
+		return 0;
+	}
+
+
+	printf("HDMI test program v01\n");
 
 	while ((opt = getopt(argc, argv, "hrgbwp:f:")) != -1) {
 		switch (opt) {
@@ -231,6 +262,10 @@ int main(int argc, char **argv)
 		case 'w':
 			req_pattern = 4;
 			break;
+		case 'c':
+			req_pattern = 5;
+			break;
+
 		case 'h':
 			show_help();
 			return 0;
